@@ -13,7 +13,7 @@ mode: Textbook
 dark: false
 edit: https://github.com/soda-collections-objects-data-literacy/SODaBasiskurs-Modul3
 
-link:       https://github.com/soda-collections-objects-data-literacy/SODaBasiskurs-Modul3/theme.css
+link:       https://cdn.jsdelivr.net/gh/soda-collections-objects-data-literacy/OpenRefine-Beginner-Tutorial@main/theme.css
             https://fonts.googleapis.com/css?family=Noto+Sans
 
 icon:       /img/SODa-Logo_Wort-Bild_RGB.png
