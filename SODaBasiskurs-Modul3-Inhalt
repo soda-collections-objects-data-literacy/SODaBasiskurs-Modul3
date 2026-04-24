@@ -1,0 +1,43 @@
+<!--
+
+author: Anna Gnyp
+email: soda@sammlungen.io
+date: 20/02/2026
+title: SODa Basiskurs zu Erschließung und Forschungsdatenmanagement in Universitätssammlungen. Modul 3: Objekte erschließen
+version: 1.0
+language: DE
+
+license:    CC BY 4.0 https://creativecommons.org/licenses/by/4.0/
+
+mode: Textbook
+dark: false
+edit: https:/github.com/4nn4pyng/SODaBasiskurs-Modul3
+
+link:       https://cdn.jsdelivr.net/gh/soda-collections-objects-data-literacy/OpenRefine-Beginner-Tutorial@main/theme.css
+            https://fonts.googleapis.com/css?family=Noto+Sans
+
+icon:       /img/SODa-Logo_Wort-Bild_RGB.png
+logo:       /img/SODa-Logo_Wort-Bild_RGB.png
+
+
+
+-->
+## 1. Grundlagen der digitalen Sammlungserschließung
+
+## 2. Einführung in die Datenmodellierung
+
+## 3. Metadaten
+
+## 4. Metadatenstandards
+
+## 5. Datenqualität
+
+## 6. Kontrollierte Vokabulare
+
+### 6.1 Relevanz kontrollierter Vokabulare
+
+### 6.2 Typen von kontrollierten Vokabularen
+
+## 7.  Datenaustausch und Linked Open Data
+
+## 8. Erschließungssysteme
