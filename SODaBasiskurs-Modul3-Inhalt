@@ -59,7 +59,7 @@ Deutsche Forschungsgemeinschaft, Umgang mit Forschungsdaten, 2021, https://www.d
 </div>
 
 
-In den letzten Jahren haben sich im englischsprachigen Raum neue Initiativen formiert, die eine Ausweitung des maschinellen Zugriffs auf digitalisierte Sammlungsbestände fördern wollen um z.B. datenbasierte Analysen durchzuführen. Voraussetzung dafür ost die Aufbereitung von Sammlungsdaten für computationale Methoden:
+In den letzten Jahren haben sich im englischsprachigen Raum neue Initiativen formiert, die eine Ausweitung des maschinellen Zugriffs auf digitalisierte Sammlungsbestände fördern wollen um z. B. datenbasierte Analysen durchzuführen. Voraussetzung dafür ist die Aufbereitung von Sammlungsdaten für computationale Methoden:
 
 <br><br>
 <br>
@@ -77,6 +77,19 @@ In den letzten Jahren haben sich im englischsprachigen Raum neue Initiativen for
 > 2023 Vancouver Statement on Collections as Data
 >
 > Padilla, T., Scates Kettler, H., Varner, S., & Shorish, Y. (2023). Vancouver Statement on Collections as Data.  https://doi.org/10.5281/zenodo.8342171 
+
+
+### FAIR Prinzipien
+
+![FAIR-Akronyme](img/FAIR_data_principles.jpg " *SangyaPundir, CC BY-SA 4.0, via Wikimedia Commons* ")
+
+<br><br>
+
+Ziele der FAIR-Prinzipien:
+
++ Internationale Leitlinien
++ Forschungsdaten für Menschen und Maschinen optimal aufbereiten und zugänglich machen
++ im Rahmen des rechtlich & technisch Möglichen, Datenbestände für neue Nutzungsszenarien öffnen.
 
 
 
