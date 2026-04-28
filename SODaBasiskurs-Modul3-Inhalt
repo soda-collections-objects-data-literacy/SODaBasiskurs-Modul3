@@ -140,7 +140,30 @@ Ziele der FAIR-Prinzipien:
 > + **R1.3** (Meta-)Daten entsprechen den für den Bereich relevanten Gemeinschaftsstandards.
 
 
+### Die FAIR-Prinzipien in der digitalen Sammlungserschließung
+<br><br>
+Was bedeutet die Umsetzung der FAIR-Prinzipien konkret für die Sammlungserschließung?
+Ziel ist es, Daten so zu erschließen und aufzubereiten, dass sie von anderen Systemen interpretiert werden können. Damit digitale Anwendungen Objektinformationen sinnvoll verarbeiten können, müssen sie mit HIlfe von Standards erstellt werden und maschinenlesbar sein. Die Aufbereitung von Informationen im digitalen Umfeld unterscheidet sich in mehreren Aspekten von der analogen Arbeitsweise. Vorrangig sind dabei:
 
+- Die Codierung von Informationselementen
+- Die Zerlegung von Aussagen in kleinere, miteinander in Beziehung stehenden Informationseinheiten
+<br><br>
+
+![to do](img/todo2.png)
+
+<br><br>
+
+**Vorteile strukturierter Daten**
+
+Strukturierte Daten verbessern nicht nur das Verständnis von Inhalten, sondern auch deren Darstellung in Suchergebnissen und korrekte Verarbeitung in KI-Systemen.
+
+Sie helfen Suchsystemen und KI-Engines dabei,
+
++ Entitäten eindeutig zu erkennen
++ Beziehungen zwischen Themen zu verstehen
++ Inhalte korrekt zu kategorisieren
+
+### Aufgabe 1
 
 
 ## 2. Einführung in die Datenmodellierung
