@@ -175,6 +175,24 @@ Wähle die korrekte Eingabe aus. Achte auf Einheitlichkiet und eine ISO-konforme
 | [[(1952.1597)|Inv. 1952.1597]] | Porträt Erasmus Reich  | [[(1901-1950)|1. Hälfte 20. Jh.|um 1900]] | [[Dredsen|Derdsen|(Dresden)]]|
 | 1385962                        | Gesichtsmaske          | 1905                                      | Ägypten                      |
 
+<br><br>
+
+
+Häufige Fehlerkategorien bei der Sammlungserschließung:
+
++ Fehlende Werte 
++ Tippfehler 
++ Inkonsistenzen (z. B. bei Inventarnummer/Datum)
++ Dubletten 
++ Widersprüche 
++ Fehlende Standardisierung (Datum/Maße)
++ Excel-Automatiken (falscher Datentyp eingestellt)
++ Keine Angabe von kontrolliertem Vokabular
+
+--> Siehe auch: Rebekka Reichert. (2026, Februar 16). SODa Basiskurs zu Erschließung und Forschungsdatenmanagement in Universitätssammlungen. Modul 2: Mit sammlungsbezogenen Daten arbeiten. https://doi.org/10.5281/zenodo.18656610  
+
+
+
 ## 2. Einführung in die Datenmodellierung
 
 ## 3. Metadaten
