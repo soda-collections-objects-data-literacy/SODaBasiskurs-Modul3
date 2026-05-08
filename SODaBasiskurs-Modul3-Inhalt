@@ -213,7 +213,7 @@ Referenzmodelle (top-level ontologies) sind komplexe Sets von Repräsentationsel
 legen Kriterien, Methoden und Prozesse fest, nach denen die Dokumentation in bestimmten Fachcommunitys erfolgen soll. Sie gliedern sich in drei Bereiche:
 
 Daten-Inhaltsstandards oder Katalogisierungsregeln legen fest, wie bestimmte Ressourcen und Objekte beschrieben werden sollen. Sie können Vorgaben für die Erfassung und Formatierung von Informationen sowie die zu verwendenden Vokabulare enthalten. 
-Empfehlenswert ist in diesem Kontext die [Minimaldatensatzempfehlung für Museen und Sammlungen](http://www.minimaldatensatz.de/), die die wichtigsten Datenfelder für die Sammlungserschließung zusammenfasst, wie diese zu befüllen sind und mit dem Austauschformat LIDO kompatibel ist (siehte weiter unter)
+Empfehlenswert ist in diesem Kontext die [Minimaldatensatzempfehlung für Museen und Sammlungen](http://www.minimaldatensatz.de/), die die wichtigsten Datenfelder für die Sammlungserschließung zusammenfasst, Hinweise gibt, wie diese zu befüllen sind, und mit dem Austauschformat LIDO kompatibel ist (siehte weiter unter)
 Weitere Standards:
 z. B. [MIDAS Heritage](https://heritage-standards.org.uk/midas-heritage/), [Arbeitskreis Provenienzforschung](https://www.arbeitskreis-provenienzforschung.org/arbeitsgruppen/ag-standardisierung/), [Leitfaden zur Standardisierung von Provenienzangaben](https://www.arbeitskreis-provenienzforschung.org/arbeitsgruppen/ag-standardisierung/)
 
@@ -230,6 +230,9 @@ Insbesondere bei bereits publizierten Sammlungsdaten, die über einen persistent
 
 <br>
 *Kailus, A. (2023). Guideline for a FAIR Management of Cultural Research Data, 11-12. CC BY 4.0*
+
+
+![Datenlebenszyklus mit verschiedenen Ebenen von Standards als farblich unterschiedlichen Kreisringen](img/Standards-Lebenszyklus.png "*Datenlebenszyklus mit verschiedenen Ebenen von Standards als farblich unterschiedlichen Kreisringen*")
 
 
 
