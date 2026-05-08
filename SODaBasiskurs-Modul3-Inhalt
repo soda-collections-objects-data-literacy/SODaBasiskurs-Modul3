@@ -238,14 +238,32 @@ Insbesondere bei bereits publizierten Sammlungsdaten, die über einen persistent
 
 ## 2. Einführung in die Datenmodellierung
 
-###Ontologien
+Für die Digitalisierung von Sammlungsobjekten ist eine gute Datenmodellierung entscheidend. Ein Datenmodell beschreibt den Bauplan für Informationen über Sammlungsobjekte. Es legt fest, welche Arten von Daten erfasst werden, wie diese Daten heißen, wie sie strukturiert sind und wie sie miteinander in Beziehung stehen. Eine Orientierung an den zuvor beschriebenen Standards hilft dabei, ein für die jeweiligen Sammlungsobjekte einheitliches Datenmodell zu erstellen, damit sie im Netz gut gefunden, verstanden und genutzt werden können.
+
+Ein zentrales Element dabei sind Linked-Data-Technologien. Sie ermöglichen, dass Daten aus verschiedenen Quellen miteinander verknüpft werden.
+Dafür sollte jedes digitale Objekt eine eindeutige Kennung besitzt. Diese Kennungen heißen URIs. Sie stellen sicher, dass jedes Objekt weltweit eindeutig identifiziert werden kann. Erst dadurch lassen sich Daten zuverlässig miteinander verbinden.
+
+Hier spielen Ontologien eine wichtige Rolle. Durch Ontologien werden Daten typisiert, also in feste Klassen eingeteilt. Maschinen können diese Strukturen lesen und verstehen. So entsteht ein gemeinsames Bedeutungsnetz, das Daten aus unterschiedlichen Systemen zusammenführt.
+
+Eine gute Datenmodellierung nutzt daher Standards und Ontologien, um ein vernetztes System von Daten und Diensten zu schaffen. Nur so bleiben Informationen langfristig auffindbar, austauschbar und wiederverwendbar.
+
+### Ontologien
 
 * Ontologien sind formale Modelle, die Darstellung von Wissen für einen bestimmten Bereich ermöglicht.
 * Ontologien dienen als Mittel der Strukturierung und zum Datenaustausch
 * Bestandteile sind die Arten von Dingen (Klassen), Beziehungen zwischen ihnen (Eigenschaften/Relationen) und logische Möglichkeiten, wie diese Klassen und Eigenschaften zusammen verwendet werden können (Axiome).
 * Domänenontologie für den Bereich des Kulturellen Erbes: CIDOC CRM
 
+<br>
 ![Beispiel einer Ontologie mit Darstellung von Dingen und ihren Beziehungen](img/Beispiel-Ontologie_Wikimedia-CC0.png "*Beispiel einer Ontologie. MRewald, CC0, via Wikimedia Commons.*")
+
+<br>
+Datenbankschema
+===
+
+Ein Datenbankschema gilt als „Blueprint“ (Bauplan) einer Datenbank und beschreibt, wie die Daten mit anderen Tabellen oder anderen Datenmodellen in Beziehung stehen können.
+Es gibt drei verschiedene Arten von Schemata: ein konzeptionelles Datenbankschema, ein logisches Datenbankschema und ein physisches Datenbankschema.
+
 
 ## 3. Metadaten
 
