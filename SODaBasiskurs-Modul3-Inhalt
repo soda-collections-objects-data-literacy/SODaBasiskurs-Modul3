@@ -264,6 +264,30 @@ Datenbankschema
 Ein Datenbankschema gilt als „Blueprint“ (Bauplan) einer Datenbank und beschreibt, wie die Daten mit anderen Tabellen oder anderen Datenmodellen in Beziehung stehen können.
 Es gibt drei verschiedene Arten von Schemata: ein konzeptionelles Datenbankschema, ein logisches Datenbankschema und ein physisches Datenbankschema.
 
+``` ascii
++-------------------+   +-------------------+   +------------------+ 
+|       _-_         |   |                   |   |                  |
+|    /~~   ~~\      |   |                   |   |                  |
+| /~~         ~~\   |   | Konzeptionelles   |   | Logisches        |
+|{               }  |   | Schema            |   | Schema           |
+| \  _-     -_  /   |   |                   |   |                  |
+|   ~  \\ //  ~.    +-->                    +--->                  |
+|       | |         |   |                   |   |                  |
+|       | |         |   |                   |   |                  |
+|      // \\        |   |                   |   |                  |
++--------+----------+   +--------+----------+   +---------+--------+             
+         |                       |                        |
+         |                       |                        |
+         V                       V                        V
++-------------------+   +--------+----------+   +------------------+ 
+|                   |   |                   |   |                  |
+| Beschreibung      |   | Systemunabhängige |   | An Datenbank-    |
+| der realen Welt.  |   | Datenbeschreibung |   | system orientiert|
+|= Datenmodellierung|   |                   |   |                  |
+|                   |   |                   |   |                  |
+|                   |   |                   |   |                  | 
++-------------------+   +-------------------+   +------------------+ 
+``` 
 
 ## 3. Metadaten
 
