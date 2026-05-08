@@ -165,7 +165,8 @@ Sie helfen Suchsystemen und KI-Engines dabei,
 
 ### Aufgabe 1
 
-Wähle die korrekte Eingabe aus. Achte auf Einheitlichkeit und eine ISO-konforme Datumsangabe.
+Wähle die korrekte Eingabe aus. Achte auf Einheitlichkeit und eine [ISO-konforme Datumsangabe](https://www.iso.org/iso-8601-date-and-time-format.html).
+
 
 | ID                             | Titel                  | Eingangsdatum                             |  Herstellungsort             | Material     |
 |--------------------------------|------------------------|-------------------------------------------|------------------------------|--------------|
@@ -203,8 +204,32 @@ Die Rolle der Datenstandards
 + sichern die mittel- & längerfristige Verständlichkeit und Nachnutzbarkeit der Daten ab.
 + Werden von ihrer Anwendergemeinschaften inhaltlich und technisch weiterentwickelt.
 
+>**Dateiformate**
+Standard-Dateiformate gewährleisten in hohem Maß, dass die Dateien zu einem späteren Zeitpunkt und von anderen Akteuren verwendet werden können (z. B. TIFF für Bilddateien, XML für Textdateien).
+
+>**Referenzmodelle**
+Referenzmodelle (top-level ontologies) sind komplexe Sets von Repräsentationselementen (Klassen, Attribute und Beziehungen), mit denen ein Wissens- oder Diskursbereich modelliert werden kann. Die Definitionen der Elemente enthalten Informationen über ihre Bedeutung und Beschränkungen für ihre logisch konsistente Anwendung (Beispiel CIDOC-CRM).
+>**Metadatenstandards**
+legen Kriterien, Methoden und Prozesse fest, nach denen die Dokumentation in bestimmten Fachcommunitys erfolgen soll. Sie gliedern sich in drei Bereiche:
+
+Daten-Inhaltsstandards oder Katalogisierungsregeln legen fest, wie bestimmte Ressourcen und Objekte beschrieben werden sollen. Sie können Vorgaben für die Erfassung und Formatierung von Informationen sowie die zu verwendenden Vokabulare enthalten. 
+Empfehlenswert ist in diesem Kontext die [Minimaldatensatzempfehlung für Museen und Sammlungen](http://www.minimaldatensatz.de/), die die wichtigsten Datenfelder für die Sammlungserschließung zusammenfasst, wie diese zu befüllen sind und mit dem Austauschformat LIDO kompatibel ist (siehte weiter unter)
+Weitere Standards:
+z. B. [MIDAS Heritage](https://heritage-standards.org.uk/midas-heritage/), [Arbeitskreis Provenienzforschung](https://www.arbeitskreis-provenienzforschung.org/arbeitsgruppen/ag-standardisierung/), [Leitfaden zur Standardisierung von Provenienzangaben](https://www.arbeitskreis-provenienzforschung.org/arbeitsgruppen/ag-standardisierung/)
+
+>**Daten-Strukturstandards**
+Daten-Strukturstandards beziehen sich auf Metadaten-Elementsets (Metadatenschema). Sie geben die Struktur, den Inhalt, die Semantik und den Umfang von Metadaten in Form eines Kategorienschemas vor. Sie werden in der technischen Umsetzung häufig als XML-Schemata realisiert.
+z. B. [Schema.org](https://schema.org/docs/schemas.html), [LIDO – Lightweight Information Describing Objects](https://cidoc.mini.icom.museum/working-groups/lido/lido-overview/about-lido/what-is-lido/)
+
+>**Standards für Datenwerte**
+Standards für Datenwerte beziehen sich auf kontrollierte Vokabulare. Diese gewährleisten, dass Datenwerte mit eindeutigen Bezeichnungen versehen werden. Ihre Verwendung ist die Voraussetzung für präzise Suchergebnisse und die richtige Verknüpfung vergleichbarer Daten. 
+z. B Gemeinsame Normdatei, GeoNames, Arts & Architecture Thesaurus
+
+>**Versionierungsstandards**
+Insbesondere bei bereits publizierten Sammlungsdaten, die über einen persistenten Identifier referenzierbar sind, wird eine Versionierung unerlässlich, wenn eine Änderung am Datensatz vorgenommen wird. Als Grundlage für die Angabe einer Versionsnummer wird häufig das [MAJOR.MINOR.PATCH - Konzept](https://semver.org/lang/de/) genutzt.
+
 <br>
->*Kailus, A. (2023). Guideline for a FAIR Management of Cultural Research Data, 11-12. CC BY 4.0*
+*Kailus, A. (2023). Guideline for a FAIR Management of Cultural Research Data, 11-12. CC BY 4.0*
 
 
 
