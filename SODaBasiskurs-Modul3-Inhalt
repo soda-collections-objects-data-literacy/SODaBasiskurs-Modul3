@@ -232,11 +232,20 @@ Insbesondere bei bereits publizierten Sammlungsdaten, die über einen persistent
 *Kailus, A. (2023). Guideline for a FAIR Management of Cultural Research Data, 11-12. CC BY 4.0*
 
 
-![Datenlebenszyklus mit verschiedenen Ebenen von Standards als farblich unterschiedlichen Kreisringen](img/Standards-Lebenszyklus.png "*Datenlebenszyklus mit verschiedenen Ebenen von Standards als farblich unterschiedlichen Kreisringen*")
+![Datenlebenszyklus mit verschiedenen Ebenen von Standards als farblich unterschiedlichen Kreisringen](img/Standards-Lebenszyklus.png "*Datenlebenszyklus mit verschiedenen Ebenen von Standards als farblich unterschiedlichen Kreisringen. Diekjobst, A., Geelhaar, T., Hodel, T., Mähr, M., & Seltmann, M. (2024). 2.3. Mit Standards forschen und Handlungsräume schaffen. In Living Handbook "Digitale Quellenkritik" hrsg. v. Deicke, Aline; Geiger, Jonathan D.; Lemaire, Marina; Schmunk, Stefan (1.0). Zenodo. https://doi.org/10.5281/zenodo.12656767, Abb. 3, CC BY 4.0*")
 
 
 
 ## 2. Einführung in die Datenmodellierung
+
+###Ontologien
+
+* Ontologien sind formale Modelle, die Darstellung von Wissen für einen bestimmten Bereich ermöglicht.
+* Ontologien dienen als Mittel der Strukturierung und zum Datenaustausch
+* Bestandteile sind die Arten von Dingen (Klassen), Beziehungen zwischen ihnen (Eigenschaften/Relationen) und logische Möglichkeiten, wie diese Klassen und Eigenschaften zusammen verwendet werden können (Axiome).
+* Domänenontologie für den Bereich des Kulturellen Erbes: CIDOC CRM
+
+![Beispiel einer Ontologie mit Darstellung von Dingen und ihren Beziehungen](img/Beispiel-Ontologie_Wikimedia-CC0.png "*Beispiel einer Ontologie. MRewald, CC0, via Wikimedia Commons.*")
 
 ## 3. Metadaten
 
