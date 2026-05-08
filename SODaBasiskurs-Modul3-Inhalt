@@ -283,8 +283,8 @@ Es gibt drei verschiedene Arten von Schemata: ein konzeptionelles Datenbankschem
 |                   |   |                   |   |                  |
 | Beschreibung      |   | Systemunabhängige |   | An Datenbank-    |
 | der realen Welt.  |   | Datenbeschreibung |   | system orientiert|
-|= Datenmodellierung|   |                   |   |                  |
-|                   |   |                   |   |                  |
+|= Datenmodellierung|   | --> Orientierung  |   |                  |
+|                   |   | an Ontologie      |   |                  |
 |                   |   |                   |   |                  | 
 +-------------------+   +-------------------+   +------------------+ 
 ``` 
