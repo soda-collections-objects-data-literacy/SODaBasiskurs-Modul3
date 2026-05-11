@@ -295,6 +295,19 @@ Es gibt drei verschiedene Arten von Schemata: ein konzeptionelles Datenbankschem
 
 ### CIDOC CRM
 
+![Logo CIDOC CRM](img/CIDOC_CRM_Logo.png)
+
+* CIDOC (Comité international pour la documentation) CRM (Conceptual Reference Model): https://cidoc-crm.org 
+* (Domänen)Ontologie für Begriffe und Informationen des Kulturerbes
+* offizieller ISO Standard
+* entwickelt vom International Committee on Documentation (ICOM Committee)
+* dient als Leitfaden zur Datenmodellierung
+* lingua franca für transdisziplinäre Vernetzung und Forschung
+* kann in jedem relationalen oder objektorientierten Schema implementiert werden
+* kann in maschinenlesbare Formate umgewandelt werden, wie RDF und OWL
+* objektorientiertes Modell
+* Ereigniszentriertheit
+
 
 ## 3. Metadaten
 
