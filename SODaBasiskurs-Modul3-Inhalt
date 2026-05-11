@@ -371,16 +371,16 @@ Das CIDOC CRM umfasst rund 90 Klassen (wie physischer Gegenstand, Akteur, Ort, Z
 
 <br>
 
-**Modellierung einer Münze:**
+**Modellierung der Inschrift einer Münze:**
 
 >| Klasse: Objekt "Münze"  |  Relation      | Klasse: Inschrift           |
 >|:-----------------------:|:--------------:|:---------------------------:|
 >|E22_Human-Made Object    | P128 carries   | E34 Inscription             |
 
 **Modellierung des Münzbilds:** 
->| Objekt "Münze"          | Relation       | Portrait Constantinus I     |
->|:-----------------------:|:--------------:|:---------------------------:|
->|  E22_Human-Made Object  |  P62 depicts   |  E21 Person                 |
+>| Objekt "Münze"        | Relation      | Klasse Person |Relation        |Constantinus I. |
+>|:---------------------:|:-------------:|:-------------:|:--------------:|:--------------:|
+>| E22_Human-Made Object |  P62 depicts  |  E21 Person   |P1 identified by|E41 appelation  |
 
 
 
@@ -426,7 +426,7 @@ Modelliere die Aussage, dass das Objekt von der Firma Somso hergestellt wurde:
 >|:----------------------|:-----------:|:----------:|:-----------:|:-----------:|:-----------:|:-----------:|
 >|[[  E22 ]]             |[[ P108i  ]] | [[ E12 ]]  | [[  P14  ]] | [[  E39  ]] | [[ P1  ]]  |  [[ E41 ]]   |
 ***************************
-E22 Human-Made Object --> P108 has produced (was produced by) --> E12 Production --> P14 carried out by --> E39 actor --> identified by --> E41 appelation (Somso)
+E22 Human-Made Object --> P108 has produced (was produced by) --> E12 Production --> P14 carried out by --> E39 actor --> P1 identified by --> E41 appelation (Somso)
 ***************************
 
 ![Bild eines Schwefelgesteins](img/Schwefel.png)<!--
@@ -449,7 +449,7 @@ Modelliere, dass das Objekt aus dem Material Schwefel besteht
 >|  [[  E19  ]]       |  [[ P45  ]]  |  [[ E57 ]]  |  [[ P1  ]]  |  [[ E41 ]]   |
 ***************************
 
-E19 physical Object --> P45 constists of --> E57 Material --> identified by --> E41 appelation (Schwefel)
+E19 physical Object --> P45 constists of --> E57 Material --> P1 identified by --> E41 appelation (Schwefel)
 
 ******************************
 <br><br>
