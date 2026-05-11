@@ -341,6 +341,18 @@ Klassen und Eigenschaften des CIDOC CRM werden durch ihre Initialen identifizier
 </body>
 </html>
 
+### Aufgabe 2
+
+
+[screenshot CIDOC periodic table](img/CIDOC-periodic-table.png "*Screenshot des CIDOC Periodic Table.*)
+Modelliere mithilfe der CIDOC Klassen und Properties nachfolgende Objektinformationen
+
+[Liste der Klassen und Eigenschaften](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html)
+
+Der [CIDOC-CRM periodic table](https://remogrillo.github.io/cidoc-crm_periodic_table/?code=E1) kann helfen, die eigene Modellierung zu überprüfen.
+
+
+klicke oben rechts auf "Experiment", dann auf das "+" unter domain und wähle eine Klasse aus. Wiederhole das bei den anderen beiden Feldern. Klicke am Ende oben auf "Inspect".
 
 ## 3. Metadaten
 
