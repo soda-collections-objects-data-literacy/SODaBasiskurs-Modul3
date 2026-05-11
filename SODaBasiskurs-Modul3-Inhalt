@@ -344,16 +344,35 @@ Klassen und Eigenschaften des CIDOC CRM werden durch ihre Initialen identifizier
 ### Aufgabe 2
 
 
-[screenshot CIDOC periodic table](img/CIDOC-periodic-table.png "*Screenshot des CIDOC Periodic Table.*)
-Modelliere mithilfe der CIDOC Klassen und Properties nachfolgende Objektinformationen
+![screenshot CIDOC periodic table](img/CIDOC-periodic-table.png)<!--
+style="width: 450px; position: absolute; left: 400px; bottom: 300px"
+-->
+
+Modelliere mithilfe der CIDOC Klassen und<br>
+Properties nachfolgende Objektinformationen
 
 [Liste der Klassen und Eigenschaften](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html)
 
-Der [CIDOC-CRM periodic table](https://remogrillo.github.io/cidoc-crm_periodic_table/?code=E1) kann helfen, die eigene Modellierung zu überprüfen.
+Der [CIDOC-CRM periodic table](https://remogrillo.github.io/cidoc-crm_periodic_table/?code=E1) (siehe Screenshot <br>
+rechts) kann helfen,
+die eigene Modellierung<br>
+zu überprüfen.
 
 
-klicke oben rechts auf "Experiment", dann auf das "+" unter domain und wähle eine Klasse aus. Wiederhole das bei den anderen beiden Feldern. Klicke am Ende oben auf "Inspect".
+klicke oben rechts auf "Experiment", dann auf <br>
+das "+" unter domain und wähle eine Klasse aus.<br>
+Wiederhole das bei den anderen beiden Feldern.<br>
+Klicke am Ende oben auf "Inspect".
 
+**Beispielmodellierung**
+
+<br>
+<div style="float:right;width:40%;margin: 0px 0px 30px 10px;">
+    <img src="img/DE-MUS-026819-ID2169-av.png" alt="Vorderseite einer Münze Constantnus I.." style=""/>
+    <p style="text-align:center"> *Braunschweig, Sammlung der Technischen Universität, Public Domain
+    * </p>
+</div>
+‚
 ## 3. Metadaten
 
 ## 4. Metadatenstandards
