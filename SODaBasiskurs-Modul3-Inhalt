@@ -82,6 +82,8 @@ In den letzten Jahren haben sich im englischsprachigen Raum neue Initiativen for
 ### FAIR Prinzipien
 <br><br>
 
+Eine Orientierung an den FAIR-Prinzipien ist für die Sammlungsdigitalisierung relevant, weil so sichergestellt wird, dass digitale Objekte auffindbar und zugänglich sind – sowohl für Menschen als auch für Maschinen. Sie fördern zudem die Interoperabilität, sodass Daten aus unterschiedlichen Sammlungen verknüpft und gemeinsam ausgewertet werden können. Durch die Betonung der Nutzbarkeit und Wiederverwendbarkeit tragen die FAIR-Prinzipien dazu bei, dass digitalisierte Sammlungen nachhaltig in Forschung, Lehre und Öffentlichkeit eingesetzt werden können.
+
 ![FAIR-Akronyme](img/FAIR_data_principles.jpg " *SangyaPundir, CC BY-SA 4.0, via Wikimedia Commons* ")
 
 <br><br>
@@ -538,8 +540,9 @@ Die vier Designprinzipien von Linked Data (von Tim Berners Lee):
 * Füge Links zu anderen URIs bei, so dass der User weitere Dinge entdecken kann.
 
 Siehe auch: https://www.w3.org/DesignIssues/LinkedData.html 
+<br><br>
 
-Tim Berners-Lee, der Erfinder des Webs und Initiator des Linked-Data-Projekts, schlug ein Fünf-Sterne-Modell für die Bereitstellung von Linked Data vor. Dieses Fünf-Sterne-System ist kumulativ: Jeder weitere Stern setzt voraus, dass die Daten bereits die Anforderungen der vorherigen Stufe(n) erfüllen.
+>Tim Berners-Lee, der Erfinder des Webs und Initiator des Linked-Data-Projekts, schlug ein Fünf-Sterne-Modell für die Bereitstellung von Linked Data vor. Dieses Fünf-Sterne-System ist kumulativ: Jeder weitere Stern setzt voraus, dass die Daten bereits die Anforderungen der vorherigen Stufe(n) erfüllen.
 <br><br>
 
 ⭐          verfügbar im Web mit offener Lizenz (open licence)<br>
