@@ -454,8 +454,15 @@ E19 physical Object --> P45 constists of --> E57 Material --> identified by --> 
 <br><br>
 
 ## 3. Metadaten
-
+<br>
 **Arten von Metadaten**
+
+<div style="float:right;width:50%;margin: 10px 10px 30px 10px;">
+    <img src="img/data_metadata_8_dataedo-piotr.png" alt="Zeichnung Flasche Bier und Etikett" style=""/>
+    <p style="text-align:center"> *Piotr@Dataedo, https://dataedo.com/cartoon/data-vs-metadata-2 CC BY-ND 3.0* </p>
+</div>
+
+<br>
 
 Metadaten sind strukturierte Daten zur einheitlichen Beschreibung von Ressourcen jeglicher Art, z. B. Dateien, Digitalisate, Objekte, Texte, etc. 
 Metadaten zu Sammlungsobjekten können sich z. B. auf das Digitalisat  des Objektes beziehen sowie auf das physische Objekt selbst. Dabei  werden verschiedene Arten von Metadaten unterschieden:
@@ -468,14 +475,47 @@ Metadaten zu Sammlungsobjekten können sich z. B. auf das Digitalisat  des Objek
 * Speicherort
 
 >**Administrative Metadaten**
-* Rechteauszeichnung (des physischen Objektes, des Digitalisats, des Datensatz-Autors)
-Lizenzbedingungen
+* Rechteauszeichnung (des physischen Objektes, des Digitalisats, des Datensatz-Autors) Lizenzbedingungen
 
 >**Strukturelle Metadaten**
 * beschreiben die interne Organisation/Beziehungen komplexer digitaler Objekte
 
 
 ## 4. Metadatenstandards
+
+Metadatenstandards legen Kriterien, Methoden und Prozesse fest, nach denen die Dokumentation in bestimmten Fachcommunitys erfolgen soll. 
+
+Sind folgende Metadatenstandards (Inhaltsstandards) empfohlen
+* [[Cataloging Cultural Objects (CCO)]]()
+* [[Categories for the Description of Works of Art (CDWA)]]()
+* [[MIDAS Heritage]]()
+* [[Collections Trust Spectrum Precedures]]()
+
+In diesem Kontext bildet auch die Minimaldatensatz-Empfehlung eine gut Basis für die Sammlungsdokumentation und Publikation -->
+
+### Minimaldatensatz-Empfehlung für Museen und Sammlungen
+
+* Anwendungsfall: Datenaustausch und Datenlieferung an Kulturportale
+* benennt die wichtigsten Datenfelder für die Online-Publikation von Objektinformationen aus Museen und * Sammlungen und wie diese zu füllen sind
+* Vermittelt relevante Standards (Mapping zu anderen Standards, Vokabular-Empfehlungen)
+* Erarbeitet wird die Empfehlung durch die AG Minimaldatensatz. 2022 durch Fachstellen Museum und Mediathek Fotografie/Ton der Deutschen Digitalen Bibliothek (DDB), der AG Digitalisierung der Konferenz der Museumsberatungsstellen in den Ländern (KMBL) sowie digiS Berlin initiiert.
+
+--> [www.minimaldatensatz.de](www.minimaldatensatz.de) 
+
+### LIDO
+
+<div style="float:right;width:50%;margin: 10px 10px 30px 10px;">
+    <img src="img/LIDO_logo_main.png" alt="LIDO Logo" style=""/>
+    <p style="text-align:center"> </p>
+</div>
+
+Die Minimaldatensatz-Empfehlung für Museen und Sammlungen ist mit dem Datenaustauschformat LIDO kompatibel:
+
+* LIDO ist ein vom Dokumentations-Komitee des Internationalen Museumsrates (ICOM-CIDOC) herausgegebener Standard für die Publikation von Informationen zu Objekten der materiellen Kultur
+* LIDO ist an die CIDOC CRM-Ontologie angelehnt und ermöglicht es, Objekte strukturiert zu beschreiben und dabei kontrollierte Vokabulare einzubinden 
+* ist als Datenaustauschformat sehr gut dafür geeignet, die Interoperabilität oder Anschlussfähigkeit von Objektinformationen zu gewährleisten und so Datensätze für Linked Open Data vorzubereiten.
+* basiert auf XML
+
 
 ## 5. Datenqualität
 
