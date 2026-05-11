@@ -486,10 +486,10 @@ Metadaten zu Sammlungsobjekten können sich z. B. auf das Digitalisat  des Objek
 Metadatenstandards legen Kriterien, Methoden und Prozesse fest, nach denen die Dokumentation in bestimmten Fachcommunitys erfolgen soll. 
 
 Sind folgende Metadatenstandards (Inhaltsstandards) empfohlen
-* [[Cataloging Cultural Objects (CCO)]]()
-* [[Categories for the Description of Works of Art (CDWA)]]()
-* [[MIDAS Heritage]]()
-* [[Collections Trust Spectrum Precedures]]()
+* [Cataloging Cultural Objects (CCO)](https://www.vraweb.org/cco)
+* [Categories for the Description of Works of Art (CDWA)](https://www.getty.edu/publications/categories-description-works-art/)
+* [MIDAS Heritage](https://heritage-standards.org.uk/midas-heritage/)
+* [Collections Trust Spectrum Precedures](https://heritage-standards.org.uk/midas-heritage/)
 
 In diesem Kontext bildet auch die Minimaldatensatz-Empfehlung eine gut Basis für die Sammlungsdokumentation und Publikation -->
 
@@ -504,10 +504,11 @@ In diesem Kontext bildet auch die Minimaldatensatz-Empfehlung eine gut Basis fü
 
 ### LIDO
 
-<div style="float:right;width:50%;margin: 10px 10px 30px 10px;">
+<div style="float:right;width:50%;margin: 10px 10px 10px 10px;">
     <img src="img/LIDO_logo_main.png" alt="LIDO Logo" style=""/>
     <p style="text-align:center"> </p>
 </div>
+
 
 Die Minimaldatensatz-Empfehlung für Museen und Sammlungen ist mit dem Datenaustauschformat LIDO kompatibel:
 
@@ -518,6 +519,8 @@ Die Minimaldatensatz-Empfehlung für Museen und Sammlungen ist mit dem Datenaust
 
 
 ## 5. Datenqualität
+
+Datenqualität umfasst die Gesamtheit aller Eigenschaften und Merkmale von Daten, die ihre Eignung für einen bestimmten Zweck bestimmen (fit for purpose). Sie lässt sich nicht direkt messen, sondern nur über Indikatoren:
 
 ## 6. Kontrollierte Vokabulare
 
