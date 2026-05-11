@@ -399,17 +399,25 @@ Der [CIDOC-CRM periodic table](https://remogrillo.github.io/cidoc-crm_periodic_t
 rechts) kann helfen,
 die eigene Modellierung<br>
 zu überprüfen.
-<br>
+<br><br>
 
 ![Bild eines Augenmodells](img/Augenmodell_Uni-Goettingen.png)<!--
-style="width: 200px; position: relative; left: 400px; bottom: 300px"
+style="width: 200px; position: relative; left: 5px; bottom: 10px"
 -->
-
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+*Augenmodell, Georg-August-Universität, Zentrale Kustodie,*<br>
+*Anna Greger, CC BY-SA 4.0*
+<br>
+<br><br>
+<br>
 **Modellierung eines Augenmodells:** 
 
->| Klasse: Objekt "Augenmodell"  |  Relation      | Klasse: Inschrift           |
->|:-----------------------------:|:--------------:|:---------------------------:|
->|[[E22]]                        | P128 carries   | E34 Inscription             |
+>| Klasse: Objekt "Augenmodell"|  Relation      | Klasse: Inschrift           |
+>|:---------------------------:|:--------------:|:---------------------------:|
+>|[[E22]]                      | P128 carries   | E34 Inscription             |
 
 **Modellierung des Münzbilds:** 
 >| Objekt "Münze"          | Relation       | Portrait Constantinus I     |
