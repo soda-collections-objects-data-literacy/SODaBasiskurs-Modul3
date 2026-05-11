@@ -308,7 +308,39 @@ Es gibt drei verschiedene Arten von Schemata: ein konzeptionelles Datenbankschem
 * objektorientiertes Modell
 * Ereigniszentriertheit
 
-![Frontalbild einer Ushebti](img/MET_86.1.22_front_rgb_PD-png.png)
+<br>
+
+**Beispiel einer Modellierung mit Objektinformationen einer Ushebti:**
+
+Klassen und Eigenschaften des CIDOC CRM werden durch ihre Initialen identifiziert wie z. B. „E55“ oder „P12“. Die Namen der Klassen und Eigenschaften einer CRM-kompatiblen Form dürfen in jede menschliche Sprache übersetzt werden, aber die identifizierenden Initialen müssen erhalten werden.
+
+<html>
+<head>
+<style>
+
+#Ushebti {
+  width: 200px;
+  height: 350px;
+  background-image: url(img/MET_86.1.22_front_rgb_PD-png.png);
+  background-position: 0 0; /* Top-left corner of the sprite */
+}
+
+#Modellierung {
+  width: 600px;
+  height: 300px;
+  background-image: url(img/CIDOC-Modellierung-Ushebti.png);
+  background-position: -47px 0; /* 47px to the left of the sprite's top-left */
+}
+</style>
+</head>
+<body>
+
+<img id="Ushebti" src="img/MET_86.1.22_front_rgb_PD-png.png" width="200" height="300" class="*Modellierung von Objektinformation mit dem CIDOC-CRM Referenzmodell.*">
+<img id="Modellierung" src="img/CIDOC-Modellierung-Ushebti.png" width="600" height="200">
+
+</body>
+</html>
+*Bildinformationen: links - Ushebti des Sennedjem, Inv.-Nr. 86.1.22, MET, Public Domain; rechts - Modellierung von Objektinformation mit dem CIDOC-CRM Referenzmodell*
 
 ## 3. Metadaten
 
