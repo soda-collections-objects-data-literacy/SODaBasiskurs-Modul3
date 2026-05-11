@@ -19,7 +19,7 @@ Die OERs beinhalten unter anderem:
   
 ## Nutzung und Beitrag
 
-Die Materialien können frei genutzt, adaptiert und in eigene Lehr-/Lernkontexte integriert werden. Beiträge und Weiterentwicklungen sind ausdrücklich willkommen! Bitte öffne ein Issue oder sende einen Pull Request.
+Die Materialien können frei genutzt, adaptiert und in eigene Lehr-/Lernkontexte integriert werden. Beiträge und Weiterentwicklungen sind ausdrücklich willkommen!
 
 ## Lizenz
 
@@ -29,6 +29,8 @@ Dieses Repository steht unter der [Creative Commons Namensnennung 4.0 Internatio
 Bitte nenne bei Verwendung die Quelle wie folgt:
 
 > SODa-Initiative. *SODa OERs – Open Educational Resources for Semantic Data and FAIR Practices*. https://github.com/[user]/[repo], CC BY 4.0
+
+Die verwendeten Grafiken und Bilder können zum Teil unter anderen Lizenzen stehen. Bitte die angegebene Lizenzierung jeweils prüfen und in der Verwendung entsprechend angeben.
 
 ## Zitationsempfehlung
 
