@@ -258,13 +258,17 @@ Eine gute Datenmodellierung nutzt daher Standards und Ontologien, um ein vernetz
 ![Beispiel einer Ontologie mit Darstellung von Dingen und ihren Beziehungen](img/Beispiel-Ontologie_Wikimedia-CC0.png "*Beispiel einer Ontologie. MRewald, CC0, via Wikimedia Commons.*")
 
 <br>
+
 Datenbankschema
 ===
 
 Ein Datenbankschema gilt als „Blueprint“ (Bauplan) einer Datenbank und beschreibt, wie die Daten mit anderen Tabellen oder anderen Datenmodellen in Beziehung stehen können.
-Es gibt drei verschiedene Arten von Schemata: ein konzeptionelles Datenbankschema, ein logisches Datenbankschema und ein physisches Datenbankschema.
+Es gibt drei verschiedene Arten von Schemata: ein konzeptionelles Datenbankschema, ein logisches Datenbankschema und ein physisches Datenbankschema:
 
-``` ascii
+
+
+
+``` ascii 
 +-------------------+   +-------------------+   +------------------+ 
 |       _-_         |   |                   |   |                  |
 |    /~~   ~~\      |   |                   |   |                  |
