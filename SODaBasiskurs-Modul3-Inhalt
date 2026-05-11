@@ -385,7 +385,7 @@ Das CIDOC CRM umfasst rund 90 Klassen (wie physischer Gegenstand, Akteur, Ort, Z
 ### Aufgabe 2
 
 ![screenshot CIDOC periodic table](img/CIDOC-periodic-table.png)<!--
-style="width: 450px; position: absolute; left: 400px; bottom: 300px"
+style="width: 500px; position: absolute; left: 400px; bottom: 230px"
 -->
 
 Modelliere mithilfe der CIDOC Klassen und<br>
@@ -406,13 +406,16 @@ style="width: 200px; position: relative; left: 5px; bottom: 10px"
 -->
 <br><br>
 <br><br>
-<br><br>
+<br>
 <br><br>
 *Augenmodell, Georg-August-Universität, Zentrale Kustodie,*<br>
 *Anna Greger, CC BY-SA 4.0*
 <br>
 <br><br>
 <br>
+<br>
+<br><br>
+
 **Modellierung eines Augenmodells:**
 <br>
 Modelliere die Aussage, dass das Objekt von der Firma Somso hergestellt wurde:
@@ -430,9 +433,11 @@ style="width: 200px; position: relative; left: 5px; bottom: 10px"
 <br>
 <br><br>
 <br><br>
+<br><br>
 *Georg-August-Universität Göttingen, Geowissenschaftliches Museum / G. Hundertmark, 2017, CC BY-SA 4.0.*
 <br>
 <br><br>
+
 **Modellierung von Schwefel:** 
 <br>
 Modelliere, dass das Objekt aus dem Material Schwefel besteht
@@ -445,8 +450,30 @@ Modelliere, dass das Objekt aus dem Material Schwefel besteht
 E19 physical Object --> P45 constists of --> E57 Material --> identified by --> E41 appelation (Schwefel)
 
 ******************************
+<br><br>
+<br><br>
 
 ## 3. Metadaten
+
+**Arten von Metadaten**
+
+Metadaten sind strukturierte Daten zur einheitlichen Beschreibung von Ressourcen jeglicher Art, z. B. Dateien, Digitalisate, Objekte, Texte, etc. 
+Metadaten zu Sammlungsobjekten können sich z. B. auf das Digitalisat  des Objektes beziehen sowie auf das physische Objekt selbst. Dabei  werden verschiedene Arten von Metadaten unterschieden:
+
+>**Deskriptive Metadaten**
+* beziehen sich auf den Inhalt der Ressource und helfen diese zu identifizieren (Objektbeschreibung z. B. Material, Größe, Urheber, Herstellungsort)
+
+>**Technische Metadaten**
+* Informationen zu Form und Struktur digitaler Objekte (z. B. Dateiformat eines Bildes, Dateigröße Zeichencodierung eines Textes)
+* Speicherort
+
+>**Administrative Metadaten**
+* Rechteauszeichnung (des physischen Objektes, des Digitalisats, des Datensatz-Autors)
+Lizenzbedingungen
+
+>**Strukturelle Metadaten**
+* beschreiben die interne Organisation/Beziehungen komplexer digitaler Objekte
+
 
 ## 4. Metadatenstandards
 
