@@ -100,36 +100,38 @@ Ziele der FAIR-Prinzipien:
 + im Rahmen des rechtlich & technisch Möglichen, Datenbestände für neue Nutzungsszenarien öffnen.
 
 <br><br>
-</details>
-<summary>**Findable - auffindbar**<summary>
+
+<details>
+<summary>Findable - auffindbar</summary>
+
+> **F1** (Meta-)Daten sind mit einem global eindeutigen u. dauerhaften persistent identifier versehen.
 >
-> + **F1** (Meta-)Daten sind mit einem global eindeutigen u. dauerhaften persistent identifier versehen.
+> **F2** (Meta-)Daten werden mit umfangreichen Metadaten beschrieben.
 >
-> + **F2** (Meta-)Daten werden mit umfangreichen Metadaten beschrieben.
+> **F3** (Meta-)Daten sind in einer durchsuchbaren Ressource registriert oder indiziert.
 >
-> + **F3** (Meta-)Daten sind in einer durchsuchbaren Ressource registriert oder indiziert.
->
-> + **F4** (Meta-)Daten enthalten eine klare und eindeutige Identifizier-ung der Daten, die sie beschreiben.
+> **F4** (Meta-)Daten enthalten eine klare und eindeutige Identifizier-ung der Daten, die sie beschreiben.
 </details>
 
 <br><br>
 
-</details>
-<summary>**Accessible - zugänglich**<summary>
+<details>
+<summary>Accessible - zugänglich</summary>
+
+>+ **A1** (Meta-)Daten können anhand ihrer Identifizierung über ein standardisiertes Kommunikations-protokoll abgerufen werden.
 >
-> + **A1** (Meta-)Daten können anhand ihrer Identifizierung über ein standardisiertes Kommunikations-protokoll abgerufen werden.<br />
->
->    - **A1.1** das Protokoll ist offen, frei u. universell implementierbar.
+> + - **A1.1** das Protokoll ist offen, frei u. universell implementierbar.
 >   - **A1.2** das Protokoll ermöglicht bei Bedarf ein Authentifizier-ungs- u. Autorisierungs-verfahren.
 >
 > + **A2** – (Meta-)Daten sind zugänglich, auch wenn die Daten nicht mehr verfügbar sind.
 </details>
 
 <br><br>
-</details>
-<summary>**Interoperable – interoperabel**<summary>
->
-> + **I1** (Meta-)Daten verwenden eine formale, zugängliche, gemeinsame und weithin anwendbare Sprache zur Wissensdarstellung.
+
+<details>
+<summary>Interoperable – interoperabel</summary>
+
+>+ **I1** (Meta-)Daten verwenden eine formale, zugängliche, gemeinsame und weithin anwendbare Sprache zur Wissensdarstellung.
 >
 > + **I2** (Meta-)Daten verwenden Vokabulare, die den FAIR-Grundsätzen entsprechen.
 >
@@ -137,10 +139,10 @@ Ziele der FAIR-Prinzipien:
 </details>
 <br><br>
 
-</details>
-<summary>**Reusable – wiederverwendbar**<summary>
->
-> + **R1** (Meta-)Daten haben mehrere genaue und relevante Attribute.
+<details>
+<summary>**Reusable – wiederverwendbar**</summary>
+
+>+ **R1** (Meta-)Daten haben mehrere genaue und relevante Attribute.
 >
 >
 >   - **R1.1** (Meta-)Daten werden mit einer klaren und zugänglichen Datennutzungslizenz freigegeben.
