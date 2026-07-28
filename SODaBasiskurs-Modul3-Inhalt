@@ -335,8 +335,8 @@ Klassen und Eigenschaften des CIDOC CRM werden durch ihre Initialen identifizier
 }
 
 #Modellierung {
-  width: 600px;
-  height: 300px;
+  width: 500px;
+  height: 350px;
   background-image: url(img/CIDOC-Modellierung-Ushebti.png);
   background-position: -47px 0; /* 47px to the left of the sprite's top-left */
 }
@@ -528,7 +528,62 @@ Die Minimaldatensatz-Empfehlung für Museen und Sammlungen ist mit dem Datenaust
 
 ## 5. Datenqualität
 
-Datenqualität umfasst die Gesamtheit aller Eigenschaften und Merkmale von Daten, die ihre Eignung für einen bestimmten Zweck bestimmen (fit for purpose). Sie lässt sich nicht direkt messen, sondern nur über Indikatoren:
+Was ist Datenqualität?
+
+* Begriff ist neutral
+* in der Bewertung subjektiv
+* Gesamtheit von Eigenschaften und Merkmalen hinsichtlich der Eignung, einen bestimmten Zweck zu erfüllen (fit for purpose)
+* nur durch Indikatoren messbar
+* Gradmesser einer Bedürfnisbefriedigung
+* Orientierung an Absicht des Nutzenden
+
+Beispiel: für den Zweck einer FAIRe Datenpublikation sollten kontrollierte Vokabulare genutzt werden, um die Datenqualität zu verbessern.
+
+
+### Diemensionen von Datenqualität
+
+Datenqualität lässt sich nicht direkt, sondern nur über Indikatoren messen:
+
+<details>
+<summary>Vollständigkeit (completeness)</summary>
+* Daten beschreiben den gesamten Bestand der Sammlung. Jeder Datensatz ist vollständig gemäß den geltenden Vorgaben der Sammlung.
+</details>
+<details>
+<summary>Genauigkeit (accuracy)</summary>
+* Daten beschreiben die Objekte inhaltlich und syntaktisch korrekt und präzise, auch in Bezug auf das zugrunde liegende Datenmodell.
+</details>
+<details>
+<summary>Eindeutigkeit (uniqueness)</summary>
+* Objekte und die in ihren Beschreibungen vorkommenden Entitäten sind eindeutig zu identifizieren.
+</details>
+<details>
+<summary>Konsistenz (consistency)</summary>
+* Daten sind durchgängig kohärent organisiert, auch im Vergleich zu ähnlichen Daten der Domäne. Sie sind frei von Widersprüchen.
+</details>
+<details>
+<summary>Glaubwürdigkeit (credibility)</summary>
+* Die Daten können von Nutzenden als wahr und glaubwürdig angesehen werden. 
+</details>
+<details>
+<summary>Aktualität (currency, timeliness)</summary>
+* Der Zeitpunkt der Erhebung der Informationen ist ausgewiesen.
+</details>
+<details>
+<summary>Rückverfolgbarkeit (traceability)</summary>
+* Die Quelle einer Information und die Änderungshistorie sind dokumentiert.
+</details>
+<details>
+<summary>Klarheit, Übersichtlichkeit (clarity)</summary>
+* Die Daten sind klar strukturiert und gut verständlich.
+</details>
+<details>
+<summary>Verfügbarkeit (availability)</summary>
+* Alle Daten, die für Objektverwaltung, -dokumentation und -nutzung benötigt werden, sind leicht verfügbar.
+</details>
+
+*Kailus, A. (2024, Juli 25). Datenverbesserung als (internes) Projekt: Ausgangsmotivationen und Startpunkte für die Planung. NFDI4Culture. https://doi.org/10.5281/zenodo.12820345 , CC BY 4.0.*
+*Stein, Regine / Taentzer, Gabriele: How to Define the Quality of Data and Data Models? A Perspective from the Cultural Heritage Domain, 2023, https://doi.org/10.5281/zenodo.7705014*
+
 
 ## 6. Kontrollierte Vokabulare
 
