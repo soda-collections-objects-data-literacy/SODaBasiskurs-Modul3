@@ -35,6 +35,10 @@ Sammlungsdokumentation ist die Grundlage für viele kustodische und kuratorische
 >* Öffentlichkeitsarbeit/Wissenschaftskommunikation
 >* partizipative Projekte (Wikidata, Data sprints, Hackathons)
 
+<div style="float:left;width:40%;margin: 0px 0px 30px 10px;">
+    <img src="img/Inventarbuch_c1930-1952_Museum_Senftenberg.jpg" alt="Inventarbuch des Museum SEnftenberg, Public Domain." style=""/>
+    <p style="text-align:center"> *Inventarbuch des Museum SEnftenberg, Public Domainn* </p>
+</div>
 
 ### Sammlungsdaten sind Forschungsdaten!
 
@@ -82,8 +86,7 @@ In den letzten Jahren haben sich im englischsprachigen Raum neue Initiativen for
 
 
 ### FAIR Prinzipien
-<br><br>
-
+<br>
 Eine Orientierung an den FAIR-Prinzipien ist für die Sammlungsdigitalisierung relevant, weil so sichergestellt wird, dass digitale Objekte auffindbar und zugänglich sind – sowohl für Menschen als auch für Maschinen. Sie fördern zudem die Interoperabilität, sodass Daten aus unterschiedlichen Sammlungen verknüpft und gemeinsam ausgewertet werden können. Durch die Betonung der Nutzbarkeit und Wiederverwendbarkeit tragen die FAIR-Prinzipien dazu bei, dass digitalisierte Sammlungen nachhaltig in Forschung, Lehre und Öffentlichkeit eingesetzt werden können.
 
 ![FAIR-Akronyme](img/FAIR_data_principles.jpg " *SangyaPundir, CC BY-SA 4.0, via Wikimedia Commons* ")
