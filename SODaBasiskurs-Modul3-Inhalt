@@ -238,10 +238,10 @@ z. B Gemeinsame Normdatei, GeoNames, Arts & Architecture Thesaurus
 Insbesondere bei bereits publizierten Sammlungsdaten, die über einen persistenten Identifier referenzierbar sind, wird eine Versionierung unerlässlich, wenn eine Änderung am Datensatz vorgenommen wird. Als Grundlage für die Angabe einer Versionsnummer wird häufig das [MAJOR.MINOR.PATCH - Konzept](https://semver.org/lang/de/) genutzt.
 
 <br>
-*Kailus, A. (2023). Guideline for a FAIR Management of Cultural Research Data, 11-12. CC BY 4.0*
+*Kailus, A. (2023). Guideline for a FAIR Management of Cultural Research Data, 11-12. CC BY 4.0.* https://doi.org/10.5281/zenodo.17055222
 
 
-![Datenlebenszyklus mit verschiedenen Ebenen von Standards als farblich unterschiedlichen Kreisringen](img/Standards-Lebenszyklus.png "*Datenlebenszyklus mit verschiedenen Ebenen von Standards als farblich unterschiedlichen Kreisringen. Diekjobst, A., Geelhaar, T., Hodel, T., Mähr, M., & Seltmann, M. (2024). 2.3. Mit Standards forschen und Handlungsräume schaffen. In Living Handbook "Digitale Quellenkritik" hrsg. v. Deicke, Aline; Geiger, Jonathan D.; Lemaire, Marina; Schmunk, Stefan (1.0). Zenodo. https://doi.org/10.5281/zenodo.12656767, Abb. 3, CC BY 4.0*")
+![Datenlebenszyklus mit verschiedenen Ebenen von Standards als farblich unterschiedliche Kreisringe](img/Standards-Lebenszyklus.png "*Datenlebenszyklus mit verschiedenen Ebenen von Standards als farblich unterschiedlichen Kreisringen. Diekjobst, A., Geelhaar, T., Hodel, T., Mähr, M., & Seltmann, M. (2024). 2.3. Mit Standards forschen und Handlungsräume schaffen. In Living Handbook "Digitale Quellenkritik" hrsg. v. Deicke, Aline; Geiger, Jonathan D.; Lemaire, Marina; Schmunk, Stefan (1.0). Zenodo. https://doi.org/10.5281/zenodo.12656767, Abb. 3, CC BY 4.0*")
 
 
 
