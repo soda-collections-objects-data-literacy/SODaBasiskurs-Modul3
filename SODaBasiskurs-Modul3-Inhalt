@@ -102,7 +102,7 @@ Ziele der FAIR-Prinzipien:
 <br><br>
 
 <details>
-<summary>Findable - auffindbar</summary>
+<summary>Findable – auffindbar</summary>
 
 > **F1** (Meta-)Daten sind mit einem global eindeutigen u. dauerhaften persistent identifier versehen.
 >
@@ -113,10 +113,9 @@ Ziele der FAIR-Prinzipien:
 > **F4** (Meta-)Daten enthalten eine klare und eindeutige Identifizier-ung der Daten, die sie beschreiben.
 </details>
 
-<br><br>
 
 <details>
-<summary>Accessible - zugänglich</summary>
+<summary>Accessible – zugänglich</summary>
 
 >+ **A1** (Meta-)Daten können anhand ihrer Identifizierung über ein standardisiertes Kommunikations-protokoll abgerufen werden.
 >
@@ -126,7 +125,6 @@ Ziele der FAIR-Prinzipien:
 > + **A2** – (Meta-)Daten sind zugänglich, auch wenn die Daten nicht mehr verfügbar sind.
 </details>
 
-<br><br>
 
 <details>
 <summary>Interoperable – interoperabel</summary>
@@ -137,7 +135,6 @@ Ziele der FAIR-Prinzipien:
 >
 >+ **I3** (Meta-)Daten enthalten qualifizierte Verweise auf andere (Meta-)Daten.
 </details>
-<br><br>
 
 <details>
 <summary>**Reusable – wiederverwendbar**</summary>
