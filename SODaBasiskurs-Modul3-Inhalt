@@ -540,49 +540,79 @@ Was ist Datenqualität?
 Beispiel: für den Zweck einer FAIRe Datenpublikation sollten kontrollierte Vokabulare genutzt werden, um die Datenqualität zu verbessern.
 
 
-### Diemensionen von Datenqualität
+### Dimensionen von Datenqualität
 
 Datenqualität lässt sich nicht direkt, sondern nur über Indikatoren messen:
 
 <details>
 <summary>Vollständigkeit (completeness)</summary>
-* Daten beschreiben den gesamten Bestand der Sammlung. Jeder Datensatz ist vollständig gemäß den geltenden Vorgaben der Sammlung.
+>Daten beschreiben den gesamten Bestand der Sammlung. Jeder Datensatz ist vollständig gemäß den geltenden Vorgaben der Sammlung.
 </details>
+
 <details>
 <summary>Genauigkeit (accuracy)</summary>
-* Daten beschreiben die Objekte inhaltlich und syntaktisch korrekt und präzise, auch in Bezug auf das zugrunde liegende Datenmodell.
+>Daten beschreiben die Objekte inhaltlich und syntaktisch korrekt und präzise, auch in Bezug auf das zugrunde liegende Datenmodell.
 </details>
+
 <details>
 <summary>Eindeutigkeit (uniqueness)</summary>
-* Objekte und die in ihren Beschreibungen vorkommenden Entitäten sind eindeutig zu identifizieren.
+>Objekte und die in ihren Beschreibungen vorkommenden Entitäten sind eindeutig zu identifizieren.
 </details>
+
 <details>
 <summary>Konsistenz (consistency)</summary>
-* Daten sind durchgängig kohärent organisiert, auch im Vergleich zu ähnlichen Daten der Domäne. Sie sind frei von Widersprüchen.
+>Daten sind durchgängig kohärent organisiert, auch im Vergleich zu ähnlichen Daten der Domäne. Sie sind frei von Widersprüchen.
 </details>
 <details>
 <summary>Glaubwürdigkeit (credibility)</summary>
-* Die Daten können von Nutzenden als wahr und glaubwürdig angesehen werden. 
-</details>
-<details>
-<summary>Aktualität (currency, timeliness)</summary>
-* Der Zeitpunkt der Erhebung der Informationen ist ausgewiesen.
-</details>
-<details>
-<summary>Rückverfolgbarkeit (traceability)</summary>
-* Die Quelle einer Information und die Änderungshistorie sind dokumentiert.
-</details>
-<details>
-<summary>Klarheit, Übersichtlichkeit (clarity)</summary>
-* Die Daten sind klar strukturiert und gut verständlich.
-</details>
-<details>
-<summary>Verfügbarkeit (availability)</summary>
-* Alle Daten, die für Objektverwaltung, -dokumentation und -nutzung benötigt werden, sind leicht verfügbar.
+>Die Daten können von Nutzenden als wahr und glaubwürdig angesehen werden. 
 </details>
 
-*Kailus, A. (2024, Juli 25). Datenverbesserung als (internes) Projekt: Ausgangsmotivationen und Startpunkte für die Planung. NFDI4Culture. https://doi.org/10.5281/zenodo.12820345 , CC BY 4.0.*
-*Stein, Regine / Taentzer, Gabriele: How to Define the Quality of Data and Data Models? A Perspective from the Cultural Heritage Domain, 2023, https://doi.org/10.5281/zenodo.7705014*
+<details>
+<summary>Aktualität (currency, timeliness)</summary>
+>Der Zeitpunkt der Erhebung der Informationen ist ausgewiesen.
+</details>
+
+<details>
+<summary>Rückverfolgbarkeit (traceability)</summary>
+>Die Quelle einer Information und die Änderungshistorie sind dokumentiert.
+</details>
+
+<details>
+<summary>Klarheit, Übersichtlichkeit (clarity)</summary>
+>YDie Daten sind klar strukturiert und gut verständlich.
+</details>
+
+<details>
+<summary>Verfügbarkeit (availability)</summary>
+>Alle Daten, die für Objektverwaltung, -dokumentation und -nutzung benötigt werden, sind leicht verfügbar.
+</details>
+
+Quellen:
+* *Kailus, A. (2024, Juli 25). Datenverbesserung als (internes) Projekt: Ausgangsmotivationen und Startpunkte für die Planung. NFDI4Culture. https://doi.org/10.5281/zenodo.12820345 , CC BY 4.0.*
+* *Stein, Regine / Taentzer, Gabriele: How to Define the Quality of Data and Data Models? A Perspective from the Cultural Heritage Domain, 2023, https://doi.org/10.5281/zenodo.7705014*
+
+### Werkzeuge für die Überprüfung und Verbesserung von Datenqualität
+
+Je nach Verwendungszweck der Sammlungsdaten, gibt es mittlerweile hilfreiche Tools, um z. B. zu überprüfen, ob Sammlungsdaten den FAIR-Prinzipen entsprechen oder ob die erstellten LIDO-Daten valide sind.
+
+**FAIR-Assessment**
+* [NFDI4Culture FAIR Check](https://nfdi4culture.de/id/E5080)
+* [TKFDM FAIR Assessment Tool](https://forschungsdaten-thueringen.de/fair-assessment-tool-en.html) 
+* Australian Research Data Commons: [FAIR Data Self-Assessment Tool](https://ardc.edu.au/resource/fair-data-self-assessment-tool/)
+
+**Validierung/Prüfung von LIDO Datensätzen und ihrer Qualität**
+* [digiS LIDO Validator (diLIVa)](https://www.digis-berlin.de/diliva/)
+* [Constrainify](https://constrainify.gwdg.de/selectData)
+
+**Bereinigung und Anreicherung**
+* [LIDORefineWeb](https://github.com/alexander-winkler/LIDOrefine) (für die Bereinigung/Anreichung von LIDO in OpenRefine)
+* [OpenRefine](https://openrefine.org)
+
+> [!TIP]
+> Mehr zu OpenRefine: [OpenRefine Einführung](https://sammlungen.io/kb/fdm/openrefine-einfuehrung)
+
+### Unsicherheiten in der Sammlungsdokumentation
 
 
 ## 6. Kontrollierte Vokabulare
