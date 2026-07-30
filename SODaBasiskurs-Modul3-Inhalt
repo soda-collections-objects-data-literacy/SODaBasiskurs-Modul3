@@ -503,6 +503,7 @@ Für die Sammlungsdokumentation haben sich verschiedene Metadatenstandards (Inha
 * [Categories for the Description of Works of Art (CDWA)](https://www.getty.edu/publications/categories-description-works-art/)
 * [MIDAS Heritage](https://heritage-standards.org.uk/midas-heritage/)
 * [Collections Trust Spectrum Precedures](https://heritage-standards.org.uk/midas-heritage/)
+* [Linked Art](https://linked.art)
 
 In diesem Kontext bildet auch die Minimaldatensatz-Empfehlung eine gut Basis für die Sammlungsdokumentation und Publikation -->
 
@@ -542,7 +543,7 @@ Was ist Datenqualität?
 * Gradmesser einer Bedürfnisbefriedigung
 * Orientierung an Absicht des Nutzenden
 
-Beispiel: für den Zweck einer FAIRe Datenpublikation sollten kontrollierte Vokabulare genutzt werden, um die Datenqualität zu verbessern.
+Beispiel: für den Zweck einer FAIRen Datenpublikation sollten kontrollierte Vokabulare genutzt werden, um die Datenqualität zu verbessern.
 
 
 ### Dimensionen von Datenqualität
@@ -585,7 +586,7 @@ Datenqualität lässt sich nicht direkt, sondern nur über Indikatoren messen:
 
 <details>
 <summary>Klarheit, Übersichtlichkeit (clarity)</summary>
->YDie Daten sind klar strukturiert und gut verständlich.
+>Die Daten sind klar strukturiert und gut verständlich.
 </details>
 
 <details>
@@ -594,8 +595,8 @@ Datenqualität lässt sich nicht direkt, sondern nur über Indikatoren messen:
 </details>
 
 Quellen:
-* *Kailus, A. (2024, Juli 25). Datenverbesserung als (internes) Projekt: Ausgangsmotivationen und Startpunkte für die Planung. NFDI4Culture. https://doi.org/10.5281/zenodo.12820345 , CC BY 4.0.*
-* *Stein, Regine / Taentzer, Gabriele: How to Define the Quality of Data and Data Models? A Perspective from the Cultural Heritage Domain, 2023, https://doi.org/10.5281/zenodo.7705014*
+* *Kailus, A. (2024, Juli 25). Datenverbesserung als (internes) Projekt: Ausgangsmotivationen und Startpunkte für die Planung. NFDI4Culture. https://doi.org/10.5281/zenodo.12820345, CC BY 4.0.*
+* *Stein, R., Taentzer, G. (2023). How to Define the Quality of Data and Data Models? A Perspective from the Cultural Heritage Domain. https://doi.org/10.5281/zenodo.7705014, CC BY 4.0.*
 
 ### Werkzeuge für die Überprüfung und Verbesserung von Datenqualität
 
@@ -642,6 +643,32 @@ Z.B. Klassifikation eines Objekts in Bezug auf seine Funktion oder Granularität
 > Wissensobjekte mit interpretatorischem Charakter sind vor allem typisch für geisteswissenschaftliche Forschungsdaten. Durch Recherche, Objektanalogien und andere Quellen lassen sich Interpretationen oder Vermutungen zu fehlendem Wissen anstellen. Die zusätzliche Abbildung der Informationen aus denen sich die Interpretation begründet, hilft, die Wahrscheinlichkeit einer Aussage einzuschätzen. 
 >In der Regel passiert das aber nur in klassischen wissenschaftlichen Publikationen in Textform. 
 
+#Axtklinge {
+  width: 350px;
+  height: 200px;
+  background-image: url(img/Axtklinge_MUT_CCBYSA.png);
+  background-position: 0 0; /* Top-left corner of the sprite */
+}
+
+#Blasinstrument {
+  width: 200px;
+  height: 450px;
+  background-image: url(img/Blasinstrument-Uni-Göttingen_CCBYSA.png);
+  background-position: -47px 0; /* 47px to the left of the sprite's top-left */
+}
+</style>
+</head>
+<body>
+
+<img id="Ushebti" src="img/Axtklinge_MUT_CCBYSA.png" width="350" height="200" class="*Modellierung von Objektinformation mit dem CIDOC-CRM Referenzmodell.*">
+<img id="Modellierung" src="img/Blasinstrument-Uni-Göttingen_CCBYSA.png" width="200" height="450">
+*Bildinformationen: links - Die Datierung der Axtklinge kann nur ungefähr angegeben werden und liegt zwischem dem 5. - 3. Jt. v. Chr., Objektnr.UFG-Os-3869, Sammlung der Jüngeren Urgeschichte, Museum der Universität Tübingen MUT, CC BY-SA 4.0.
+Rechts - Bei dem Tonobjekt ist die Zuweisung als Blasinstrument unsicher, da es nicht funktional ist. Es könnte sich auch um eine Scheinflöte handeln. Universität Göttingen, Inv. Nr. RAD_2219_03, Georg-August-Universität Göttingen, Zentrale Kustodie, Lena Hoppe, 2017, CC BY-SA 4.0 https://sammlungen.uni-goettingen.de/objekt/record_kuniweb_946206/ .
+
+
+*
+</body>
+</html>
 
 ## 6. Kontrollierte Vokabulare
 
