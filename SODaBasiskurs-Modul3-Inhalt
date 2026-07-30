@@ -708,9 +708,20 @@ Unsicherheiten gehören zur Sammlungserschließung dazu. Häufig sind Informatio
 
 ## 6. Kontrollierte Vokabulare
 
-### 6.1 Relevanz kontrollierter Vokabulare
+Bei der Erschließung von Sammlungsobjekten werden Informationen in Form von Begriffen erfasst – zum Beispiel zu Materialien, Techniken, Objekttypen, Orten oder Personen. Damit diese Daten einheitlich beschrieben und später zuverlässig gefunden, verknüpft und ausgewertet werden können, sollten möglichst standardisierte Begriffe verwendet werden. Diese werden in kontrollierten Vokabularen festgelegt. Sie bilden eine wichtige Grundlage für eine konsistente Datenmodellierung und unterstützen die Interoperabilität und Nachnutzung von Sammlungsdaten.
 
-### 6.2 Typen von kontrollierten Vokabularen
+### Relevanz kontrollierter Vokabulare
+
+Die natürliche Sprache ist vielfältig und lebt von Kontext, Vorwissen und unterschiedlichen Ausdrucksweisen. Menschen können diese Unterschiede meist problemlos verstehen. Computersystemen fehlt dieses Hintergrundwissen jedoch. Sie erkennen unterschiedliche Begriffe nicht automatisch als gleichbedeutend und können mehrdeutige Begriffe nicht ohne weiteres richtig interpretieren.
+Typische Herausforderungen der natürlichen Sprache sind:
+
+**Synonyme**: Verschiedene Begriffe bezeichnen dieselbe Sache, z. B. Auto, Wagen oder PKW.
+
+**Regionale Varianten und Dialekte**: Je nach Region werden unterschiedliche Begriffe verwendet, z. B. Brötchen, Schrippe oder Semmel.
+
+**Mehrdeutigkeit (Ambiguität)**: Ein Begriff kann verschiedene Bedeutungen haben, z. B. Schloss als Gebäude oder als Schließmechanismus.
+
+### Typen von kontrollierten Vokabularen
 
 ## 7.  Datenaustausch und Linked Open Data
 
