@@ -692,6 +692,19 @@ Unsicherheiten gehören zur Sammlungserschließung dazu. Häufig sind Informatio
 * Unsicherheit kennzeichnen: Zusätzliche Datenfelder oder kontrollierte Vokabulare können Abstufungen wie unsicher, wahrscheinlich, sicher, falsch oder unbekannt abbilden.
 * Grad der Sicherheit angeben: Für einzelne Angaben kann das Vertrauen in die Information, beispielsweise hoch, niedrig oder unbekannt, dokumentiert werden.
 
+<br>
+
+> [!TIP]
+> Wie Unsicherheiten technisch umgesetzt werden können, hängt auch vom verwendeten Erschließungssystem ab. Im SODa Forum „Umgang mit Unsicherheiten in der Sammlungserschließung“ wurden verschiedene Ansätze und praktische Lösungen aus unterschiedlichen Systemen vorgestellt und diskutiert. Die folgenden Materialien bieten einen vertiefenden Einblick in die Veranstaltung und zeigen Beispiele für die Umsetzung in der Praxis:
+
+* Burger, S. (2025, April 16). Unsicherheiten und vage Informationen abbilden: Ein Ansatz aus CODA.  https://doi.org/10.5281/zenodo.15228188 
+
+* Nasarek, R. (2025, April 23). Unsichere Informationen in ungewissen Zeiten. SODa Forum: Unsicherheiten und Vagheiten in der Sammlungspraxis – Möglichkeiten, Herausforderungen und Lösungen in der digitalen Objekterschließung. Zenodo. https://doi.org/10.5281/zenodo.15269085 
+
+* Sohmen, L., & Rossenova, L. (2025, März 24). Wikibase services in NFDI4Culture: Uncertainty modeling. Zenodo. https://doi.org/10.5281/zenodo.15076223 
+
+
+
 
 ## 6. Kontrollierte Vokabulare
 
