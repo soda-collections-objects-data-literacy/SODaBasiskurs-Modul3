@@ -642,6 +642,10 @@ Z.B. Klassifikation eines Objekts in Bezug auf seine Funktion oder Granularität
 > **Interpretationen/Vermutungen** <br>
 > Wissensobjekte mit interpretatorischem Charakter sind vor allem typisch für geisteswissenschaftliche Forschungsdaten. Durch Recherche, Objektanalogien und andere Quellen lassen sich Interpretationen oder Vermutungen zu fehlendem Wissen anstellen. Die zusätzliche Abbildung der Informationen aus denen sich die Interpretation begründet, hilft, die Wahrscheinlichkeit einer Aussage einzuschätzen. 
 >In der Regel passiert das aber nur in klassischen wissenschaftlichen Publikationen in Textform. 
+<br>
+
+**Beispiele:**
+<br>
 
 <html>
 <head>
@@ -650,26 +654,44 @@ Z.B. Klassifikation eines Objekts in Bezug auf seine Funktion oder Granularität
 #Axtklinge {
   width: 350px;
   height: 200px;
+  margin-right: 100px;
   background-image: url(img/Axtklinge_MUT_CCBYSA.png);
-  background-position: 0 0; /* Top-left corner of the sprite */
+  background-position: left;
 }
 
 #Blasinstrument {
   width: 200px;
   height: 350px;
   background-image: url(img/Blasinstrument-Uni-Goettingen_CCBYSA.png);
-  background-position: -20px 20; /* 20px to the left of the sprite's top-right */
+  background-position: right;
 }
 </style>
 </head>
 <body>
 
-<img id="Axtklinge" src="img/Axtklinge_MUT_CCBYSA.png" width="350" height="200"class="Objekt mit ungefährer Datierung.*">
-<img id="Blasinstrument" src="img/Blasinstrument-Uni-Goettingen_CCBYSA.png" width="200" height="3050">
-*Bildinformationen: Links - Die Datierung der Axtklinge kann nur ungefähr angegeben werden und liegt zwischem dem 5. - 3. Jt. v. Chr., Objektnr.UFG-Os-3869, Sammlung der Jüngeren Urgeschichte, Museum der Universität Tübingen MUT, CC BY-SA 4.0.
-Rechts - Bei dem Tonobjekt ist die Zuweisung als Blasinstrument unsicher, da es nicht funktional ist. Es könnte sich auch um eine Scheinflöte handeln. Universität Göttingen, Inv. Nr. RAD_2219_03, Georg-August-Universität Göttingen, Zentrale Kustodie, Lena Hoppe, 2017, CC BY-SA 4.0 https://sammlungen.uni-goettingen.de/objekt/record_kuniweb_946206/.
+<img id="Axtklinge" src="img/Axtklinge_MUT_CCBYSA.png" width="350" height="200" class="Objekt mit ungefährer Datierung.*">
+<img id="Blasinstrument" src="img/Blasinstrument-Uni-Goettingen_CCBYSA.png" width="200" height="350">
+**Links** - Die Datierung der Axtklinge kann nur ungefähr angegeben werden und liegt zwischen dem 5. - 3. Jt. v. Chr. Objektnr.UFG-Os-3869, Sammlung der Jüngeren Urgeschichte, Museum der Universität Tübingen MUT, CC BY-SA 4.0. https://www.emuseum.uni-tuebingen.de/de/objects/28107/axtklinge?ctx=ef1d06238b2c2c999cb36f680d048389bce8902d&idx=87.
+
+<br>
+**Rechts** - Bei dem Tonobjekt ist die Zuweisung als Blasinstrument unsicher, da es nicht funktional ist. Es könnte sich auch um eine Scheinflöte handeln. Universität Göttingen, Inv. Nr. RAD_2219_03, Georg-August-Universität Göttingen, Zentrale Kustodie, Lena Hoppe, 2017, CC BY-SA 4.0 https://sammlungen.uni-goettingen.de/objekt/record_kuniweb_946206/.
 </body>
 </html>
+
+#### Lösungsansätze für den Umgang mit Unsicherheiten
+
+Unsicherheiten gehören zur Sammlungserschließung dazu. Häufig sind Informationen unvollständig, widersprüchlich oder nicht eindeutig belegt. Statt diese Unsicherheiten zu verbergen, sollten sie im Datenmodell dokumentiert und nachvollziehbar gemacht werden. Dafür gibt es verschiedene technische Möglichkeiten:
+
+
+* Quellen und Referenzen dokumentieren: Aussagen werden mit ihrer Herkunft verknüpft, sodass nachvollziehbar bleibt, worauf sie beruhen (z. B. Statements über Statements).
+* Kommentarfelder ergänzen: Freitextfelder bieten Platz für Erläuterungen, Hinweise oder Begründungen.
+* Mehrfachwerte zulassen: Unterschiedliche Interpretationen oder Perspektiven können parallel erfasst werden.
+* Versionshistorien speichern: Änderungen an einem Datensatz bleiben nachvollziehbar und frühere Bearbeitungsstände können eingesehen werden.
+* Ungenaue Werte parametrisieren: Zeiträume, Wertebereiche oder Intervalle bilden Unsicherheiten besser ab als scheinbar exakte Angaben.
+* Wahrscheinlichkeiten erfassen: Mehrere mögliche Werte können nach ihrer Wahrscheinlichkeit geordnet werden.
+* Unsicherheit kennzeichnen: Zusätzliche Datenfelder oder kontrollierte Vokabulare können Abstufungen wie unsicher, wahrscheinlich, sicher, falsch oder unbekannt abbilden.
+* Grad der Sicherheit angeben: Für einzelne Angaben kann das Vertrauen in die Information, beispielsweise hoch, niedrig oder unbekannt, dokumentiert werden.
+
 
 ## 6. Kontrollierte Vokabulare
 
