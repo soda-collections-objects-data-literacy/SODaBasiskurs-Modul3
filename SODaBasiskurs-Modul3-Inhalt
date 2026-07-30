@@ -36,8 +36,8 @@ Sammlungsdokumentation ist die Grundlage für viele kustodische und kuratorische
 >* partizipative Projekte (Wikidata, Data sprints, Hackathons)
 
 <div style="float:left;width:60%;margin: 0px 0px 30px 10px;">
-    <img src="img/Inventarbuch_c1930-1952_Museum_Senftenberg.jpg" alt="Inventarbuch des Museum SEnftenberg, Public Domain." style=""/>
-    <p style="text-align:center"> *Inventarbuch des Museum SEnftenberg, Public Domainn* </p>
+    <img src="img/Inventarbuch_c1930-1952_Museum_Senftenberg.jpg" alt="Inventarbuch des Museum Senftenberg, Public Domain." style=""/>
+    <p style="text-align:center"> *Inventarbuch des Museum Senftenberg via Wikimedia Commons, Public Domain* </p>
 </div>
 
 ### Sammlungsdaten sind Forschungsdaten!
@@ -255,6 +255,9 @@ Dafür sollte jedes digitale Objekt eine eindeutige Kennung besitzt. Diese Kennu
 Hier spielen Ontologien eine wichtige Rolle. Durch Ontologien werden Daten typisiert, also in feste Klassen eingeteilt. Maschinen können diese Strukturen lesen und verstehen. So entsteht ein gemeinsames Bedeutungsnetz, das Daten aus unterschiedlichen Systemen zusammenführt.
 
 Eine gute Datenmodellierung nutzt daher Standards und Ontologien, um ein vernetztes System von Daten und Diensten zu schaffen. Nur so bleiben Informationen langfristig auffindbar, austauschbar und wiederverwendbar.
+
+![Werner, Claus. (2020). Die Sammlung als Netz: Potenziale und Grenzen der Netzwerkanalyse einer Sammlungsdokumentation. 10.14361/9783839455715-018.](img
+/Abb-4-Verwendetes-Datenmodell_Werner_CCBY.jpg "Symbolbild Datenmodel. Quelle: Werner, Claus. (2020). Die Sammlung als Netz: Potenziale und Grenzen der Netzwerkanalyse einer Sammlungsdokumentation. 10.14361/9783839455715-018. Abb.4 CC By 4.0.") 
 
 ### Ontologien
 
