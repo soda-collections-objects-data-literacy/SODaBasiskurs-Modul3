@@ -398,7 +398,7 @@ Das CIDOC CRM umfasst rund 90 Klassen (wie physischer Gegenstand, Akteur, Ort, Z
 ### Aufgabe 2
 
 ![screenshot CIDOC periodic table](img/CIDOC-periodic-table.png)<!--
-style="width: 500px; position: absolute; left: 400px; bottom: 230px"
+style="width: 500px; position: absolute; right: 30px; bottom: 230px"
 -->
 
 Modelliere mithilfe der CIDOC Klassen und<br>
@@ -481,6 +481,7 @@ Metadaten zu Sammlungsobjekten können sich z. B. auf das Digitalisat  des Objek
 
 >**Deskriptive Metadaten**
 * beziehen sich auf den Inhalt der Ressource und helfen diese zu identifizieren (Objektbeschreibung z. B. Material, Größe, Urheber, Herstellungsort)
+<br>
 
 >**Technische Metadaten**
 * Informationen zu Form und Struktur digitaler Objekte (z. B. Dateiformat eines Bildes, Dateigröße Zeichencodierung eines Textes)
