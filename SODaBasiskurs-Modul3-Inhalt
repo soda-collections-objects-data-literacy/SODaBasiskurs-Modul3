@@ -715,11 +715,15 @@ Bei der Erschließung von Sammlungsobjekten werden Informationen in Form von Beg
 Die natürliche Sprache ist vielfältig und lebt von Kontext, Vorwissen und unterschiedlichen Ausdrucksweisen. Menschen können diese Unterschiede meist problemlos verstehen. Computersystemen fehlt dieses Hintergrundwissen jedoch. Sie erkennen unterschiedliche Begriffe nicht automatisch als gleichbedeutend und können mehrdeutige Begriffe nicht ohne weiteres richtig interpretieren.
 Typische Herausforderungen der natürlichen Sprache sind:
 
-**Synonyme**: Verschiedene Begriffe bezeichnen dieselbe Sache, z. B. Auto, Wagen oder PKW.
+>**Synonyme**: Verschiedene Begriffe bezeichnen dieselbe Sache, z. B. Auto, Wagen oder PKW.
+>
+>**Regionale Varianten und Dialekte**: Je nach Region werden unterschiedliche Begriffe verwendet, z. B. Brötchen, Schrippe oder Semmel.
+>
+>**Mehrdeutigkeit (Ambiguität)**: Ein Begriff kann verschiedene Bedeutungen haben, z. B. Schloss als Gebäude oder als Schließmechanismus.
+<br>
 
-**Regionale Varianten und Dialekte**: Je nach Region werden unterschiedliche Begriffe verwendet, z. B. Brötchen, Schrippe oder Semmel.
+Kontrollierte Vokabulare begegnen diesen Problemen, indem sie für einen Sachverhalt eindeutige und standardisierte Begriffe vorgeben. Dadurch werden Daten konsistenter erfasst und können von Menschen und Maschinen gleichermaßen eindeutig interpretiert werden. Dabie steht jeder Begriff für ein Konzept. Ein Konzept kann durch einen oder mehrere Begriffe (Terme) bezeichnet werden und hat eine genaue Definition.
 
-**Mehrdeutigkeit (Ambiguität)**: Ein Begriff kann verschiedene Bedeutungen haben, z. B. Schloss als Gebäude oder als Schließmechanismus.
 
 ### Typen von kontrollierten Vokabularen
 
