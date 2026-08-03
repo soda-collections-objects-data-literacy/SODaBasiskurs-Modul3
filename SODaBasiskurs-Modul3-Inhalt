@@ -187,19 +187,22 @@ Wähle die korrekte Eingabe aus. Achte auf Einheitlichkeit und eine [ISO-konform
 
 <br><br>
 
+<details>
+<summary>Häufige Fehlerkategorien bei der Sammlungserschließung:</summary>
+>+ Fehlende Werte 
+>+ Tippfehler 
+>+ Inkonsistenzen (z. B. bei Inventarnummer/Datum)
+>+ Dubletten 
+>+ Widersprüche 
+>+ Fehlende Standardisierung (Datum/Maße)
+>+ Excel-Automatiken (falscher Datentyp eingestellt)
+>+ Keine Angabe von kontrolliertem Vokabular
+</details>
 
-Häufige Fehlerkategorien bei der Sammlungserschließung:
 
-+ Fehlende Werte 
-+ Tippfehler 
-+ Inkonsistenzen (z. B. bei Inventarnummer/Datum)
-+ Dubletten 
-+ Widersprüche 
-+ Fehlende Standardisierung (Datum/Maße)
-+ Excel-Automatiken (falscher Datentyp eingestellt)
-+ Keine Angabe von kontrolliertem Vokabular
 
---> Siehe auch: Rebekka Reichert. (2026, Februar 16). SODa Basiskurs zu Erschließung und Forschungsdatenmanagement in Universitätssammlungen. Modul 2: Mit sammlungsbezogenen Daten arbeiten. https://doi.org/10.5281/zenodo.18656610  
+
+Siehe auch: Reichert, R. (2026). SODa Basiskurs zu Erschließung und Forschungsdatenmanagement in Universitätssammlungen. Modul 2: Mit sammlungsbezogenen Daten arbeiten. https://doi.org/10.5281/zenodo.18656610
 
 
 ### Die Rolle der Datenstandards
@@ -306,9 +309,9 @@ Es gibt drei verschiedene Arten von Schemata: ein konzeptionelles Datenbankschem
 +-------------------+   +-------------------+   +------------------+ 
 ``` 
 
-### CIDOC CRM
+### CIDOC-CRM
 <br>
-![Logo CIDOC CRM](img/CIDOC_CRM_Logo.png)
+![Logo CIDOC-CRM](img/CIDOC_CRM_Logo.png)
 
 * CIDOC (Comité international pour la documentation) CRM (Conceptual Reference Model): https://cidoc-crm.org 
 * (Domänen)Ontologie für Begriffe und Informationen des Kulturerbes
@@ -325,7 +328,7 @@ Es gibt drei verschiedene Arten von Schemata: ein konzeptionelles Datenbankschem
 
 **Beispiel einer Modellierung mit Objektinformationen einer Ushebti:**
 
-Klassen und Eigenschaften des CIDOC CRM werden durch ihre Initialen identifiziert wie z. B. „E55“ oder „P12“. Die Namen der Klassen und Eigenschaften einer CRM-kompatiblen Form dürfen in jede menschliche Sprache übersetzt werden, aber die identifizierenden Initialen müssen erhalten werden.
+Klassen und Eigenschaften des CIDOC-CRM werden durch ihre Initialen identifiziert wie z. B. „E55“ oder „P12“. Die Namen der Klassen und Eigenschaften einer CRM-kompatiblen Form dürfen in jede menschliche Sprache übersetzt werden, aber die identifizierenden Initialen müssen erhalten werden.
 
 <html>
 <head>
@@ -359,14 +362,14 @@ Klassen und Eigenschaften des CIDOC CRM werden durch ihre Initialen identifizier
 ### Modellierungsbeispiele
 
 
-Das CIDOC CRM umfasst rund 90 Klassen (wie physischer Gegenstand, Akteur, Ort, Zeitspanne) und etwa 150 klar definierte Relationen (z. B. hat Name, fand statt in, besteht aus). Sie wird kontinuierlich weiterentwickelt. Durch die Kombination von Klasse–Relation–Klasse entstehen Aussagen, die sowohl für Menschen als auch für Maschinen verständlich sind. Werden alle Aussagen eines Themenbereichs miteinander verknüpft, entsteht ein graphbasiertes Wissensmodell. 
+Das CIDOC-CRM umfasst rund 90 Klassen (wie physischer Gegenstand, Akteur, Ort, Zeitspanne) und etwa 150 klar definierte Relationen (z. B. hat Name, fand statt in, besteht aus). Sie wird kontinuierlich weiterentwickelt. Durch die Kombination von Klasse–Relation–Klasse entstehen Aussagen, die sowohl für Menschen als auch für Maschinen verständlich sind. Werden alle Aussagen eines Themenbereichs miteinander verknüpft, entsteht ein graphbasiertes Wissensmodell. 
 <br>
-> [Liste der Klassen und Eigenschaften](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html)
+> [CIDOC-CRM: Liste der Klassen und Eigenschaften](https://cidoc-crm.org/html/cidoc_crm_v7.1.3.html)
 
 
 <div style="float:right;width:100%;margin: 10px 10px 30px 10px;">
     <img src="img/CIDOC-Encoding-Example-ccby.png" alt="Grafik CIDOC Modellierung am Beispiel der Laokoon-Gruppe" style=""/>
-    <p style="text-align:center"> *Modellierung am Beispiel der Laokoon-Gruppe, CC BY 4.0 2022 Individual Contributors to CIDOC CRM 7.1.3* </p>
+    <p style="text-align:center"> *Modellierung am Beispiel der Laokoon-Gruppe, CC BY 4.0 2022 Individual Contributors to CIDOC-CRM 7.1.3* </p>
 </div>
 
 <br><br>
@@ -382,7 +385,7 @@ Das CIDOC CRM umfasst rund 90 Klassen (wie physischer Gegenstand, Akteur, Ort, Z
 
 <br>
 
-**Modellierung der Inschrift einer Münze:**
+**Modellierung der Münzinschrift:**
 
 >| Klasse: Objekt "Münze"  |  Relation      | Klasse: Inschrift           |
 >|:-----------------------:|:--------------:|:---------------------------:|
@@ -401,7 +404,7 @@ Das CIDOC CRM umfasst rund 90 Klassen (wie physischer Gegenstand, Akteur, Ort, Z
 style="width: 500px; position: absolute; right: 30px; bottom: 230px"
 -->
 
-Modelliere mithilfe der CIDOC Klassen und<br>
+Modelliere mithilfe der CIDOC-Klassen und<br>
 Properties unten stehenden Objektinformationen.<br>
 **Fülle die Lücken nur mit den Initialen der gesuchten** <br>
 **Klassen und Relationen (z. B. E24, P76, etc.).**
