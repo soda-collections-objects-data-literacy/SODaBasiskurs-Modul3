@@ -735,7 +735,7 @@ Kontrollierte Vokabulare begegnen diesen Problemen, indem sie für einen Sachver
 #Screenshot lobid-GND Schloss {
   width: 350px;
   height: 200px;
-  margin-right: 100px;
+  margin-right: 200px;
   background-image: url(img/Screenshot-lobid-gnd_Schloss.png);
   background-position: left;
 }
@@ -753,7 +753,7 @@ Kontrollierte Vokabulare begegnen diesen Problemen, indem sie für einen Sachver
 
 <img id="Screenshot lobid-GND Schloss" src="img/Screenshot-lobid-gnd_Schloss.png" width="300" height="150" class="Screenshot lobid-gnd.*">
 <img id="Screenshot lobid-GND Schlossvorrichtung" src="img/Screenshot-lobid-gnd_Schlossvorrichtung.png" width="550" height="400">
-Kontrollierte Vokabulare wie die GND lösen Mehrdeutigkeiten auf, indem sie für Schloss (Bauwerk) und Schloss (Vorrichtung) getrennte Entitäten mit eindeutigen Identifikatoren bereitstellen. Dadurch werden Daten konsistent erfasst und maschinenlesbar interpretiert. Screenshot aus lobid-gnd.
+Kontrollierte Vokabulare wie die GND lösen Mehrdeutigkeiten auf, indem sie z. B. für Schloss (Bauwerk) und Schloss (Vorrichtung) getrennte Entitäten mit eindeutigen Identifikatoren bereitstellen. Dadurch werden Daten konsistent erfasst und maschinenlesbar interpretiert. Screenshot aus lobid-gnd.
 </body>
 </html>
 
