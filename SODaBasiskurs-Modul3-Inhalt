@@ -726,7 +726,36 @@ Typische Herausforderungen der natürlichen Sprache sind:
 <br>
 
 Kontrollierte Vokabulare begegnen diesen Problemen, indem sie für einen Sachverhalt eindeutige und standardisierte Begriffe vorgeben. Dadurch werden Daten konsistenter erfasst und können von Menschen und Maschinen gleichermaßen eindeutig interpretiert werden. Dabie steht jeder Begriff für ein Konzept. Ein Konzept kann durch einen oder mehrere Begriffe (Terme) bezeichnet werden und hat eine genaue Definition.
+<br><br>
 
+<html>
+<head>
+<style>
+
+#Screenshot lobid-GND Schloss {
+  width: 350px;
+  height: 200px;
+  margin-right: 100px;
+  background-image: url(img/Screenshot-lobid-gnd_Schloss.png);
+  background-position: left;
+}
+
+#Screenshot lobid-GND Schlossvorrichtung {
+  width: 350px;
+  height: 200px;
+  background-image: url(img/Screenshot-lobid-gnd_Schlossvorrichtung.png);
+  background-position: right;
+}
+</style>
+</head>
+
+<body>
+
+<img id="Screenshot lobid-GND Schloss" src="img/Screenshot-lobid-gnd_Schloss.png" width="300" height="150" class="Screenshot lobid-gnd.*">
+<img id="Screenshot lobid-GND Schlossvorrichtung" src="img/Screenshot-lobid-gnd_Schlossvorrichtung.png" width="550" height="400">
+Kontrollierte Vokabulare wie die GND lösen Mehrdeutigkeiten auf, indem sie für Schloss (Bauwerk) und Schloss (Vorrichtung) getrennte Entitäten mit eindeutigen Identifikatoren bereitstellen. Dadurch werden Daten konsistent erfasst und maschinenlesbar interpretiert. Screenshot aus lobid-gnd.
+</body>
+</html>
 
 ### Typen von kontrollierten Vokabularen
 
