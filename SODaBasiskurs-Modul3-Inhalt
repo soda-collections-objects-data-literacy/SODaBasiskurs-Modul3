@@ -713,9 +713,16 @@ Unsicherheiten gehören zur Sammlungserschließung dazu. Häufig sind Informatio
 
 Bei der Erschließung von Sammlungsobjekten werden Informationen in Form von Begriffen erfasst – zum Beispiel zu Materialien, Techniken, Objekttypen, Orten oder Personen. Damit diese Daten einheitlich beschrieben und später zuverlässig gefunden, verknüpft und ausgewertet werden können, sollten möglichst standardisierte Begriffe verwendet werden. Diese werden in kontrollierten Vokabularen festgelegt. Sie bilden eine wichtige Grundlage für eine konsistente Datenmodellierung und unterstützen die Interoperabilität und Nachnutzung von Sammlungsdaten.
 
-<div style="float:right;width:40%;margin: 0px 0px 30px 10px;">
+<br>
+
+<div style="float:right;width:18%;margin: 40px 0px 40‚px 10px;">
     <img src="img/Lupe-Wikimedia-orange_PD.png" alt=""/>
-    <p style="text-align:center"> *Lupen-icon, Public Domain* </p>
+    <p style="text-align:center"></p>
+</div>
+
+<div style="float:right;width:18%;margin: 150px 0px 40‚px 10px;">
+    <img src="img/bitconnect-orange.png" alt=""/>
+    <p style="text-align:center"></p>
 </div>
 
 **Kontrollierte Vokabulare sind die Voraussetzung** 
