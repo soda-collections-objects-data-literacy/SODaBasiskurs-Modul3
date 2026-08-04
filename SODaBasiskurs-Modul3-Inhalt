@@ -792,7 +792,7 @@ Kontrollierte Vokabulare wie die GND lösen Mehrdeutigkeiten auf, indem sie z. B
 </body>
 </html>
 
-### Begriffsdefinitionen
+### Vokabular-Typen
 
 Kontrollierte Vokabulare gibt es in unterschiedlichen Formen und für verschiedene Anwendungsbereiche. Je nach Zweck dienen sie dazu, Entitäten eindeutig zu identifizieren, Orte zu beschreiben oder Begriffe systematisch zu ordnen und miteinander in Beziehung zu setzen. Die wichtigsten Arten kontrollierter Vokabulare werden im Folgenden vorgestellt.
 
@@ -872,6 +872,9 @@ Für viele Angaben in der Sammlungserschließung existieren etablierte kontrolli
 
 Es ist in der Regel nicht erforderlich, alle aufgeführten Vokabulare gleichzeitig zu verwenden. Entscheidend ist, für einen Anwendungsfall geeignete und möglichst weit verbreitete Standards auszuwählen und diese innerhalb einer Sammlung konsequent einzusetzen.
 
+> [!TIP]
+> Vertiefende Publikation, die Vokabulare auf FAIR-Krierien hin überprüft: Frech, A., Gerber, A., Gnyp, A., Götsch, S., von Hagel, F., Kailus, A., Rebekka Reichert, Schäfer, D.& Schlösser, M. (2025). FAIRe Vokabulare und Normdaten für Museen und Sammlungen. Zenodo. NFDI4Objects Community Meeting 2025 (CM2025), Bochum. https://doi.org/10.5281/zenodo.17227417
+
 #### Geografika
 
 + Gemeinsame Normdatei (GND), Geografika (außer Bauwerke und Denkmäler)
@@ -882,8 +885,10 @@ Es ist in der Regel nicht erforderlich, alle aufgeführten Vokabulare gleichzeit
 + CERL Thesaurus (Bereich der frühen Neuzeit, insbesondere des Druckwesens)
 + MARC Code List for Countries
 
-#### Personen
+#### Personen sowie Rollen & Beziehungen
+<br>
 
+**Personen**
 + Gemeinsame Normdatei (GND), Personen
 + GND-Explorer der Deutschen Nationalbibliothek
 + Lobid-GND des Hochschulbibliothekszentrums des Landes Nordrhein-Westfalen
@@ -892,10 +897,16 @@ Es ist in der Regel nicht erforderlich, alle aufgeführten Vokabulare gleichzeit
 + Wikidata
 + Getty Union List of Artist Names (ULAN)
 
+<br>
+**Rollen, Beziehungen**
++ Rollen von Akteuren: Art & Architecture Thesaurus, Agents Facet
+ 
+ 
+
 #### Werke, materielle Kulturerbe-Objekte, Numismatik
 <br>
 
-<div style="float:center;width:15%;margin: 0px 0px 0px 0px;">
+<div style="float:right;width:15%;margin: 0px 350px 0px 0px;">
     <img src="img/art-gallery-frame.png" alt=""/>
     <p style="text-align:center"></p>
 </div>
@@ -913,7 +924,7 @@ Es ist in der Regel nicht erforderlich, alle aufgeführten Vokabulare gleichzeit
 
 #### Bauwerke, Monumente
 <br>
-<div style="float:center;width:15%;margin: 0px 0px 0px 0px;">
+<div style="float:right;width:15%;margin: 0px 350px 0px 0px;">
     <img src="img/museum-frame.png" alt=""/>
     <p style="text-align:center"></p>
 </div>
@@ -970,6 +981,10 @@ Archäologie, Kunstgeschichte
 + GBIF
 + Catalogue of Life
 
+### Technische Eigenschaften kontrollierter Vokabulare
+
+#### Persistente Identifikatoren
+#### Exkurs zu URIs
 
 ## 7.  Datenaustausch und Linked Open Data
 
