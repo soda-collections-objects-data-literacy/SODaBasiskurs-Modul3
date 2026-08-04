@@ -833,6 +833,8 @@ Kontrollierte Vokabulare gibt es in unterschiedlichen Formen und für verschiede
 >Ein Thesaurus ist eine geordnete Zusammenstellung von Begriffen eines Fachgebietes. >Im Grunde sind Thesauri kontrollierte Vokabulare, die Synonyme, Ober- und >Unterbegriffe für einen Begriff enthalten. Ein Thesaurus ordnet Begriffe nicht nur >hierarchisch sondern auch nach Äquivalenz- und Assoziations-Relationen.
 </details>
 
+<br><br>
+
 <html>
 <head>
 <style>
@@ -855,17 +857,118 @@ Kontrollierte Vokabulare gibt es in unterschiedlichen Formen und für verschiede
 </head>
 
 <body>
-<img id="Screenshot lobid-GND Schloss" src="img/Screenshot_Patentklassifikation.png" width="300" height="150" class="Screenshot lobid-gnd.*">
-<img id="Screenshot AAT" src="img/Screenshot-AAT.png" width="510" height="370">
-Links: Beispiel für eine KLassifikation ist die [Internationes Patentklassification](Internationale Patentklassifikation
-https://ipcpub.wipo.int/?notion=scheme&version=20250101&symbol=none&menulang=en&lang=en&viewmode=f&fipcpc=no&showdeleted=yes&indexes=no&headings=yes&notes=yes&direction=o2n&initial=A&cwid=none&tree=no&searchmode=smart)
+<img id="Screenshot lobid-GND Schloss" src="img/Screenshot_Patentklassifikation.png" width="400" height="200" class="Screenshot lobid-gnd.*">
+<img id="Screenshot AAT" src="img/Screenshot-AAT.png" width="405" height="300">
+<br>
+Links: Beispiel für eine Klassifikation ist die [Internationale Patentklassifikation](https://ipcpub.wipo.int/?notion=scheme&version=20250101&symbol=none&menulang=en&lang=en&viewmode=f&fipcpc=no&showdeleted=yes&indexes=no&headings=yes&notes=yes&direction=o2n&initial=A&cwid=none&tree=no&searchmode=smart).<br>
+Rechts: Screenshot aus dem Getty Arts and Architecture Thesaurus.
 </body>
 </html>
 
 
-### Typen kontrollierter Vokabulare
+### Relevante Vokabulare für die Sammlungserschließung
+
+Für viele Angaben in der Sammlungserschließung existieren etablierte kontrollierte Vokabulare und Normdaten. Ihre Verwendung erhöht die Qualität und Interoperabilität von Sammlungsdaten und erleichtert deren Austausch mit anderen Informationssystemen. Welches Vokabular geeignet ist, hängt von der Art der Information ab – beispielsweise ob Personen, Orte, Werke oder Sachbegriffe beschrieben werden. Die folgende Übersicht nennt bewährte und häufig verwendete Vokabulare für verschiedene Datenfelder und Fachbereiche. Sie dient als Orientierungshilfe für die Auswahl geeigneter Standards.
+
+Es ist in der Regel nicht erforderlich, alle aufgeführten Vokabulare gleichzeitig zu verwenden. Entscheidend ist, für einen Anwendungsfall geeignete und möglichst weit verbreitete Standards auszuwählen und diese innerhalb einer Sammlung konsequent einzusetzen.
+
+#### Geografika
+
++ Gemeinsame Normdatei (GND), Geografika (außer Bauwerke und Denkmäler)
++ Wikidata
++ GeoNames
++ Thesaurus of Geographic Names (TGN)
++ Pleiades, antike Orte vornehmlich aus griech.-röm. Raum
++ CERL Thesaurus (Bereich der frühen Neuzeit, insbesondere des Druckwesens)
++ MARC Code List for Countries
+
+#### Personen
+
++ Gemeinsame Normdatei (GND), Personen
++ GND-Explorer der Deutschen Nationalbibliothek
++ Lobid-GND des Hochschulbibliothekszentrums des Landes Nordrhein-Westfalen
++ Online-GND des Bibliotheksservice-Zentrums Baden-Württemberg
++ Virtual International Authority File (VIAF)
++ Wikidata
++ Getty Union List of Artist Names (ULAN)
+
+#### Werke, materielle Kulturerbe-Objekte, Numismatik
+<br>
+
+<div style="float:center;width:15%;margin: 0px 0px 0px 0px;">
+    <img src="img/art-gallery-frame.png" alt=""/>
+    <p style="text-align:center"></p>
+</div>
+**Werke, materielle Kulturerbe-Objekte**
+
++ Gemeinsame Normdatei (GND), Werke
++ Virtual International Authority File (VIAF)
++ Wikidata
++ Cultural Objects Name Authority (CONA)
+ 
+<br>
+**Numismatik**
++ Nomisma
 
 
+#### Bauwerke, Monumente
+<br>
+<div style="float:center;width:15%;margin: 0px 0px 0px 0px;">
+    <img src="img/museum-frame.png" alt=""/>
+    <p style="text-align:center"></p>
+</div>
++ Gemeinsame Normdatei (GND), Geografika - Bauwerke und Denkmäler
++ Virtual International Authority File (VIAF)
++ Wikidata
++ GeoNames
++ Cultural Objects Name Authority (CONA)
+
+
+#### Kunstgeschichtliche Darstellungsinhalte & Themen; Sachschlagworte; 
+<br>
+**Kunstgeschichte Darstellungsinhalte & Themen**
++ Iconclass
+
+<div style="float:right;width:12%;margin: 0px 300px 0px 100px;">
+    <img src="img/clothing-frame.png" alt=""/>
+    <p style="text-align:center"></p>
+</div>
+**Sachschlagworte**
++ Gemeinsame Normdatei (GND), Schlagworte sensu stricto, Schlagworte - Sprachen,
++ Wikidata
++ Art & Architecture Thesaurus (AAT)
+
+<div style="float:right;width:12%;margin: 0px 300px 0px 10px;">
+    <img src="img/theatre-frame.png" alt=""/>
+    <p style="text-align:center"></p>
+</div>
+Fachbegriffe der LVR-Kulturdienststellen zu Kulturanthropologie, Kulturgeschichte, 
+Archäologie, Kunstgeschichte
++ Sachthesaurus Wortnetz Kultur
+
+#### Rollen, Beziehungen
+
+#### Musik
+<br>
+
+<div style="float:right;width:12%;margin: 0px 350px 0px 0px;">
+    <img src="img/music-frame.png" alt=""/>
+    <p style="text-align:center"></p>
+</div>
++ Musical Instrument Museums Online (MIMO) Thesaurus
++ Hornbostel-Sachs Systematik
++ MARC Instruments and Voices List
+
+#### Naturkunde
+<br>
+
+<div style="float:right;width:12%;margin: 0px 500px 0px 0px;">
+    <img src="img/garden-frame.png" alt=""/>
+    <p style="text-align:center"></p>
+</div>
+
++ GBIF
++ Catalogue of Life
 
 
 ## 7.  Datenaustausch und Linked Open Data
