@@ -734,7 +734,7 @@ Bei der Erschließung von Sammlungsobjekten werden Informationen in Form von Beg
   - sichern die fachliche Qualität von Datenbankabfragen.
   - unterstützen effiziente Suche und Auffindbarkeit von Informationen in Kulturportalen wie der Deutschen Digitalen Bibliothek oder der Europeana: wenn sich daten auf externe Vokabulare beziehen, können sie besser integriert werden und die Recherche im Portal wird auf Basis der Vokabular-IDs institutionsübergreifend wirksam.
 
-  <div style="float:right;width:18%;margin: 10px 0px 0px 0px;">
+  <div style="float:right;width:18%;margin: 0px 0px 0px 0px;">
     <img src="img/bitconnect-orange.png" alt=""/>
     <p style="text-align:center"></p>
 </div>
@@ -743,6 +743,9 @@ Bei der Erschließung von Sammlungsobjekten werden Informationen in Form von Beg
 
   - fördern die Integration von Daten aus verschiedenen Kultursparten auf vorhandene Systeme.
   - ermöglichen die semantische Interoperabilität.
+
+*Quelle: Schmidt, A. (2020). Museum Studies - Modul Sammeln - Online Sammlungen - Lerneinheit Datenstandards und technische Voraussetzungen.*<!-- style="font-size: 10px;" --> *** http://hdl.handle.net/10900.3/OER_BQLEQRMT ***<!-- style="font-size: 10px;" -->
+*, CC BY-SA 4.0*<!-- style="font-size: 10px;" -->
 
 
 ### Relevanz kontrollierter Vokabulare
@@ -789,7 +792,81 @@ Kontrollierte Vokabulare wie die GND lösen Mehrdeutigkeiten auf, indem sie z. B
 </body>
 </html>
 
-### Typen von kontrollierten Vokabularen
+### Begriffsdefinitionen
+
+Kontrollierte Vokabulare gibt es in unterschiedlichen Formen und für verschiedene Anwendungsbereiche. Je nach Zweck dienen sie dazu, Entitäten eindeutig zu identifizieren, Orte zu beschreiben oder Begriffe systematisch zu ordnen und miteinander in Beziehung zu setzen. Die wichtigsten Arten kontrollierter Vokabulare werden im Folgenden vorgestellt.
+
+<details>
+<summary>Kontrollierte Vokabulare</summary>
+>Ein Vokabular ist eine Sammlung an Begriffen einer Sprache oder eines Bereiches der >Sprache (z. B. Fachvokabular).Als kontrollierte Vokabulare bezeichnet man >Sammlungen von Wörtern, die nach festgelegten Regeln bearbeitet wurden, um die >Mehrdeutigkeiten der natürlichen Sprache zu reduzieren (Disambiguierung) und >terminologische Kontrolle herzustellen.
+</details>
+
+<details>
+<summary>**Normdaten (normierte Datensätze)**</summary>
+>Sind eine besondere Ausprägung von kontrolliertem Vokabular. Im Kern sind Normdaten >Individualbegriffe, die es ermöglichen, Entitäten wie Personen, Körperschaften, >Orte, Werke, Objekte und Ereignisse eindeutig und standardisiert zu beschreiben.>Jede Entität enthält eine ID, durch die ein automatisierter Austausch von Daten >unterschiedlicher Herkunft möglich ist.
+>
+>+ Sie bilden den jeweiligen semantischen Kontext ab 
+>+ enthalten sowohl eine standardisierte als auch alternative Schreibweisen
+</details>
+
+<details>
+<summary>**Gazetteer**</summary>
+>Ein Gazetteer ist eine strukturierte Menge von geographischen Objekte (Geoobjekten). Geoobjekte können genutzt werden um Raumbezüge zu spezifizieren:
+>Geoobjekte können die folgenden Eigenschaften besitzen:
+>+ Name (z. B. „Mainau“)
+>+ Geometrie (z. B. Koordinaten eines Polygons)
+>+ einen Objekttyp (z. B. „Insel“)
+>+ Eindeutige Objekt-ID 
+>+ Hierarchie (z. B. Verwaltungshierarchie)
+>+ Synonymnamen, fremdsprachliche Namen
+</details>
+
+<details>
+<summary>Klassifikation (Begriffssystem)</summary>
+>Eine Klassifikation, Typifikation oder Systematik ist eine hierarchisch angeordnete >Sammlung von abstrakten Klassen (auch Konzepten, Typen oder Kategorien), die zur >Abgrenzung und Ordnung verwendet werden, um Entitäten einzuordnen.
+>Formen von Klassifikationen: Taxonomie
+>und Typologie.
+</details>
+
+<details>
+<summary>**Thesaurus (Begriffssystem)**</summary>
+>Ein Thesaurus ist eine geordnete Zusammenstellung von Begriffen eines Fachgebietes. >Im Grunde sind Thesauri kontrollierte Vokabulare, die Synonyme, Ober- und >Unterbegriffe für einen Begriff enthalten. Ein Thesaurus ordnet Begriffe nicht nur >hierarchisch sondern auch nach Äquivalenz- und Assoziations-Relationen.
+</details>
+
+<html>
+<head>
+<style>
+
+#Screenshot Patentklassifikation {
+  width: 350px;
+  height: 200px;
+  margin-right: 200px;
+  background-image: url(img/Screenshot_Patentklassifikation.png);
+  background-position: left;
+}
+
+#Screenshot lobid-GND Schlossvorrichtung {
+  width: 350px;
+  height: 200px;
+  background-image: url(img/Screenshot-AAT.png);
+  background-position: right;
+}
+</style>
+</head>
+
+<body>
+<img id="Screenshot lobid-GND Schloss" src="img/Screenshot_Patentklassifikation.png" width="300" height="150" class="Screenshot lobid-gnd.*">
+<img id="Screenshot AAT" src="img/Screenshot-AAT.png" width="510" height="370">
+Links: Beispiel für eine KLassifikation ist die [Internationes Patentklassification](Internationale Patentklassifikation
+https://ipcpub.wipo.int/?notion=scheme&version=20250101&symbol=none&menulang=en&lang=en&viewmode=f&fipcpc=no&showdeleted=yes&indexes=no&headings=yes&notes=yes&direction=o2n&initial=A&cwid=none&tree=no&searchmode=smart)
+</body>
+</html>
+
+
+### Typen kontrollierter Vokabulare
+
+
+
 
 ## 7.  Datenaustausch und Linked Open Data
 
