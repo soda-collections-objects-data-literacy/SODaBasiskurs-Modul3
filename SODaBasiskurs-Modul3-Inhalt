@@ -713,6 +713,29 @@ Unsicherheiten gehören zur Sammlungserschließung dazu. Häufig sind Informatio
 
 Bei der Erschließung von Sammlungsobjekten werden Informationen in Form von Begriffen erfasst – zum Beispiel zu Materialien, Techniken, Objekttypen, Orten oder Personen. Damit diese Daten einheitlich beschrieben und später zuverlässig gefunden, verknüpft und ausgewertet werden können, sollten möglichst standardisierte Begriffe verwendet werden. Diese werden in kontrollierten Vokabularen festgelegt. Sie bilden eine wichtige Grundlage für eine konsistente Datenmodellierung und unterstützen die Interoperabilität und Nachnutzung von Sammlungsdaten.
 
+<div style="float:right;width:40%;margin: 0px 0px 30px 10px;">
+    <img src="img/Lupe-Wikimedia-orange_PD.png" alt=""/>
+    <p style="text-align:center"> *Lupen-icon, Public Domain* </p>
+</div>
+
+**Kontrollierte Vokabulare sind die Voraussetzung** 
+* für die Erschließung von Sammlungsobjekten 
+
+  - gewährleisten eine konsistente Erschließung der Sammlungsobjekte.
+  - dienen der Vereinheitlichung von Daten.
+  - verringern Redundanzen bei der Datenerfassung. 
+
+* für Online-Portale
+
+  - sichern die fachliche Qualität von Datenbankabfragen.
+  - unterstützen effiziente Suche und Auffindbarkeit von Informationen in Kulturportalen wie der Deutschen Digitalen Bibliothek oder der Europeana: wenn sich daten auf externe Vokabulare beziehen, können sie besser integriert werden und die Recherche im Portal wird auf Basis der Vokabular-IDs institutionsübergreifend wirksam.
+
+* für Datenvernetzung „Linked (Open) Data-Strategien“
+
+  - fördern die Integration von Daten aus verschiedenen Kultursparten auf vorhandene Systeme.
+  - ermöglichen die semantische Interoperabilität.
+
+
 ### Relevanz kontrollierter Vokabulare
 
 Die natürliche Sprache ist vielfältig und lebt von Kontext, Vorwissen und unterschiedlichen Ausdrucksweisen. Menschen können diese Unterschiede meist problemlos verstehen. Computersystemen fehlt dieses Hintergrundwissen jedoch. Sie erkennen unterschiedliche Begriffe nicht automatisch als gleichbedeutend und können mehrdeutige Begriffe nicht ohne weiteres richtig interpretieren.
@@ -752,7 +775,7 @@ Kontrollierte Vokabulare begegnen diesen Problemen, indem sie für einen Sachver
 <body>
 
 <img id="Screenshot lobid-GND Schloss" src="img/Screenshot-lobid-gnd_Schloss.png" width="300" height="150" class="Screenshot lobid-gnd.*">
-<img id="Screenshot lobid-GND Schlossvorrichtung" src="img/Screenshot-lobid-gnd_Schlossvorrichtung.png" width="550" height="400">
+<img id="Screenshot lobid-GND Schlossvorrichtung" src="img/Screenshot-lobid-gnd_Schlossvorrichtung.png" width="510" height="370">
 Kontrollierte Vokabulare wie die GND lösen Mehrdeutigkeiten auf, indem sie z. B. für Schloss (Bauwerk) und Schloss (Vorrichtung) getrennte Entitäten mit eindeutigen Identifikatoren bereitstellen. Dadurch werden Daten konsistent erfasst und maschinenlesbar interpretiert. Screenshot aus lobid-gnd.
 </body>
 </html>
