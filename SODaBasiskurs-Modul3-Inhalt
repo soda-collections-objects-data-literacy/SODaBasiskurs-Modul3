@@ -715,15 +715,12 @@ Bei der Erschließung von Sammlungsobjekten werden Informationen in Form von Beg
 
 <br>
 
-<div style="float:right;width:18%;margin: 40px 0px 40‚px 10px;">
+<div style="float:right;width:18%;margin: 40px 0px 30px 10px;">
     <img src="img/Lupe-Wikimedia-orange_PD.png" alt=""/>
     <p style="text-align:center"></p>
 </div>
 
-<div style="float:right;width:18%;margin: 150px 0px 40‚px 10px;">
-    <img src="img/bitconnect-orange.png" alt=""/>
-    <p style="text-align:center"></p>
-</div>
+
 
 **Kontrollierte Vokabulare sind die Voraussetzung** 
 * für die Erschließung von Sammlungsobjekten 
@@ -736,6 +733,11 @@ Bei der Erschließung von Sammlungsobjekten werden Informationen in Form von Beg
 
   - sichern die fachliche Qualität von Datenbankabfragen.
   - unterstützen effiziente Suche und Auffindbarkeit von Informationen in Kulturportalen wie der Deutschen Digitalen Bibliothek oder der Europeana: wenn sich daten auf externe Vokabulare beziehen, können sie besser integriert werden und die Recherche im Portal wird auf Basis der Vokabular-IDs institutionsübergreifend wirksam.
+
+  <div style="float:right;width:18%;margin: 10px 0px 0px 0px;">
+    <img src="img/bitconnect-orange.png" alt=""/>
+    <p style="text-align:center"></p>
+</div>
 
 * für Datenvernetzung „Linked (Open) Data-Strategien“
 
