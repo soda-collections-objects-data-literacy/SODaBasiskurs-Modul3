@@ -957,7 +957,6 @@ Fachbegriffe der LVR-Kulturdienststellen zu Kulturanthropologie, Kulturgeschicht
 Archäologie, Kunstgeschichte
 + Sachthesaurus Wortnetz Kultur
 
-#### Rollen, Beziehungen
 
 #### Musik
 <br>
@@ -981,50 +980,23 @@ Archäologie, Kunstgeschichte
 + GBIF
 + Catalogue of Life
 
-### Technische Eigenschaften kontrollierter Vokabulare
+## Technische Eigenschaften kontrollierter Vokabulare
 
-#### Persistente Identifikatoren
-#### Exkurs zu URIs
+### Persistente Identifikatoren
 
-## 7.  Datenaustausch und Linked Open Data
+Um Konzepte eindeutig zu bezeichnen und referenzierbar zu machen, werden Persistente Identifikatoren (PID) verwendet. Sie bestehen aus einem Internet-Link, der zu einer Webseite führt, die das Informationsobjekt repräsentiert, definiert oder direkt reproduziert, wie  z. B. eine Person, ein bestimmtes Sachschlagwort oder ein Geografikum
 
-### Linked Open Data
+Eindeutige Namen im Web -- HTTP URIs:<br>
 
-Die vier Designprinzipien von Linked Data (von Tim Berners Lee):
-* Benutze Uniform Resource Identifier (URIs)  als Namen für Dinge.
-* Benutze HTTP URIs, so dass diese Namen nachgeschlagen werden können.
-* Wenn jemand eine URI nachschlägt, liefere nützliche Informationen und nutze dabei die Standards (RDF, SPARQL).
-* Füge Links zu anderen URIs bei, so dass der User weitere Dinge entdecken kann.
-
-Siehe auch: https://www.w3.org/DesignIssues/LinkedData.html 
-<br><br>
-
->Tim Berners-Lee, der Erfinder des Webs und Initiator des Linked-Data-Projekts, schlug ein Fünf-Sterne-Modell für die Bereitstellung von Linked Data vor. Dieses Fünf-Sterne-System ist kumulativ: Jeder weitere Stern setzt voraus, dass die Daten bereits die Anforderungen der vorherigen Stufe(n) erfüllen.
-<br><br>
-
-⭐          verfügbar im Web mit offener Lizenz (ol= open licence)<br>
-<br>
-⭐⭐       als maschinenlesbare strukturierte Daten verfügbar, z. B. excel anstatt PDF (re= machine-readable) <br>
-<br>
-⭐⭐⭐     offene Formate z. B. CSV statt excel (of= open format)<br>
-<br>
-⭐⭐⭐⭐    All the above plus, Use open standards from W3C (RDF and SPARQL) to identify things, so that people can point at your stuff<br>
-<br>
-⭐⭐⭐⭐⭐  All the above, plus: Link your data to other people’s data to provide context<br>
-<br><br>
-<br><br>
-<br><br>
-<br><br>
-<br><br>
-<br><br>
-<br><br>
-
-![Fünf-Sterne-System von Tim Burners Lee](img/5-star-steps.png)<!--
-style="width: 500px; position: absolute; left: 200px; bottom: -440px"
--->
-
-<br><br>
-<br><br>
+http://d-nb.info/gnd/ 118582143<!-- style="color: red" --><br>
+Netzwerkprotokoll,<!-- style="color: blue" --> Präfix,<!-- style="color: blue" --> Identifikator<!-- style="color: red" -->
 
 
-## 8. Erschließungssysteme
+### Exkurs URI/URL
+
+
+
+
+
+
+## 7. Erschließungssysteme
