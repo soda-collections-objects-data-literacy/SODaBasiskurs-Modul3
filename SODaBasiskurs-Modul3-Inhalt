@@ -877,29 +877,30 @@ Es ist in der Regel nicht erforderlich, alle aufgeführten Vokabulare gleichzeit
 
 #### Geografika
 
-+ Gemeinsame Normdatei (GND), Geografika (außer Bauwerke und Denkmäler)
-+ Wikidata
-+ GeoNames
-+ Thesaurus of Geographic Names (TGN)
-+ Pleiades, antike Orte vornehmlich aus griech.-röm. Raum
-+ CERL Thesaurus (Bereich der frühen Neuzeit, insbesondere des Druckwesens)
-+ MARC Code List for Countries
+- [Gemeinsame Normdatei (GND), Geografika](https://explore.gnd.network/gnd/4077258-3) (außer Bauwerke und Denkmäler)
+- [Wikidata](https://www.wikidata.org/)
+- [GeoNames](https://www.geonames.org/)
+- [Thesaurus of Geographic Names (TGN)](https://www.getty.edu/research/tools/vocabularies/tgn/)
+- [Pleiades](https://pleiades.stoa.org/), antike Orte vornehmlich aus dem griechisch-römischen Raum
+- [CERL Thesaurus](https://data.cerl.org/thesaurus/), insbesondere für die Frühe Neuzeit und das historische Druckwesen
+- [MARC Code List for Countries](https://www.loc.gov/marc/countries/countries_name.html)
 
 #### Personen sowie Rollen & Beziehungen
 <br>
 
 **Personen**
-+ Gemeinsame Normdatei (GND), Personen
-+ GND-Explorer der Deutschen Nationalbibliothek
-+ Lobid-GND des Hochschulbibliothekszentrums des Landes Nordrhein-Westfalen
-+ Online-GND des Bibliotheksservice-Zentrums Baden-Württemberg
-+ Virtual International Authority File (VIAF)
-+ Wikidata
-+ Getty Union List of Artist Names (ULAN)
+
+- [Gemeinsame Normdatei (GND), Personen](https://explore.gnd.network/)
+- [GND-Explorer der Deutschen Nationalbibliothek](https://explore.gnd.network/)
+- [Lobid-GND des Hochschulbibliothekszentrums des Landes Nordrhein-Westfalen](https://lobid.org/gnd)
+- [Online-GND des Bibliotheksservice-Zentrums Baden-Württemberg](https://swb.bsz-bw.de/)
+- [Virtual International Authority File (VIAF)](https://www.viaf.org/)
+- [Wikidata](https://www.wikidata.org/)
+- [Getty Union List of Artist Names (ULAN)](https://www.getty.edu/research/tools/vocabularies/ulan/)
 
 <br>
 **Rollen, Beziehungen**
-+ Rollen von Akteuren: Art & Architecture Thesaurus, Agents Facet
+- [Art & Architecture Thesaurus (AAT), Agents Facet](https://www.getty.edu/research/tools/vocabularies/aat/)
  
  
 
@@ -912,14 +913,15 @@ Es ist in der Regel nicht erforderlich, alle aufgeführten Vokabulare gleichzeit
 </div>
 **Werke, materielle Kulturerbe-Objekte**
 
-+ Gemeinsame Normdatei (GND), Werke
-+ Virtual International Authority File (VIAF)
-+ Wikidata
-+ Cultural Objects Name Authority (CONA)
+- [Gemeinsame Normdatei (GND), Werke](https://explore.gnd.network/)
+- [Virtual International Authority File (VIAF)](https://www.viaf.org/)
+- [Wikidata](https://www.wikidata.org/)
+- [Cultural Objects Name Authority (CONA)](https://www.getty.edu/research/tools/vocabularies/cona/)
  
 <br>
+
 **Numismatik**
-+ Nomisma
+- [Nomisma](https://nomisma.org/)
 
 
 #### Bauwerke, Monumente
@@ -928,26 +930,29 @@ Es ist in der Regel nicht erforderlich, alle aufgeführten Vokabulare gleichzeit
     <img src="img/museum-frame.png" alt=""/>
     <p style="text-align:center"></p>
 </div>
-+ Gemeinsame Normdatei (GND), Geografika - Bauwerke und Denkmäler
-+ Virtual International Authority File (VIAF)
-+ Wikidata
-+ GeoNames
-+ Cultural Objects Name Authority (CONA)
+
+- [Gemeinsame Normdatei (GND), Geografika – Bauwerke und Denkmäler](https://lobid.org/gnd)
+- [Virtual International Authority File (VIAF)](https://www.viaf.org/)
+- [Wikidata](https://www.wikidata.org/)
+- [GeoNames](https://www.geonames.org/)
+- [Cultural Objects Name Authority (CONA)](https://www.getty.edu/research/tools/vocabularies/cona/)
 
 
 #### Kunstgeschichtliche Darstellungsinhalte & Themen; Sachschlagworte; 
 <br>
+
 **Kunstgeschichte Darstellungsinhalte & Themen**
-+ Iconclass
+- [Iconclass](https://iconclass.org/)
 
 <div style="float:right;width:12%;margin: 0px 300px 0px 100px;">
     <img src="img/clothing-frame.png" alt=""/>
     <p style="text-align:center"></p>
 </div>
+
 **Sachschlagworte**
-+ Gemeinsame Normdatei (GND), Schlagworte sensu stricto, Schlagworte - Sprachen,
-+ Wikidata
-+ Art & Architecture Thesaurus (AAT)
+- [Gemeinsame Normdatei (GND), Schlagworte sensu stricto, Schlagworte - Sprachen](https://lobid.org/gnd)
++ [Wikidata](https://www.wikidata.org/) 
+- [Art & Architecture Thesaurus (AAT)](https://www.getty.edu/research/tools/vocabularies/aat/) 
 
 <div style="float:right;width:12%;margin: 0px 300px 0px 10px;">
     <img src="img/theatre-frame.png" alt=""/>
@@ -955,7 +960,8 @@ Es ist in der Regel nicht erforderlich, alle aufgeführten Vokabulare gleichzeit
 </div>
 Fachbegriffe der LVR-Kulturdienststellen zu Kulturanthropologie, Kulturgeschichte, 
 Archäologie, Kunstgeschichte
-+ Sachthesaurus Wortnetz Kultur
+
+- [Sachthesaurus Wortnetz Kultur (WNK)](https://www.lvr.de/de/nav_main/kultur/kult_land__testkopie/produkte/wortnetz_kultur__wnk_/wortnetz_kultur__wnk_.jsp) 
 
 
 #### Musik
@@ -965,9 +971,10 @@ Archäologie, Kunstgeschichte
     <img src="img/music-frame.png" alt=""/>
     <p style="text-align:center"></p>
 </div>
-+ Musical Instrument Museums Online (MIMO) Thesaurus
-+ Hornbostel-Sachs Systematik
-+ MARC Instruments and Voices List
+
+- [Musical Instrument Museums Online (MIMO) Thesaurus](https://mimo-international.com/)
+- [Hornbostel-Sachs Systematik](https://www.mimo-international.com/portal.aspx?id=about_hornbostel)
+- [MARC Instruments and Voices List](https://www.loc.gov/marc/relators/relatorsource.html)
 
 #### Naturkunde
 <br>
@@ -977,10 +984,14 @@ Archäologie, Kunstgeschichte
     <p style="text-align:center"></p>
 </div>
 
-+ GBIF
-+ Catalogue of Life
+#### Naturwissenschaften
+
+- [GBIF – Global Biodiversity Information Facility](https://www.gbif.org/)
+- [Catalogue of Life](https://www.catalogueoflife.org/)
 
 ## Technische Eigenschaften kontrollierter Vokabulare
+
+Damit kontrollierte Vokabulare in digitalen Sammlungen verwendet und mit anderen Daten verknüpft werden können, müssen ihre Begriffe eindeutig identifizierbar und referenzierbar sein. Dafür werden Persistente Identifikatoren eingesetzt. Im nächsten Schritt schauen wir uns an, wie solche Identifikatoren funktionieren und wie sie die Verknüpfung von Sammlungsdaten mit kontrollierten Vokabularen ermöglichen.
 
 ### Persistente Identifikatoren
 
@@ -1010,5 +1021,18 @@ Die Begriffe URI und URL werden häufig synonym verwendet, obwohl sie unterschie
 
 ### Verwendung von URIs
 Die korrekte URI einer Entität ist in Normdatensätzen nicht immer auf den ersten Blick erkennbar. Je nach Anbieter und Darstellung kann sie an unterschiedlichen Stellen zu finden sein. Die folgenden Beispiele zeigen, wo die URI in verschiedenen Normdatensätzen zu finden ist und woran sie erkennbar ist.
+<br><br>
+
+![Screenshot GND-URI](img/Screenshot-GND-URI.png)<!--
+style="width: 600px; position: relative; left: 5px; bottom: 5px"
+-->
+
+![Screenshot AAT-URI](img/Screenshot-AAT-URI.png)<!--
+style="width: 600px; position: relative; left: 5px; bottom: 5px"
+-->
+
+![Screenshot VIAF-URI](img/Screenshot-VIAF-URI.png)<!--
+style="width: 600px; position: relative; left: 5px; bottom: 5px"
+-->
 
 ## 7. Erschließungssysteme
