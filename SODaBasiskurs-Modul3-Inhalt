@@ -1024,15 +1024,197 @@ Die korrekte URI einer Entität ist in Normdatensätzen nicht immer auf den erst
 <br><br>
 
 ![Screenshot GND-URI](img/Screenshot-GND-URI.png)<!--
-style="width: 600px; position: relative; left: 5px; bottom: 5px"
+style="width: 900px; position: relative; left: 5px; bottom: 5px"
 -->
+<br><br>
 
 ![Screenshot AAT-URI](img/Screenshot-AAT-URI.png)<!--
-style="width: 600px; position: relative; left: 5px; bottom: 5px"
+style="width: 900px; position: relative; left: 5px; bottom: 5px"
 -->
+<br><br>
 
 ![Screenshot VIAF-URI](img/Screenshot-VIAF-URI.png)<!--
-style="width: 600px; position: relative; left: 5px; bottom: 5px"
+style="width: 400px; position: relative; left: 5px; bottom: 5px"
 -->
 
-## 7. Erschließungssysteme
+## 7. Fragenkatalog für die Wahl eines Erschließungssystems
+
+Für die digitale Erschließung von Sammlungsobjekten gibt es nicht das eine richtige Erschließungssystem. Welche Lösung geeignet ist, hängt von den Anforderungen, Zielen und Rahmenbedingungen der jeweiligen Sammlung ab. Der folgende Fragenkatalog unterstützt dabei, die eigenen Bedürfnisse und benötigten Funktionen zu reflektieren und verschiedene Systeme gezielt miteinander zu vergleichen.
+
+
+### 1. Ziele
+
+**Welche Ziele verfolgen Sie mit der geplanten Einführung eines neuen Datenbanksystems?**
+
+- **Sammlungserschließung**
+  - Provenienzforschung
+  - Restaurierungsdokumentation
+  - Forschung
+- **Management**
+  - Leihverkehr
+  - Ausstellungsplanung
+  - Standortverwaltung
+  - Versicherungswerte / Risikomanagement
+  - Rechteverwaltung
+- **Publikation**
+  - Export in externe Ressourcen und Plattformen (z. B. DDB, Fachportale)
+  - Eigener Online-Katalog
+  - Gedruckter Katalog
+
+### 2. Bestände
+
+**Was soll digitalisiert und erschlossen werden?**
+
+- **Umfang**
+  - Ungefähre Menge
+
+- **Arten von Objekten**
+  - Sammlungsobjekte
+    - Formate / Techniken: 2D-Bilder (JPG, TIFF), 3D, CT-Bilder
+  - Textdokumente
+    - Inventarbücher, Dokumente
+    - Formate / Techniken: OCR, TEI, XML, PDF, Bildformate
+
+
+### 3. Standards
+
+**Welche Standards sind für Sie wichtig?**
+
+- Metadatenstrukturen
+- Ontologien / Referenzmodelle
+- Kontrollierte Vokabulare
+- Schnittstellen
+- Datenaustauschformate
+
+### 4. Nutzung der Daten & der Datenbank
+
+**Wie sollen die Daten und die Datenbank genutzt werden?**
+
+- **Nutzung im Haus / in der Sammlung**
+- **Nutzung extern**
+  - Welche Art des öffentlichen Zugangs ist geplant?
+
+### 5. Ressourcen & Infrastrukturen
+
+**Welche personellen, finanziellen und technischen Ressourcen stehen zur Verfügung?**
+
+- **Personelle Ressourcen**
+  - Dauerhafte Stellen
+  - Befristete Stellen
+  - Wie viele Personen sollen mit der Datenbank arbeiten?
+  - Kollaboration mit institutsübergreifenden Personen / Teams
+  - Sind dauerhafte IT-Kompetenzen oder eine IT-Abteilung vorhanden? (z. B. Universität / Institut)
+
+- **Finanzielle Ressourcen**
+  - Budget für den einmaligen Ankauf
+  - Budget für laufende Kosten (Support, Lizenzen, Updates, Anpassungen)
+
+- **Bestehende Systeme, Services und Infrastrukturen**
+  - Was ist bereits vorhanden?
+  - Was funktioniert gut?
+  - Was funktioniert nicht gut?
+  - Ist eine Langzeitarchivierung vorhanden bzw. vorgesehen?
+
+### 6. Vorliegende Dokumentation
+
+**Welche Daten und Dokumentationen sind bereits vorhanden?**
+
+- **Digitalisierungs- und Erschließungsstand**
+  - Ist die Sammlung bereits digitalisiert?
+  - In welchem Umfang und welcher Tiefe liegen Erschließungs- und Metadaten vor?
+  - In welchem Umfang liegen digitale Reproduktionen der Objekte vor?
+
+- **Vorhandene Daten**
+  - Vorhandene Datenformate
+  - Bislang genutztes Forschungsdatenmanagementsystem / Software
+  - Vorhandene Exportmöglichkeiten
+
+### 7. Rollen & Aufgaben
+
+**Wer übernimmt welche Aufgaben und Verantwortlichkeiten?**
+
+- **Verantwortlichkeiten**
+  - Bei wem liegt die Administration des Systems?
+  - Wer ist für die Pflege und Weiterentwicklung der Daten verantwortlich?
+
+- **Beteiligung**
+  - Welche Stakeholder sind am Entscheidungsprozess beteiligt?
+  - Welche Stakeholder sollen an der Entwicklung der Datenbank beteiligt werden?
+
+
+## Literatur
+
+**Sammlungserschließung**
+- Knaus, G. (2019). Leitfaden für digitales Sammlungsmanagement an Kunstmuseen. https://archiv.ub.uni-heidelberg.de/artdok/6413/
+
+- Altenhöner, R., Berger, A., Bracht, C., Klimpel, P., Meyer, S., Neuburger, A., Stäcker, T., & Stein, R. (2022). DFG‑Praxisregeln "Digitalisierung". Aktualisierte Fassung 2022. Zenodo. https://doi.org/10.5281/zenodo.7435724 (abgerufen 20.10.2025)
+
+- AG Minimaldatensatz; Marchini, C.; Ando, M.; Bernhard, A.-M.; Böhm, E.; Diepenbrock, N.; Frech, A.; Götsch, S.; Gerber, A.; Gnyp, A.; Greisinger, S.; Grotrian, E.; von Hagel, F.; Kailus, A.; Koch, A.-K.; Krause, C.; Kudlinski, V.; Nowicki, A.-L.; Purschwitz, A.; … Wassermann, S. (2025). Minimaldatensatz‑Empfehlung für Museen und Sammlungen (MDS v1.1). Zenodo. https://doi.org/10.5281/zenodo.17275487
+
+- Deutscher Museumsbund (2022). Handreichung zur digitalen Grunderfassung. https://www.museumsbund.de/digitale-grunderfassung/
+
+- Kailus, A. (2023). Guideline for a FAIR Management of Cultural Research Data. NFDI4Culture. https://doi.org/10.5281/zenodo.17055222
+
+**Metadaten**
+
+- Kompetenzzentrum Interoperable Metadaten (KIM); Rühle, S. (2012). Kleines Handbuch Metadaten. https://wiki.dnb.de/download/attachments/43523047/201209_metadaten.pdf
+
+- Meyer, J., Agniashvili, A., & Schmidt, D. (2025, Juli 18). Metadaten - Von den Grundlagen zur Praxis. Zenodo. https://doi.org/10.5281/zenodo.16085132
+
+- Kailus, A. (2024, Juli 25). Datenverbesserung als (internes) Projekt: Ausgangsmotivationen und Startpunkte für die Planung. NFDI4Culture. https://doi.org/10.5281/zenodo.12820345
+
+- Stein, R., Taentzer, G. (2023). How to Define the Quality of Data and Data Models? A Perspective from the Cultural Heritage Domain. https://doi.org/10.5281/zenodo.7705014
+
+- Gruß, M., Kailus, A., & Krause, C. (2025). Datenqualität bewerten: Der Ansatz von NFDI4Culture (1.0.0) [Data set]. NFDI4Culture. https://doi.org/10.5281/zenodo.17831677
+
+
+**Standards**
+- CIDOC-CRM: https://cidoc-crm.org
+- Cataloging Cultural Objects (CCO): https://www.vraweb.org/cco
+- Categories for the Description of Works of Art (CDWA): https://www.getty.edu/publications/categories-description-works-art/
+- MIDAS Heritage: https://heritage-standards.org.uk/midas-heritage/
+- Collections Trust / Spectrum Procedures: https://collectionstrust.org.uk/resources/spectrum/
+- Minimaldatensatz: https://www.minimaldatensatz.de
+- Schmidt, A. (2020). Museum Studies - Modul Sammeln - Online Sammlungen - Lerneinheit Datenstandards und technische Voraussetzungen. http://hdl.handle.net/10900.3/OER_BQLEQRMT
+- Klose, C., Gnyp, A., Biesterfeldt, V., Morstein, M., Sternitzke, K., Fritsch, B., Gerber, A., Streubel, B., & Weisser, B. (2025). Dokumentationsstandards und der Besitznachweis in Sammlungen - ein vergleichender Überblick. Zenodo. https://doi.org/10.5281/zenodo.16902837
+- Schäffer, J., Schlösser, M., von Hagel, F., Schäfer, F. F., & Stricker, M. (2025). Empfehlungen für das Forschungsdatenmanagement in Museen und Universitätssammlungen. Zenodo. https://doi.org/10.5281/zenodo.17778128
+
+**LIDO**
+Fichtl, B. (2024). LIDO Training (1.1.0) [Data set]. NFDI4Culture. https://doi.org/10.5281/zenodo.13869331 
+https://cidoc.mini.icom.museum/working-groups/lido/lido-overview/ 
+
+**Linked Open Data**
+- Bauer, F., & Kaltenböck, M. (2012). Linked Open Data: The Essentials — A quick start guide for decision makers. https://semantic-web.com/LOD-The-Essentials.pdf
+- EU Datastory: Linking data — What does it mean? https://data.europa.eu/en/publications/datastories/linking-data-what-does-it-mean
+
+
+**Kontrollierte Vokabulare**
+- Xu, F., Juty, N., Goble, C. et al. (2023). Features of a FAIR vocabulary. Journal of Biomedical Semantics 14:6. https://doi.org/10.1186/s13326-023-00286-8
+- Winkler, A. (2025). Kontrollierte Vokabulare (digiS Workshop am 9.4.2025). https://doi.org/10.5281/zenodo.15170365
+- Deutsche Digitale Bibliothek (2022). Handreichung: Anwendung kontrollierter Vokabulare in der Deutschen Digitalen Bibliothek. https://wiki.deutsche-digitale-bibliothek.de/spaces/DDBDOK/pages/78512336/Standardisierung?preview=%2F78512336%2F78512803%2FM16+Normdaten+Handreichung.pdf
+- Gnyp, A. (2025, Juni 17). Relevanz und Anwendung von kontrollierten Vokabularen und Normdaten in der Sammlungserschließung. Zenodo. https://doi.org/10.5281/zenodo.15683154
+
+**Empfehlungen im Kontext „Sammlungen als Daten"**
+- Wissenschaftsrat (2011): Empfehlungen zu wissenschaftlichen Sammlungen als Forschungsinfrastrukturen; Berlin. https://www.wissenschaftsrat.de/download/archiv/10464-11.html
+- Deutsche Forschungsgemeinschaft (2021). Umgang mit Forschungsdaten. https://www.dfg.de/resource/blob/174732/forschungsdaten-checkliste-de.pdf
+- Padilla, T., Allen, L., Frost, H., Potvin, S., Russey Roke, E., & Varner, S. (2019). Santa Barbara Statement on Collections as Data --- Always Already Computational: Collections as Data. https://doi.org/10.5281/zenodo.3066209
+- Padilla, T., Scates Kettler, H., Varner, S., & Shorish, Y. (2023). Vancouver Statement on Collections as Data. https://doi.org/10.5281/zenodo.8342171
+
+**FAIR**
+- Wilkinson, M., Dumontier, M., Aalbersberg, I. et al. The FAIR Guiding Principles for scientific data management and stewardship. Sci Data 3, 160018 (2016). https://doi.org/10.1038/sdata.2016.18
+- https://www.go-fair.org
+- https://force11.org/info/the-fair-data-principles/
+
+**OpenRefine**
+- Louise Tharandt, & Markert, M. (2025). OpenRefine Beginner SODa-Tutorial (v1.0). Zenodo. https://doi.org/10.5281/zenodo.17531823
+
+**Datenmanagementsysteme**
+- https://www.museumsbund.de/fachgruppe-dokumentation/publikationen/aktualisierte-adressenliste-von-anbietern-von-museumsdokumentations-und-sammlungsmanagementssoftware/
+- https://wikiba.se | Wikibase4Research: Rossenova, L. (2023). Wikibase4Research: Free and open source suite of tools for the storage and management of Linked Open Data (LOD). Zenodo. https://doi.org/10.5281/zenodo.7806405
+- https://wiss-ki.eu/de
+- https://omeka.org/s/
+- Gnyp, A., Nasarek, R., & Neubauer, J. (2025, Juli 2). Forschungsdatenmanagementsysteme im Vergleich. https://doi.org/10.5281/zenodo.15791833
+- Burger, S. (2025, April 16). Unsicherheiten und vage Informationen abbilden: Ein Ansatz aus CODA. https://doi.org/10.5281/zenodo.15228188
+- Nasarek, R. (2025, April 23). Unsichere Informationen in ungewissen Zeiten. SODa Forum: Unsicherheiten und Vagheiten in der Sammlungspraxis – Möglichkeiten, Herausforderungen und Lösungen in der digitalen Objekterschließung. https://doi.org/10.5281/zenodo.15269085
+- Sohmen, L., & Rossenova, L. (2025, März 24). Wikibase services in NFDI4Culture: Uncertainty modeling. https://doi.org/10.5281/zenodo.15076223
+
