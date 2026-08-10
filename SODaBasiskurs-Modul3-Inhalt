@@ -990,13 +990,25 @@ Eindeutige Namen im Web -- HTTP URIs:<br>
 
 http://d-nb.info/gnd/ 118582143<!-- style="color: red" --><br>
 Netzwerkprotokoll,<!-- style="color: blue" --> Präfix,<!-- style="color: blue" --> Identifikator<!-- style="color: red" -->
-
+<br>
+<br><br>
+![Schematische Darstellung der Verlinkungen von metadaten zu Digitalisat- und Normdaten-URI](img/URI-Infografik.png)<!--
+style="width: 600px; position: relative; left: 5px; bottom: 5px"
+-->*Schematische Darstellung der Verlinkungen von den Metadaten zu Digitalisat- und Normdaten-URI*
 
 ### Exkurs URI/URL
 
+Die Begriffe URI und URL werden häufig synonym verwendet, obwohl sie unterschiedliche Bedeutungen haben. Beide dienen dazu, Ressourcen eindeutig zu identifizieren bzw. auf sie zu verweisen, unterscheiden sich aber in ihrer Funktion. Die folgende Tabelle stellt die wichtigsten Unterschiede übersichtlich gegenüber.
 
+| **URI – Uniform Resource Identifier** | **URL – Uniform Resource Locator** |
+|---|---|
+| Identifiziert eine Ressource und unterscheidet sie eindeutig von anderen Ressourcen. | Bezeichnet den Standort bzw. die Webadresse einer Ressource. |
+| Ein URI kann verschiedene Schemata verwenden, z. B. `http`, `urn` oder `file`. | Ein URL verwendet ein Protokoll bzw. Schema, z. B. `http` oder `https`. |
+| Beispiel: `urn:ISBN:3-8943-4329-1` | Beispiel: `https://www.example.org/objekt/123` |
+| Ein URI muss nicht angeben, **wo** sich eine Ressource befindet oder wie sie abgerufen werden kann. | Eine URL gibt an, **wo** eine Ressource zu finden ist und wie sie aufgerufen werden kann. |
+| **URIs umfassen verschiedene Arten der Identifikation.** | **URLs sind eine spezielle Form von URIs.** |
 
-
-
+### Verwendung von URIs
+Die korrekte URI einer Entität ist in Normdatensätzen nicht immer auf den ersten Blick erkennbar. Je nach Anbieter und Darstellung kann sie an unterschiedlichen Stellen zu finden sein. Die folgenden Beispiele zeigen, wo die URI in verschiedenen Normdatensätzen zu finden ist und woran sie erkennbar ist.
 
 ## 7. Erschließungssysteme
