@@ -1378,10 +1378,12 @@ style="width: 400px; position: relative; left: 5px; bottom: 5px"
 
 **Vokabular-Recherche**
 
-Anleitung:
-- Verwenden Sie die Tabelle unten. Für jede Zeile tragen Sie in der Spalte "URI" die richtige URL ein.
-- Die korrekte URL ist in der versteckten Aufklapp-Box ("Korrekte URL") jeder Zeile verborgen. Öffnen Sie die Box erst, nachdem Sie Ihre Vermutung eingetragen haben.
+- Verwenden Sie die Tabelle unten. Für jede Zeile, in der ein Vokabular angegeben ist (z.B. AAT, GeoNames, GND, Wikidata etc.), tragen Sie in der Spalte "URI" die richtige URI ein.
 
+Hinweise:
+- nur exakte Links werden als richtig erkannt
+- bei Wikidata ist zu beachten, dass die URL des Datenobjekts nicht immer der Permalink ist. Um den Permalink zu finden, klickt man im Menü oben rechts, in "Tools/Werkzeuge" und dann auf "Permanenter Link".
+- Bei GeoNames muss die URL gekürzt werden, so dass am Ende die Nummern-ID steht.
 
 ---
 
@@ -1389,41 +1391,23 @@ Anleitung:
 |---|---|---|---|---|---|
 | Objekttitel oder -benennung | Umayyadischer Dirham, Madīnat az-Zahrāʾ, 336 H. | | |
 | Inventarnummer | AOI-In-BA4_E3 | | |
-| Objekttyp | Münze | AAT | |
+| Objekttyp | Münze | [AAT](https://www.getty.edu/research/tools/vocabularies/aat/index.html) | [[ http://vocab.getty.edu/page/aat/300037222 ]] |
 | Klassifikation | -- | | |
 | Objektbeschreibung | -- | | |
-| Material | Silber | Wikidata | |
-| Technik | Prägung | AAT | |
+| Material | Silber | [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page) | [[ https://www.wikidata.org/w/index.php?title=Q1090&oldid=2526642982 ]] |
+| Technik | Prägung | [AAT](https://www.getty.edu/research/tools/vocabularies/aat/index.html) | [[ http://vocab.getty.edu/page/aat/300206581 ]] |
 | Maßwert | 3,13 | | |
 | **Ereignis in der Objektgeschichte (Feldgruppe)** |  |  | |
 | **Ereignistyp** |  |  | 
 | Herstellung |  | | |
-| Ort | Medina Azahara (Spanien) | geonames | [[ `https://www.geonames.org/2513963/` ]] |
+| Ort | Medina Azahara (Spanien) | [GeoNames](https://www.geonames.org/v3/) | [[ https://www.geonames.org/2513963/ ]] |
 | Person/Körperschaft |  |  | 
-| Personenname | Abd ar-Rahman III, Emir und Kalif von Córdoba (912–961) | GND | [[ `https://d-nb.info/gnd/118978098` ]] |
+| Personenname | Abd ar-Rahman III, Emir und Kalif von Córdoba (912–961) | [GND](https://lobid.org/gnd) | [[ https://d-nb.info/gnd/118978098 ]] |
 | Rolle/Funktion | Münzherr |  |  |
 | Datierung | 948  |  | | 
-| Inhaltsschlagwort | Umayyaden |  | 
-
-
-</details> |
-|  | Kalifat |  | [Ihr Link hier](#)  <details><summary>Korrekte URL (nur nach Einfügen prüfen)</summary>
-
-
-</details> |
-|  |  | Islam |  | [Ihr Link hier](#)  <details><summary>Korrekte URL (nur nach Einfügen prüfen)</summary>
-
-
-</details> |
-| Verwahrende Einrichtung | Museum der Universität Tübingen MUT |  | [Ihr Link hier](#)  <details><summary>Korrekte URL (nur nach Einfügen prüfen)</summary>
-
-
-</details> |
-| Nutzungsrechte Metadaten | CC0 1.0 |  | [Ihr Link hier](#)  <details><summary>Korrekte URL (nur nach Einfügen prüfen)</summary>
-
-
-</details> |
-| Link zum veröffentlichten Metadatensatz | https://www.emuseum.uni-tuebingen.de/objects/29667/umayyadischer-dirham-madinat-azzahra-336-h;jsessionid=CFEB2CDA3EE4F360FCC59BE6CB77156B?ctx=7a8692ea623c85f6a91108e63a3275998bded7b2&idx=6 |  | [Ihr Link hier](#)  <details><summary>Korrekte URL (nur nach Einfügen prüfen)</summary>
+| Inhaltsschlagwort | Umayyaden | [GND](https://lobid.org/gnd) | [[ https://d-nb.info/gnd/11858992X ]] | 
+| Verwahrende Einrichtung | Museum der Universität Tübingen MUT | [ISIL](https://isil.staatsbibliothek-berlin.de/startseite) | [[ https://isil.staatsbibliothek-berlin.de/isil/DE-MUS-133511 ]] | 
+| Nutzungsrechte Metadaten | CC0 1.0 | [Creative Commons](https://creativecommons.org/publicdomain/list.en) | [[ https://creativecommons.org/publicdomain/zero/1.0/ ]] | 
 
 
 ---
