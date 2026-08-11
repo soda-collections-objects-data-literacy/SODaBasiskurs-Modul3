@@ -1326,11 +1326,11 @@ Archäologie, Kunstgeschichte
 - [GBIF – Global Biodiversity Information Facility](https://www.gbif.org/)
 - [Catalogue of Life](https://www.catalogueoflife.org/)
 
-## Technische Eigenschaften kontrollierter Vokabulare
+### Technische Eigenschaften kontrollierter Vokabulare
 
 Damit kontrollierte Vokabulare in digitalen Sammlungen verwendet und mit anderen Daten verknüpft werden können, müssen ihre Begriffe eindeutig identifizierbar und referenzierbar sein. Dafür werden Persistente Identifikatoren eingesetzt. Im nächsten Schritt schauen wir uns an, wie solche Identifikatoren funktionieren und wie sie die Verknüpfung von Sammlungsdaten mit kontrollierten Vokabularen ermöglichen.
 
-### Persistente Identifikatoren
+#### Persistente Identifikatoren
 
 Um Konzepte eindeutig zu bezeichnen und referenzierbar zu machen, werden Persistente Identifikatoren (PID) verwendet. Sie bestehen aus einem Internet-Link, der zu einer Webseite führt, die das Informationsobjekt repräsentiert, definiert oder direkt reproduziert, wie  z. B. eine Person, ein bestimmtes Sachschlagwort oder ein Geografikum
 
@@ -1344,7 +1344,7 @@ Netzwerkprotokoll,<!-- style="color: blue" --> Präfix,<!-- style="color: blue" 
 style="width: 600px; position: relative; left: 5px; bottom: 5px"
 -->*Schematische Darstellung der Verlinkungen von den Metadaten zu Digitalisat- und Normdaten-URI*
 
-### Exkurs URI/URL
+#### Exkurs URI/URL
 
 Die Begriffe URI und URL werden häufig synonym verwendet, obwohl sie unterschiedliche Bedeutungen haben. Beide dienen dazu, Ressourcen eindeutig zu identifizieren bzw. auf sie zu verweisen, unterscheiden sich aber in ihrer Funktion. Die folgende Tabelle stellt die wichtigsten Unterschiede übersichtlich gegenüber.
 
@@ -1373,6 +1373,64 @@ style="width: 900px; position: relative; left: 5px; bottom: 5px"
 ![Screenshot VIAF-URI](img/Screenshot-VIAF-URI.png)<!--
 style="width: 400px; position: relative; left: 5px; bottom: 5px"
 -->
+
+### Aufgabe 5
+
+**Vokabular-Recherche**
+
+Anleitung:
+- Verwenden Sie die Tabelle unten. Für jede Zeile tragen Sie in der Spalte "URI" die richtige URL ein.
+- Die korrekte URL ist in der versteckten Aufklapp-Box ("Korrekte URL") jeder Zeile verborgen. Öffnen Sie die Box erst, nachdem Sie Ihre Vermutung eingetragen haben.
+
+
+---
+
+| Datenfeldname | Feldinhalt | Vokabular | URI |
+|---|---|---|---|---|---|
+| Objekttitel oder -benennung | Umayyadischer Dirham, Madīnat az-Zahrāʾ, 336 H. | | |
+| Inventarnummer | AOI-In-BA4_E3 | | |
+| Objekttyp | Münze | AAT | |
+| Klassifikation | -- | | |
+| Objektbeschreibung | -- | | |
+| Material | Silber | Wikidata | |
+| Technik | Prägung | AAT | |
+| Maßwert | 3,13 | | |
+| **Ereignis in der Objektgeschichte (Feldgruppe)** |  |  | |
+| **Ereignistyp** |  |  | 
+| Herstellung |  | | |
+| Ort | Medina Azahara (Spanien) | geonames | [[ `https://www.geonames.org/2513963/` ]] |
+| Person/Körperschaft |  |  | 
+| Personenname | Abd ar-Rahman III, Emir und Kalif von Córdoba (912–961) | GND | [[ `https://d-nb.info/gnd/118978098` ]] |
+| Rolle/Funktion | Münzherr |  |  |
+| Datierung | 948  |  | | 
+| Inhaltsschlagwort | Umayyaden |  | 
+
+
+</details> |
+|  | Kalifat |  | [Ihr Link hier](#)  <details><summary>Korrekte URL (nur nach Einfügen prüfen)</summary>
+
+
+</details> |
+|  |  | Islam |  | [Ihr Link hier](#)  <details><summary>Korrekte URL (nur nach Einfügen prüfen)</summary>
+
+
+</details> |
+| Verwahrende Einrichtung | Museum der Universität Tübingen MUT |  | [Ihr Link hier](#)  <details><summary>Korrekte URL (nur nach Einfügen prüfen)</summary>
+
+
+</details> |
+| Nutzungsrechte Metadaten | CC0 1.0 |  | [Ihr Link hier](#)  <details><summary>Korrekte URL (nur nach Einfügen prüfen)</summary>
+
+
+</details> |
+| Link zum veröffentlichten Metadatensatz | https://www.emuseum.uni-tuebingen.de/objects/29667/umayyadischer-dirham-madinat-azzahra-336-h;jsessionid=CFEB2CDA3EE4F360FCC59BE6CB77156B?ctx=7a8692ea623c85f6a91108e63a3275998bded7b2&idx=6 |  | [Ihr Link hier](#)  <details><summary>Korrekte URL (nur nach Einfügen prüfen)</summary>
+
+
+---
+
+
+
+
 
 ## 7. Fragenkatalog für die Wahl eines Erschließungssystems
 
