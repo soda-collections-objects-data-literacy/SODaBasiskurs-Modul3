@@ -1425,9 +1425,9 @@ Hinweise:
 
 
 
-## 7. Fragenkatalog für die Wahl eines Erschließungssystems
+## 7. Erschließungssysteme
 
-Für die digitale Erschließung von Sammlungsobjekten gibt es nicht das eine richtige Erschließungssystem. Welche Lösung geeignet ist, hängt von den Anforderungen, Zielen und Rahmenbedingungen der jeweiligen Sammlung ab. Der folgende Fragenkatalog unterstützt dabei, die eigenen Bedürfnisse und benötigten Funktionen zu reflektieren und verschiedene Systeme gezielt miteinander zu vergleichen.
+Für die digitale Erschließung von Sammlungsobjekten gibt es nicht das eine richtige Erschließungssystem. Welche Lösung geeignet ist, hängt von den Anforderungen, Zielen und Rahmenbedingungen der jeweiligen Sammlung ab. 
 
 Eine wichtige Entscheidung die man treffen muss ist, ob man ein Proprietäres System kaufen möchte/kann oder eine Open Source Lösung möchte oder einem Verbund bzw. Verein beitreten möchte. 
 
@@ -1447,7 +1447,6 @@ Eine wichtige Entscheidung die man treffen muss ist, ob man ein Proprietäres Sy
 **Open Source**:
 - [WissKI](https://www.wiss-ki.eu/)
 - [Wikibase](https://www.wikibase.cloud/)
-- [Wikibase Cloud](https://www.wikibase.cloud/)
 - [Omeka](https://omeka.org/)
 - [CollectiveAccess](https://www.collectiveaccess.org/)
 - [Arches](https://www.archesproject.org/)
@@ -1458,7 +1457,9 @@ Eine Liste von kommerziellen Softwareanbietern wird vom Deutschen Museumsbund ge
 
 
 
-### 1. Ziele
+Der folgende Fragenkatalog unterstützt dabei, die eigenen Bedürfnisse und benötigten Funktionen zu reflektieren und verschiedene Systeme gezielt miteinander zu vergleichen.
+
+### Fragenkatalog für die Wahl eines Erschließungssystems
 
 **Welche Ziele verfolgen Sie mit der geplanten Einführung eines neuen Datenbanksystems?**
 
