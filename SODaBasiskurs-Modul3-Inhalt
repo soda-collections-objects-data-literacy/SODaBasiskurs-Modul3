@@ -534,6 +534,364 @@ Die Minimaldatensatz-Empfehlung für Museen und Sammlungen ist mit dem Datenaust
 * ist als Datenaustauschformat sehr gut dafür geeignet, die Interoperabilität oder Anschlussfähigkeit von Objektinformationen zu gewährleisten und so Datensätze für Linked Open Data vorzubereiten.
 * basiert auf XML
 
+### Aufgabe 3
+
+Quiz: Wahr oder Falsch?
+
+Beantworten Sie die folgenden Fragen mit **Ja** oder **Nein**. Die ausführliche Antwort wird angezeigt, wenn Sie die richtige Antwort wählen.
+
+---
+
+**Frage 1**
+
+**CIDOC-CRM ist eine Ontologie für den Bereich des kulturellen Erbes.**
+
+<details>
+<summary>Ja</summary>
+
+✅ **Korrekt!**
+
+CIDOC-CRM (Conceptual Reference Model) ist eine Domänen-Ontologie, die speziell für den Bereich des kulturellen Erbes entwickelt wurde.
+</details>
+
+<details>
+<summary>Nein</summary>
+
+❌ **Falsch.**
+
+CIDOC-CRM ist eine Ontologie für den Bereich des kulturellen Erbes.
+</details>
+
+---
+
+**Frage 2**
+
+**CIDOC-CRM legt fest, welche Dateiformate für Museumsbilder verwendet werden müssen.**
+
+<details>
+<summary>Ja</summary>
+
+❌ **Falsch.**
+
+CIDOC-CRM legt nicht fest, welche Dateiformate für Museumsbilder verwendet werden müssen.
+</details>
+
+<details>
+<summary>Nein</summary>
+
+✅ **Korrekt!**
+
+CIDOC-CRM beschäftigt sich nicht mit technischen Dateiformaten, sondern mit der konzeptionellen Modellierung und semantischen Strukturierung von Kulturdaten.
+</details>
+
+---
+
+**Frage 3**
+
+**CIDOC-CRM beschreibt Klassen, Eigenschaften und Beziehungen zwischen Entitäten.**
+
+<details>
+<summary>Ja</summary>
+
+✅ **Korrekt!**
+
+Es definiert Klassen (Entity Types, abgekürzt E) wie Objekte, Ereignisse oder Personen, sowie Eigenschaften (Properties, abgekürzt P) und die Beziehungen zwischen ihnen.
+</details>
+
+<details>
+<summary>Nein</summary>
+
+❌ **Falsch.**
+
+CIDOC CRM beschreibt tatsächlich Klassen, Eigenschaften und Beziehungen zwischen Entitäten.
+</details>
+
+---
+
+**Frage 4**
+
+**Jedes Datenmodell ist automatisch eine Ontologie.**
+
+<details>
+<summary>Ja</summary>
+
+❌ **Falsch.**
+
+Ein Datenmodell beschreibt lediglich, wie Daten technisch strukturiert werden. Eine Ontologie formalisiert dagegen Konzepte und bildet die Bedeutung (Semantik) von Dingen und deren logische Zusammenhänge in einer Domäne ab, sodass Maschinen den Kontext verstehen und eigenständig Schlussfolgerungen daraus ziehen können.
+</details>
+
+<details>
+<summary>Nein</summary>
+
+✅ **Korrekt!**
+
+Ein Datenmodell beschreibt lediglich, wie Daten technisch strukturiert werden, während eine Ontologie Konzepte formalisiert und die Bedeutung (Semantik) von Dingen und deren logische Zusammenhänge in einer Domäne abbildet.
+</details>
+
+---
+
+**Frage 5**
+
+**Eine Ontologie kann als Grundlage für den Datenaustausch zwischen verschiedenen Systemen dienen.**
+
+<details>
+<summary>Ja</summary>
+
+✅ **Korrekt!**
+
+Ontologien ermöglichen eine gemeinsame Verständigung zwischen verschiedenen Systemen durch standardisierte Konzepte und Beziehungen. Dies ist eine der Hauptanwendungen von Ontologien im Bereich der Datenintegration.
+</details>
+
+<details>
+<summary>Nein</summary>
+
+❌ **Falsch.**
+
+Eine Ontologie kann als Grundlage für den Datenaustausch zwischen verschiedenen Systemen dienen und ermöglicht damit Interoperabilität.
+</details>
+
+---
+
+**Frage 6**
+
+**Das Ziel von CIDOC CRM ist unter anderem die semantische Interoperabilität von Kulturerbdaten.**
+
+<details>
+<summary>Ja</summary>
+
+✅ **Korrekt!**
+
+Die semantische Interoperabilität ist eines der Hauptziele von CIDOC CRM. Dadurch können Kulturdaten aus verschiedenen Quellen und Institutionen besser miteinander verknüpft und verstanden werden.
+</details>
+
+<details>
+<summary>Nein</summary>
+
+❌ **Falsch.**
+
+Das Ziel von CIDOC CRM ist tatsächlich unter anderem die Förderung der semantischen Interoperabilität von Kulturerbdaten.
+</details>
+
+---
+
+**Frage 7**
+
+**Die Klassenbezeichnungen des CIDOC-CRM dürfen übersetzt werden, die Kennungen wie E22 oder P128 bleiben jedoch erhalten.**
+
+<details>
+<summary>Ja</summary>
+
+✅ **Korrekt!**
+
+Die Kennungen (E für Entity Types, P für Properties) wie E22 oder P128 bleiben international einheitlich und dürfen nicht übersetzt werden. Dies gewährleistet die Maschinenkommunikation. Die Klassenbezeichnungen können jedoch in verschiedene Sprachen übersetzt werden.
+</details>
+
+<details>
+<summary>Nein</summary>
+
+❌ **Falsch.**
+
+Die Klassenbezeichnungen des CIDOC CRM dürfen übersetzt werden, während die eindeutigen Kennungen wie E22 oder P128 international einheitlich bleiben müssen.
+</details>
+
+**Frage 8**
+
+**Metadaten beschreiben ausschließlich digitale Dateien, nicht die physischen Objekte einer Sammlung.**
+
+<details>
+<summary>Ja</summary>
+
+❌ **Falsch.**
+
+Metadaten beschreiben nicht nur digitale Dateien. Sie können sich auch auf physische Objekte einer Sammlung beziehen.
+</details>
+
+<details>
+<summary>Nein</summary>
+
+✅ **Korrekt!**
+
+Metadaten können sowohl digitale Dateien als auch physische Objekte einer Sammlung beschreiben. Sie sind nicht auf digitale Inhalte beschränkt.
+</details>
+
+---
+
+**Frage 9**
+
+**Metadatenstandards legen fest, wie Informationen strukturiert und dokumentiert werden sollen.**
+
+<details>
+<summary>Ja</summary>
+
+✅ **Korrekt!**
+
+Dies ist die Kernaufgabe von Metadatenstandards. Sie definieren die Struktur, Elemente und Dokumentationsvorgaben für Metadaten.
+</details>
+
+<details>
+<summary>Nein</summary>
+
+❌ **Falsch.**
+
+Metadatenstandards legen tatsächlich fest, wie Informationen strukturiert und dokumentiert werden sollen.
+</details>
+
+---
+
+**Frage 10**
+
+**Für LIDO gibt es ein kontrolliertes Vokabular.**
+
+<details>
+<summary>Ja</summary>
+
+✅ **Korrekt!**
+
+Es gibt ein kontrolliertes Vokabulare für LIDO, allerdings nicht für die objektbeschreibenden Daten selbst, sondern für Elemente und Attribute von LIDO.
+</details>
+
+<details>
+<summary>Nein</summary>
+
+❌ **Falsch.**
+
+Für LIDO gibt es kontrollierte Vokabulare, insbesondere für Elemente und Attribute.
+</details>
+
+---
+
+**Frage 11**
+
+**Kontrollierte Vokabulare gehören zu den Standards für Datenwerte.**
+
+<details>
+<summary>Ja</summary>
+
+✅ **Korrekt!**
+
+Kontrollierte Vokabulare sind ein wichtiger Bestandteil von Standards für Datenwerte und gewährleisten Konsistenz und Interoperabilität.
+</details>
+
+<details>
+<summary>Nein</summary>
+
+❌ **Falsch.**
+
+Kontrollierte Vokabulare gehören tatsächlich zu den Standards für Datenwerte.
+</details>
+
+
+
+**Frage 12**
+
+**Schema.org und LIDO sind Beispiele für Metadatenschemata.**
+
+<details>
+<summary>Ja</summary>
+
+✅ **Korrekt!**
+
+Schema.org und LIDO (Lightweight Information Describing Objects) sind beide Beispiele für Metadatenschemata.
+</details>
+
+<details>
+<summary>Nein</summary>
+
+❌ **Falsch.**
+
+Schema.org und LIDO sind tatsächlich Beispiele für Metadatenschemata.
+</details>
+
+---
+
+**Frage 13**
+
+**Der Minimaldatensatz wurde entwickelt, um die Datenlieferung an Kulturportale zu erleichtern.**
+
+<details>
+<summary>Ja</summary>
+
+✅ **Korrekt!**
+
+Der Minimaldatensatz ist ein Standardsatz von Datenfeldern, der speziell dazu entwickelt wurde, die Datenlieferung an Kulturportale zu vereinheitlichen und zu erleichtern.
+</details>
+
+<details>
+<summary>Nein</summary>
+
+❌ **Falsch.**
+
+Der Minimaldatensatz wurde tatsächlich entwickelt, um die Datenlieferung an Kulturportale zu erleichtern.
+</details>
+
+---
+
+**Frage 14**
+
+**Alle Felder des Minimaldatensatzes müssen zwingend manuell erfasst werden.**
+
+<details>
+<summary>Ja</summary>
+
+❌ **Falsch.**
+
+Es gibt empfohlene Datenfelder im Minimaldatensatz, die nicht alle zwingend erfasst werden müssen.
+</details>
+
+<details>
+<summary>Nein</summary>
+
+✅ **Korrekt!**
+
+Der Minimaldatensatz hat pflichtige und empfohlene Felder. Nicht alle müssen zwingend erfasst werden, und nicht alle müssen manuell erfasst sein.
+</details>
+
+---
+
+**Frage 15**
+
+**LIDO basiert auf XML und eignet sich für den Datenaustausch zwischen Sammlungen und Portalen.**
+
+<details>
+<summary>Ja</summary>
+
+✅ **Korrekt!**
+
+LIDO basiert auf XML und wurde speziell für den Datenaustausch zwischen Museumssammlungen und Online-Portalen entwickelt.
+</details>
+
+<details>
+<summary>Nein</summary>
+
+❌ **Falsch.**
+
+LIDO basiert tatsächlich auf XML und eignet sich ausgezeichnet für den Datenaustausch zwischen Sammlungen und Portalen.
+</details>
+
+---
+
+## Frage 23
+
+**LIDO wurde entwickelt, um Objektinformationen für Linked-Open-Data-Anwendungen vorzubereiten und interoperabel bereitzustellen.**
+
+<details>
+<summary>Ja</summary>
+
+✅ **Korrekt!**
+
+LIDO ermöglicht die Bereitstellung von Objektinformationen in einer Form, die für Linked-Open-Data-Anwendungen optimiert ist und Interoperabilität gewährleistet.
+</details>
+
+<details>
+<summary>Nein</summary>
+
+❌ **Falsch.**
+
+LIDO wurde tatsächlich entwickelt, um Objektinformationen für Linked-Open-Data-Anwendungen vorzubereiten und interoperabel bereitzustellen.
+</details>
+
+
+
 
 ## 5. Datenqualität
 
