@@ -1412,6 +1412,34 @@ Hinweise:
 
 Für die digitale Erschließung von Sammlungsobjekten gibt es nicht das eine richtige Erschließungssystem. Welche Lösung geeignet ist, hängt von den Anforderungen, Zielen und Rahmenbedingungen der jeweiligen Sammlung ab. Der folgende Fragenkatalog unterstützt dabei, die eigenen Bedürfnisse und benötigten Funktionen zu reflektieren und verschiedene Systeme gezielt miteinander zu vergleichen.
 
+Eine wichtige Entscheidung die man treffen muss ist, ob man ein Proprietäres System kaufen möchte/kann oder eine Open Source Lösung möchte oder einem Verbund bzw. Verein beitreten möchte. 
+
+| **Proprietär** | **Open Source** |
+|---|---|
+| Technischer Service durch einen Anbieter | Mehr personelle Ressourcen für die interne IT erforderlich |
+| Weiterentwicklung der Software durch den Anbieter | Erfordert ggf. mehr Data Literacy bei den Nutzer*innen |
+| Abhängigkeit vom Dienstleister | Keine Abhängigkeit von einem einzelnen Dienstleister |
+| Laufende Kosten für Lizenzen und Service | Abhängigkeit von der Weiterentwicklung durch die Open-Source-Community |
+| Kommunikation zwischen interner IT und externem Dienstleister erforderlich | Mehr Verantwortung für Betrieb, Wartung und Weiterentwicklung kann intern liegen |
+
+
+**Verbünde**: 
+- [museum-digital](https://www.museum-digital.de/)
+- [digiCULT](https://www.digicult-verbund.de/)
+
+**Open Source**:
+- [WissKI](https://www.wiss-ki.eu/)
+- [Wikibase](https://www.wikibase.cloud/)
+- [Wikibase Cloud](https://www.wikibase.cloud/)
+- [Omeka](https://omeka.org/)
+- [CollectiveAccess](https://www.collectiveaccess.org/)
+- [Arches](https://www.archesproject.org/)
+- [CollectionSpace](https://collectionspace.org/)
+
+
+Eine Liste von kommerziellen Softwareanbietern wird vom Deutschen Museumsbund gepflegt: https://www.museumsbund.de/fachgruppe-dokumentation/publikationen/aktualisierte-adressenliste-von-anbietern-von-museumsdokumentations-und-sammlungsmanagementssoftware/ 
+
+
 
 ### 1. Ziele
 
