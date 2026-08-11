@@ -725,7 +725,7 @@ Metadaten können sowohl digitale Dateien als auch physische Objekte einer Samml
 
 ✅ **Korrekt!**
 
-Dies ist die Kernaufgabe von Metadatenstandards. Sie definieren die Struktur, Elemente und Dokumentationsvorgaben für Metadaten.
+Sie definieren die Struktur, Elemente und Dokumentationsvorgaben für Metadaten.
 </details>
 
 <details>
@@ -755,7 +755,7 @@ Es gibt ein kontrolliertes Vokabulare für LIDO, allerdings nicht für die objek
 
 ❌ **Falsch.**
 
-Für LIDO gibt es kontrollierte Vokabulare, insbesondere für Elemente und Attribute.
+Für LIDO gibt es ein kontrolliertes Vokabular, aber nur für Elemente und Attribute von LIDO.
 </details>
 
 ---
@@ -781,30 +781,9 @@ Kontrollierte Vokabulare gehören tatsächlich zu den Standards für Datenwerte.
 </details>
 
 
-
-**Frage 12**
-
-**Schema.org und LIDO sind Beispiele für Metadatenschemata.**
-
-<details>
-<summary>Ja</summary>
-
-✅ **Korrekt!**
-
-Schema.org und LIDO (Lightweight Information Describing Objects) sind beide Beispiele für Metadatenschemata.
-</details>
-
-<details>
-<summary>Nein</summary>
-
-❌ **Falsch.**
-
-Schema.org und LIDO sind tatsächlich Beispiele für Metadatenschemata.
-</details>
-
 ---
 
-**Frage 13**
+**Frage 12**
 
 **Der Minimaldatensatz wurde entwickelt, um die Datenlieferung an Kulturportale zu erleichtern.**
 
@@ -813,7 +792,7 @@ Schema.org und LIDO sind tatsächlich Beispiele für Metadatenschemata.
 
 ✅ **Korrekt!**
 
-Der Minimaldatensatz ist ein Standardsatz von Datenfeldern, der speziell dazu entwickelt wurde, die Datenlieferung an Kulturportale zu vereinheitlichen und zu erleichtern.
+Die Minimaldatensatz-Empfehlung wurde speziell dafür entwickelt, um die Datenlieferung an Kulturportale zu vereinheitlichen und zu erleichtern.
 </details>
 
 <details>
@@ -826,7 +805,7 @@ Der Minimaldatensatz wurde tatsächlich entwickelt, um die Datenlieferung an Kul
 
 ---
 
-**Frage 14**
+**Frage 13**
 
 **Alle Felder des Minimaldatensatzes müssen zwingend manuell erfasst werden.**
 
@@ -843,12 +822,12 @@ Es gibt empfohlene Datenfelder im Minimaldatensatz, die nicht alle zwingend erfa
 
 ✅ **Korrekt!**
 
-Der Minimaldatensatz hat pflichtige und empfohlene Felder. Nicht alle müssen zwingend erfasst werden, und nicht alle müssen manuell erfasst sein.
+Der Minimaldatensatz hat Pflichtfelder und empfohlene Felder.
 </details>
 
 ---
 
-**Frage 15**
+**Frage 14**
 
 **LIDO basiert auf XML und eignet sich für den Datenaustausch zwischen Sammlungen und Portalen.**
 
@@ -870,7 +849,7 @@ LIDO basiert tatsächlich auf XML und eignet sich ausgezeichnet für den Datenau
 
 ---
 
-## Frage 23
+**Frage 15**
 
 **LIDO wurde entwickelt, um Objektinformationen für Linked-Open-Data-Anwendungen vorzubereiten und interoperabel bereitzustellen.**
 
