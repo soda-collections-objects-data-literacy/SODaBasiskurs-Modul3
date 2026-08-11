@@ -1236,6 +1236,7 @@ Es ist in der Regel nicht erforderlich, alle aufgeführten Vokabulare gleichzeit
 - [Getty Union List of Artist Names (ULAN)](https://www.getty.edu/research/tools/vocabularies/ulan/)
 
 <br>
+
 **Rollen, Beziehungen**
 - [Art & Architecture Thesaurus (AAT), Agents Facet](https://www.getty.edu/research/tools/vocabularies/aat/)
  
@@ -1248,6 +1249,7 @@ Es ist in der Regel nicht erforderlich, alle aufgeführten Vokabulare gleichzeit
     <img src="img/art-gallery-frame.png" alt=""/>
     <p style="text-align:center"></p>
 </div>
+
 **Werke, materielle Kulturerbe-Objekte**
 
 - [Gemeinsame Normdatei (GND), Werke](https://explore.gnd.network/)
@@ -1295,8 +1297,8 @@ Es ist in der Regel nicht erforderlich, alle aufgeführten Vokabulare gleichzeit
     <img src="img/theatre-frame.png" alt=""/>
     <p style="text-align:center"></p>
 </div>
-Fachbegriffe der LVR-Kulturdienststellen zu Kulturanthropologie, Kulturgeschichte, 
-Archäologie, Kunstgeschichte
+
+**Fachbegriffe der LVR-Kulturdienststellen zu Kulturanthropologie, Kulturgeschichte, Archäologie, Kunstgeschichte** 
 
 - [Sachthesaurus Wortnetz Kultur (WNK)](https://www.lvr.de/de/nav_main/kultur/kult_land__testkopie/produkte/wortnetz_kultur__wnk_/wortnetz_kultur__wnk_.jsp) 
 
@@ -1325,6 +1327,23 @@ Archäologie, Kunstgeschichte
 
 - [GBIF – Global Biodiversity Information Facility](https://www.gbif.org/)
 - [Catalogue of Life](https://www.catalogueoflife.org/)
+
+
+### Vokabularrecherche
+
+
+**Registry**: ein Katalog, der Metadaten über Vokabulare enthält. Wichtige Registries sind:
+- [FAIRsharing](https://fairsharing.org/)
+- [BARTOC](https://bartoc.org/)
+- [LOV](https://lov.linkeddata.es/)
+- [R:hovono](https://rhovono.org/)
+- [museumsvokabular.de](https://museumsvokabular.de/)
+
+**Repositorium**: ein Service, der sowohl die Metadaten zu einem Vokabular als auch dessen Inhalte speichert und Zugang zu ihnen bietet. Er bietet also sowohl für Menschen als auch für Maschinen (wenn entsprechende Schnittstellen vorhanden sind) die Möglichkeit, einzelne Begriffe (einschließlich ihrer Metadaten) zu suchen und zu finden. Beispiele:
+- [GND bei DNB](https://www.dnb.de/) oder [Lobid](https://lobid.org/)
+- [DANTE](https://www.dante.de/)
+- [DigiCult](https://digicult-verbund.de/)
+
 
 ### Technische Eigenschaften kontrollierter Vokabulare
 
