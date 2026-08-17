@@ -401,11 +401,11 @@ Das CIDOC-CRM umfasst rund 90 Klassen (wie physischer Gegenstand, Akteur, Ort, Z
 ### Aufgabe 2
 
 ![screenshot CIDOC periodic table](img/CIDOC-periodic-table.png)<!--
-style="width: 500px; position: absolute; right: 30px; bottom: 230px"
+style="width: 450px; position: absolute; right: 30px; bottom: 300px"
 -->
 
 Modelliere mithilfe der CIDOC-Klassen und<br>
-Properties unten stehenden Objektinformationen.<br>
+Eigenschaften die unten stehenden Objektinformationen.<br>
 **Fülle die Lücken nur mit den Initialen der gesuchten** <br>
 **Klassen und Relationen (z. B. E24, P76, etc.).**
 
@@ -436,9 +436,9 @@ style="width: 200px; position: relative; left: 5px; bottom: 10px"
 <br>
 Modelliere die Aussage, dass das Objekt von der Firma Somso hergestellt wurde:
 
->| Objekt "Augenmodell"  | Relation    | Aktivität  | Relation    |   Firma     |Relation     | Firmenname |
->|:----------------------|:-----------:|:----------:|:-----------:|:-----------:|:-----------:|:-----------:|
->|[[  E22 ]]             |[[ P108i  ]] | [[ E12 ]]  | [[  P14  ]] | [[  E39  ]] | [[ P1  ]]  |  [[ E41 ]]   |
+>| Objekt "Augenmodell"  | Relation    | Aktivität  | Relation    | Firma (Akteur) |Relation     | Firmenname  |
+>|:----------------------|:-----------:|:----------:|:-----------:|:--------------:|:-----------:|:-----------:|
+>|      E22              |[[ P108i  ]] | [[ E12 ]]  |     P14     | [[  E39  ]]    | [[ P1  ]]   |    E41      |
 ***************************
 E22 Human-Made Object --> P108 has produced (was produced by) --> E12 Production --> P14 carried out by --> E39 actor --> P1 identified by --> E41 appelation (Somso)
 ***************************
@@ -460,7 +460,7 @@ Modelliere, dass das Objekt aus dem Material Schwefel besteht
 
 >| Objekt "Schwefel"  | Relation     | Material    |Relation     | Materialname |
 >|:------------------:|:------------:|:-----------:|:------------:|:-----------:|
->|  [[  E19  ]]       |  [[ P45  ]]  |  [[ E57 ]]  |  [[ P1  ]]  |  [[ E41 ]]   |
+>|      E19           |  [[ P45  ]]  |  [[ E57 ]]  |  [[ P1  ]]  |  [[ E41 ]]   |
 ***************************
 
 E19 physical Object --> P45 constists of --> E57 Material --> P1 identified by --> E41 appelation (Schwefel)
@@ -513,11 +513,11 @@ In diesem Kontext bildet auch die Minimaldatensatz-Empfehlung eine gut Basis fü
 ### Minimaldatensatz-Empfehlung für Museen und Sammlungen
 
 * Anwendungsfall: Datenaustausch und Datenlieferung an Kulturportale
-* benennt die wichtigsten Datenfelder für die Online-Publikation von Objektinformationen aus Museen und * Sammlungen und wie diese zu füllen sind
+* benennt die wichtigsten Datenfelder für die Online-Publikation von Objektinformationen aus Museen und Sammlungen und wie diese zu füllen sind
 * Vermittelt relevante Standards (Mapping zu anderen Standards, Vokabular-Empfehlungen)
 * Erarbeitet wird die Empfehlung durch die AG Minimaldatensatz. 2022 durch Fachstellen Museum und Mediathek Fotografie/Ton der Deutschen Digitalen Bibliothek (DDB), der AG Digitalisierung der Konferenz der Museumsberatungsstellen in den Ländern (KMBL) sowie digiS Berlin initiiert.
 
---> [www.minimaldatensatz.de](www.minimaldatensatz.de) 
+--> [www.minimaldatensatz.de](https://www.minimaldatensatz.de/) 
 
 ### LIDO
 
@@ -654,7 +654,7 @@ Eine Ontologie kann als Grundlage für den Datenaustausch zwischen verschiedenen
 
 **Frage 6**
 
-**Das Ziel von CIDOC CRM ist unter anderem die semantische Interoperabilität von Kulturerbdaten.**
+**Das Ziel von CIDOC-CRM ist unter anderem die semantische Interoperabilität von Kulturerbdaten.**
 
 <details>
 <summary>Ja</summary>
@@ -935,8 +935,8 @@ Datenqualität lässt sich nicht direkt, sondern nur über Indikatoren messen:
 </details>
 
 Quellen:
-* *Kailus, A. (2024, Juli 25). Datenverbesserung als (internes) Projekt: Ausgangsmotivationen und Startpunkte für die Planung. NFDI4Culture. https://doi.org/10.5281/zenodo.12820345, CC BY 4.0.*
-* *Stein, R., Taentzer, G. (2023). How to Define the Quality of Data and Data Models? A Perspective from the Cultural Heritage Domain. https://doi.org/10.5281/zenodo.7705014, CC BY 4.0.*
+* *Kailus, A. (2024, Juli 25). Datenverbesserung als (internes) Projekt: Ausgangsmotivationen und Startpunkte für die Planung. NFDI4Culture. https://doi.org/10.5281/zenodo.12820345 , CC BY 4.0.*
+* *Stein, R., Taentzer, G. (2023). How to Define the Quality of Data and Data Models? A Perspective from the Cultural Heritage Domain. https://doi.org/10.5281/zenodo.7705014 , CC BY 4.0.*
 
 ### Werkzeuge für die Überprüfung und Verbesserung von Datenqualität
 
@@ -962,8 +962,7 @@ Je nach Verwendungszweck der Sammlungsdaten, gibt es mittlerweile hilfreiche Too
 
 Unsicherheit ist in der Praxis geisteswissenschaftlicher Forschung ein Aspekt, der jedwedem Wissen innewohnt. Zum Beispiel in Form von Unschärfen, Vagheiten oder Ungenauigkeiten. 
 Im Fall von Datierungen können teilweise nur ungefähre Zeiträume angegeben werden 
-Unsicher ist auch manchmal, ob man eine Entität, also einen Forschungsgegenstand, mit vollem Recht einem bestimmten begriﬄichen Konzept zuordnen kann. 
-Z.B. Klassifikation eines Objekts in Bezug auf seine Funktion oder Granularität der Klassifikation. Manchmal sind Objekte nicht nur einem Konzept zuzuorden.
+Unsicher ist auch manchmal, ob man eine Entität, also einen Forschungsgegenstand, mit vollem Recht einem bestimmten begriﬄichen Konzept zuordnen kann z. B. Klassifikation eines Objekts in Bezug auf seine Funktion oder Granularität der Klassifikation. Manchmal sind Objekte nicht nur einem Konzept zuzuorden.
  
 > **Unleserliche Texte** <br>
 > Oft hindern uns unleserliche Inschriften, Quellen/Inventarbücher, präzise und klare Auskunft über den Kontext oder die Provenienz eines Objektes geben.
@@ -1011,10 +1010,10 @@ Z.B. Klassifikation eines Objekts in Bezug auf seine Funktion oder Granularität
 
 <img id="Axtklinge" src="img/Axtklinge_MUT_CCBYSA.png" width="350" height="200" class="Objekt mit ungefährer Datierung.*">
 <img id="Blasinstrument" src="img/Blasinstrument-Uni-Goettingen_CCBYSA.png" width="200" height="350">
-**Links** - Die Datierung der Axtklinge kann nur ungefähr angegeben werden und liegt zwischen dem 5. - 3. Jt. v. Chr. Objektnr.UFG-Os-3869, Sammlung der Jüngeren Urgeschichte, Museum der Universität Tübingen MUT, CC BY-SA 4.0. https://www.emuseum.uni-tuebingen.de/de/objects/28107/axtklinge?ctx=ef1d06238b2c2c999cb36f680d048389bce8902d&idx=87.
+**Links** - Die Datierung der Axtklinge kann nur ungefähr angegeben werden und liegt zwischen dem 5. - 3. Jt. v. Chr. Objektnr. UFG-Os-3869, Sammlung der Jüngeren Urgeschichte, Museum der Universität Tübingen MUT, CC BY-SA 4.0. https://www.emuseum.uni-tuebingen.de/de/objects/28107/axtklinge?ctx=ef1d06238b2c2c999cb36f680d048389bce8902d&idx=87 .
 
 <br>
-**Rechts** - Bei dem Tonobjekt ist die Zuweisung als Blasinstrument unsicher, da es nicht funktional ist. Es könnte sich auch um eine Scheinflöte handeln. Universität Göttingen, Inv. Nr. RAD_2219_03, Georg-August-Universität Göttingen, Zentrale Kustodie, Lena Hoppe, 2017, CC BY-SA 4.0 https://sammlungen.uni-goettingen.de/objekt/record_kuniweb_946206/.
+**Rechts** - Bei dem Tonobjekt ist die Zuweisung als Blasinstrument unsicher, da es nicht funktional ist. Es könnte sich auch um eine Scheinflöte handeln. Universität Göttingen, Inv. Nr. RAD_2219_03, Georg-August-Universität Göttingen, Zentrale Kustodie, Lena Hoppe, 2017, CC BY-SA 4.0 https://sammlungen.uni-goettingen.de/objekt/record_kuniweb_946206/ .
 </body>
 </html>
 
@@ -1081,8 +1080,8 @@ Bei der Erschließung von Sammlungsobjekten werden Informationen in Form von Beg
   - fördern die Integration von Daten aus verschiedenen Kultursparten auf vorhandene Systeme.
   - ermöglichen die semantische Interoperabilität.
 
-*Quelle: Schmidt, A. (2020). Museum Studies - Modul Sammeln - Online Sammlungen - Lerneinheit Datenstandards und technische Voraussetzungen.*<!-- style="font-size: 10px;" --> *** http://hdl.handle.net/10900.3/OER_BQLEQRMT ***<!-- style="font-size: 10px;" -->
-*, CC BY-SA 4.0*<!-- style="font-size: 10px;" -->
+*Quelle: Schmidt, A. (2020). Museum Studies - Modul Sammeln - Online Sammlungen - Lerneinheit Datenstandards und technische Voraussetzungen.*<!-- style="font-size: 13px;" --> *** http://hdl.handle.net/10900.3/OER_BQLEQRMT ***<!-- style="font-size: 13px;" -->
+*, CC BY-SA 4.0*<!-- style="font-size: 13px;" -->
 
 
 ### Relevanz kontrollierter Vokabulare
@@ -1097,7 +1096,7 @@ Typische Herausforderungen der natürlichen Sprache sind:
 >**Mehrdeutigkeit (Ambiguität)**: Ein Begriff kann verschiedene Bedeutungen haben, z. B. Schloss als Gebäude oder als Schließmechanismus.
 <br>
 
-Kontrollierte Vokabulare begegnen diesen Problemen, indem sie für einen Sachverhalt eindeutige und standardisierte Begriffe vorgeben. Dadurch werden Daten konsistenter erfasst und können von Menschen und Maschinen gleichermaßen eindeutig interpretiert werden. Dabie steht jeder Begriff für ein Konzept. Ein Konzept kann durch einen oder mehrere Begriffe (Terme) bezeichnet werden und hat eine genaue Definition.
+Kontrollierte Vokabulare begegnen diesen Problemen, indem sie für einen Sachverhalt eindeutige und standardisierte Begriffe vorgeben. Dadurch werden Daten konsistenter erfasst und können von Menschen und Maschinen gleichermaßen eindeutig interpretiert werden. Dabei steht jeder Begriff für ein Konzept. Ein Konzept kann durch einen oder mehrere Begriffe (Terme) bezeichnet werden und hat eine genaue Definition.
 <br><br>
 
 <html>
@@ -1125,9 +1124,11 @@ Kontrollierte Vokabulare begegnen diesen Problemen, indem sie für einen Sachver
 
 <img id="Screenshot lobid-GND Schloss" src="img/Screenshot-lobid-gnd_Schloss.png" width="300" height="150" class="Screenshot lobid-gnd.*">
 <img id="Screenshot lobid-GND Schlossvorrichtung" src="img/Screenshot-lobid-gnd_Schlossvorrichtung.png" width="510" height="370">
+
 Kontrollierte Vokabulare wie die GND lösen Mehrdeutigkeiten auf, indem sie z. B. für Schloss (Bauwerk) und Schloss (Vorrichtung) getrennte Entitäten mit eindeutigen Identifikatoren bereitstellen. Dadurch werden Daten konsistent erfasst und maschinenlesbar interpretiert. Screenshot aus lobid-gnd.
 </body>
 </html>
+
 
 ### Vokabular-Typen
 
@@ -1135,12 +1136,12 @@ Kontrollierte Vokabulare gibt es in unterschiedlichen Formen und für verschiede
 
 <details>
 <summary>Kontrollierte Vokabulare</summary>
->Ein Vokabular ist eine Sammlung an Begriffen einer Sprache oder eines Bereiches der >Sprache (z. B. Fachvokabular).Als kontrollierte Vokabulare bezeichnet man >Sammlungen von Wörtern, die nach festgelegten Regeln bearbeitet wurden, um die >Mehrdeutigkeiten der natürlichen Sprache zu reduzieren (Disambiguierung) und >terminologische Kontrolle herzustellen.
+>Ein Vokabular ist eine Sammlung an Begriffen einer Sprache oder eines Bereiches der Sprache (z. B. Fachvokabular). Als kontrollierte Vokabulare bezeichnet man Sammlungen von Wörtern, die nach festgelegten Regeln bearbeitet wurden, um die Mehrdeutigkeiten der natürlichen Sprache zu reduzieren (Disambiguierung) und terminologische Kontrolle herzustellen.
 </details>
 
 <details>
 <summary>**Normdaten (normierte Datensätze)**</summary>
->Sind eine besondere Ausprägung von kontrolliertem Vokabular. Im Kern sind Normdaten >Individualbegriffe, die es ermöglichen, Entitäten wie Personen, Körperschaften, >Orte, Werke, Objekte und Ereignisse eindeutig und standardisiert zu beschreiben.>Jede Entität enthält eine ID, durch die ein automatisierter Austausch von Daten >unterschiedlicher Herkunft möglich ist.
+>Sind eine besondere Ausprägung von kontrolliertem Vokabular. Im Kern sind Normdaten Individualbegriffe, die es ermöglichen, Entitäten wie Personen, Körperschaften, Orte, Werke, Objekte und Ereignisse eindeutig und standardisiert zu beschreiben. Jede Entität enthält eine ID, durch die ein automatisierter Austausch von Daten unterschiedlicher Herkunft möglich ist.
 >
 >+ Sie bilden den jeweiligen semantischen Kontext ab 
 >+ enthalten sowohl eine standardisierte als auch alternative Schreibweisen
@@ -1160,47 +1161,26 @@ Kontrollierte Vokabulare gibt es in unterschiedlichen Formen und für verschiede
 
 <details>
 <summary>Klassifikation (Begriffssystem)</summary>
->Eine Klassifikation, Typifikation oder Systematik ist eine hierarchisch angeordnete >Sammlung von abstrakten Klassen (auch Konzepten, Typen oder Kategorien), die zur >Abgrenzung und Ordnung verwendet werden, um Entitäten einzuordnen.
+>Eine Klassifikation, Typifikation oder Systematik ist eine hierarchisch angeordnete >Sammlung von abstrakten Klassen (auch Konzepten, Typen oder Kategorien), die zur Abgrenzung und Ordnung verwendet werden, um Entitäten einzuordnen.
 >Formen von Klassifikationen: Taxonomie
 >und Typologie.
 </details>
 
+<figure style="text-align: center; margin: 20px 0;">
+  <img src="img/Screenshot_Patentklassifikation.png" alt="Screenshot Internationale Patentklassifikation" width="500" height="300" style="max-width: 100%; height: auto;">
+  <figcaption>Beispiel für eine Klassifikation: die <a href="https://ipcpub.wipo.int/?notion=scheme&version=20250101&symbol=none&menulang=en&lang=en&viewmode=f&fipcpc=no&showdeleted=yes&indexes=no&headings=yes&notes=yes&direction=o2n&initial=A&cwid=none&tree=no&searchmode=smart">Internationale Patentklassifikation</a>.</figcaption>
+</figure>
+
 <details>
 <summary>**Thesaurus (Begriffssystem)**</summary>
->Ein Thesaurus ist eine geordnete Zusammenstellung von Begriffen eines Fachgebietes. >Im Grunde sind Thesauri kontrollierte Vokabulare, die Synonyme, Ober- und >Unterbegriffe für einen Begriff enthalten. Ein Thesaurus ordnet Begriffe nicht nur >hierarchisch sondern auch nach Äquivalenz- und Assoziations-Relationen.
+>Ein Thesaurus ist eine geordnete Zusammenstellung von Begriffen eines Fachgebietes. Im Grunde sind Thesauri kontrollierte Vokabulare, die Synonyme, Ober- und Unterbegriffe für einen Begriff enthalten. Ein Thesaurus ordnet Begriffe nicht nur hierarchisch sondern auch nach Äquivalenz- und Assoziations-Relationen.
 </details>
 
+<figure style="text-align: center; margin: 20px 0;">
+  <img src="img/Screenshot-AAT.png" alt="Screenshot Getty Arts and Architecture Thesaurus" width="500" height="300" style="max-width: 100%; height: auto;">
+  <figcaption>Screenshot aus dem Getty Arts and Architecture Thesaurus.</figcaption>
+</figure>
 <br><br>
-
-<html>
-<head>
-<style>
-
-#Screenshot Patentklassifikation {
-  width: 350px;
-  height: 200px;
-  margin-right: 200px;
-  background-image: url(img/Screenshot_Patentklassifikation.png);
-  background-position: left;
-}
-
-#Screenshot lobid-GND Schlossvorrichtung {
-  width: 350px;
-  height: 200px;
-  background-image: url(img/Screenshot-AAT.png);
-  background-position: right;
-}
-</style>
-</head>
-
-<body>
-<img id="Screenshot lobid-GND Schloss" src="img/Screenshot_Patentklassifikation.png" width="400" height="200" class="Screenshot lobid-gnd.*">
-<img id="Screenshot AAT" src="img/Screenshot-AAT.png" width="405" height="300">
-<br>
-Links: Beispiel für eine Klassifikation ist die [Internationale Patentklassifikation](https://ipcpub.wipo.int/?notion=scheme&version=20250101&symbol=none&menulang=en&lang=en&viewmode=f&fipcpc=no&showdeleted=yes&indexes=no&headings=yes&notes=yes&direction=o2n&initial=A&cwid=none&tree=no&searchmode=smart).<br>
-Rechts: Screenshot aus dem Getty Arts and Architecture Thesaurus.
-</body>
-</html>
 
 
 ### Relevante Vokabulare für die Sammlungserschließung
@@ -1210,16 +1190,16 @@ Für viele Angaben in der Sammlungserschließung existieren etablierte kontrolli
 Es ist in der Regel nicht erforderlich, alle aufgeführten Vokabulare gleichzeitig zu verwenden. Entscheidend ist, für einen Anwendungsfall geeignete und möglichst weit verbreitete Standards auszuwählen und diese innerhalb einer Sammlung konsequent einzusetzen.
 
 > [!TIP]
-> Vertiefende Publikation, die Vokabulare auf FAIR-Krierien hin überprüft: Frech, A., Gerber, A., Gnyp, A., Götsch, S., von Hagel, F., Kailus, A., Rebekka Reichert, Schäfer, D.& Schlösser, M. (2025). FAIRe Vokabulare und Normdaten für Museen und Sammlungen. Zenodo. NFDI4Objects Community Meeting 2025 (CM2025), Bochum. https://doi.org/10.5281/zenodo.17227417
+> Vertiefende Publikation, die Vokabulare auf FAIR-Krierien hin überprüft: Frech, A., Gerber, A., Gnyp, A., Götsch, S., von Hagel, F., Kailus, A., Reichert, R., Schäfer, D.& Schlösser, M. (2025). FAIRe Vokabulare und Normdaten für Museen und Sammlungen. Zenodo. NFDI4Objects Community Meeting 2025 (CM2025), Bochum. https://doi.org/10.5281/zenodo.17227417
 
 #### Geografika
 
-- [Gemeinsame Normdatei (GND), Geografika](https://explore.gnd.network/gnd/4077258-3) (außer Bauwerke und Denkmäler)
+- [Gemeinsame Normdatei (GND), Geografika](https://explore.gnd.network)
 - [Wikidata](https://www.wikidata.org/)
 - [GeoNames](https://www.geonames.org/)
 - [Thesaurus of Geographic Names (TGN)](https://www.getty.edu/research/tools/vocabularies/tgn/)
 - [Pleiades](https://pleiades.stoa.org/), antike Orte vornehmlich aus dem griechisch-römischen Raum
-- [CERL Thesaurus](https://data.cerl.org/thesaurus/), insbesondere für die Frühe Neuzeit und das historische Druckwesen
+- [CERL Thesaurus](https://data.cerl.org/thesaurus/_search?query=(note:UA)%20AND%20type:cnp), insbesondere für die Frühe Neuzeit und das historische Druckwesen
 - [MARC Code List for Countries](https://www.loc.gov/marc/countries/countries_name.html)
 
 #### Personen sowie Rollen & Beziehungen
