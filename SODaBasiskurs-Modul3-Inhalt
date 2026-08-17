@@ -342,9 +342,9 @@ Klassen und Eigenschaften des CIDOC-CRM werden durch ihre Initialen identifizier
 }
 
 #Modellierung {
-  width: 500px;
-  height: 350px;
-  background-image: url(img/CIDOC-Modellierung-Ushebti.png);
+  width: 550px;
+  height: 400px;
+  background-image: url(img/img/CIDOC-Modellierung-Ushebti.png);
   background-position: -47px 0; /* 47px to the left of the sprite's top-left */
 }
 </style>
@@ -352,7 +352,7 @@ Klassen und Eigenschaften des CIDOC-CRM werden durch ihre Initialen identifizier
 <body>
 
 <img id="Ushebti" src="img/MET_86.1.22_front_rgb_PD-png.png" width="200" height="300" class="*Modellierung von Objektinformation mit dem CIDOC-CRM Referenzmodell.*">
-<img id="Modellierung" src="img/CIDOC-Modellierung-Ushebti.png" width="500" height="350">
+<img id="Modellierung" src="img/CIDOC-Modellierung-Ushebti.png" width="550" height="400">
 *Bildinformationen: links - Ushebti des Sennedjem, Inv.-Nr. 86.1.22, MET, Public Domain; rechts - vereinfachte Modellierung von Objektinformation mit dem CIDOC-CRM Referenzmodell*
 </body>
 </html>
