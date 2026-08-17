@@ -71,8 +71,8 @@ In den letzten Jahren haben sich im englischsprachigen Raum neue Initiativen for
 <br><br>
 <br>
 <br>
-
-
+<br>
+<br>
 
 > 2017 Santa Barbara Statement on Collections as Data
 >
@@ -104,13 +104,13 @@ Ziele der FAIR-Prinzipien:
 <details>
 <summary>Findable – auffindbar</summary>
 
-> **F1** (Meta-)Daten sind mit einem global eindeutigen u. dauerhaften persistent identifier versehen.
+> **F1** (Meta-)Daten sind mit einem global eindeutigen u. dauerhaften Persistent Identifier versehen.
 >
 > **F2** (Meta-)Daten werden mit umfangreichen Metadaten beschrieben.
 >
 > **F3** (Meta-)Daten sind in einer durchsuchbaren Ressource registriert oder indiziert.
 >
-> **F4** (Meta-)Daten enthalten eine klare und eindeutige Identifizier-ung der Daten, die sie beschreiben.
+> **F4** (Meta-)Daten enthalten eine klare und eindeutige Identifizierung der Daten, die sie beschreiben.
 </details>
 
 
@@ -120,7 +120,7 @@ Ziele der FAIR-Prinzipien:
 >+ **A1** (Meta-)Daten können anhand ihrer Identifizierung über ein standardisiertes Kommunikations-protokoll abgerufen werden.
 >
 > + - **A1.1** das Protokoll ist offen, frei u. universell implementierbar.
->   - **A1.2** das Protokoll ermöglicht bei Bedarf ein Authentifizier-ungs- u. Autorisierungs-verfahren.
+>   - **A1.2** das Protokoll ermöglicht bei Bedarf ein Authentifizierungs- u. Autorisierungs-verfahren.
 >
 > + **A2** – (Meta-)Daten sind zugänglich, auch wenn die Daten nicht mehr verfügbar sind.
 </details>
@@ -207,10 +207,10 @@ Siehe auch: Reichert, R. (2026). SODa Basiskurs zu Erschließung und Forschungsd
 
 ### Die Rolle der Datenstandards
 
-Die Rolle der Datenstandards 
+Datenstandards 
 
 
-+ machen Informationen durch einheitliche Kodierung oder  Gleichmäßigkeit der Beschreibung besser auswertbar.
++ machen Informationen durch einheitliche Kodierung oder Gleichmäßigkeit der Beschreibung besser auswertbar.
 + sind Systeme und Konventionen, die eine weite Verbreitung innerhalb einer Anwendergemeinschaft haben.
 + legen fest, welche Arten von Informationen für jedes Informationsobjekt in einer Datensammlung auf welche Weise erfasst werden.
 + sichern die mittel- & längerfristige Verständlichkeit und Nachnutzbarkeit der Daten ab.
@@ -225,9 +225,9 @@ Referenzmodelle (top-level ontologies) sind komplexe Sets von Repräsentationsel
 legen Kriterien, Methoden und Prozesse fest, nach denen die Dokumentation in bestimmten Fachcommunitys erfolgen soll. Sie gliedern sich in drei Bereiche:
 
 Daten-Inhaltsstandards oder Katalogisierungsregeln legen fest, wie bestimmte Ressourcen und Objekte beschrieben werden sollen. Sie können Vorgaben für die Erfassung und Formatierung von Informationen sowie die zu verwendenden Vokabulare enthalten. 
-Empfehlenswert ist in diesem Kontext die [Minimaldatensatzempfehlung für Museen und Sammlungen](http://www.minimaldatensatz.de/), die die wichtigsten Datenfelder für die Sammlungserschließung zusammenfasst, Hinweise gibt, wie diese zu befüllen sind, und mit dem Austauschformat LIDO kompatibel ist (siehte weiter unter)
+Empfehlenswert ist in diesem Kontext die [Minimaldatensatzempfehlung für Museen und Sammlungen](http://www.minimaldatensatz.de/), die die wichtigsten Datenfelder für die Sammlungserschließung zusammenfasst, Hinweise gibt, wie diese zu befüllen sind, und mit dem Austauschformat LIDO kompatibel ist (siehe weiter unter)
 Weitere Standards:
-z. B. [MIDAS Heritage](https://heritage-standards.org.uk/midas-heritage/), [Arbeitskreis Provenienzforschung](https://www.arbeitskreis-provenienzforschung.org/arbeitsgruppen/ag-standardisierung/), [Leitfaden zur Standardisierung von Provenienzangaben](https://www.arbeitskreis-provenienzforschung.org/arbeitsgruppen/ag-standardisierung/)
+z. B. [MIDAS Heritage](https://heritage-standards.org.uk/midas-heritage/), [Leitfaden zur Standardisierung von Provenienzangaben](https://www.arbeitskreis-provenienzforschung.org/arbeitsgruppen/ag-standardisierung/)
 
 >**Daten-Strukturstandards**
 Daten-Strukturstandards beziehen sich auf Metadaten-Elementsets (Metadatenschema). Sie geben die Struktur, den Inhalt, die Semantik und den Umfang von Metadaten in Form eines Kategorienschemas vor. Sie werden in der technischen Umsetzung häufig als XML-Schemata realisiert.
@@ -244,7 +244,7 @@ Insbesondere bei bereits publizierten Sammlungsdaten, die über einen persistent
 *Kailus, A. (2023). Guideline for a FAIR Management of Cultural Research Data, 11-12. CC BY 4.0.* https://doi.org/10.5281/zenodo.17055222
 
 
-![Datenlebenszyklus mit verschiedenen Ebenen von Standards als farblich unterschiedliche Kreisringe](img/Standards-Lebenszyklus.png "*Datenlebenszyklus mit verschiedenen Ebenen von Standards als farblich unterschiedliche Kreisringe. Diekjobst, A., Geelhaar, T., Hodel, T., Mähr, M., & Seltmann, M. (2024). 2.3. Mit Standards forschen und Handlungsräume schaffen. In Living Handbook "Digitale Quellenkritik" hrsg. v. Deicke, Aline; Geiger, Jonathan D.; Lemaire, Marina; Schmunk, Stefan (1.0). Zenodo. https://doi.org/10.5281/zenodo.12656767, Abb. 3, CC BY 4.0*")
+![Datenlebenszyklus mit verschiedenen Ebenen von Standards als farblich unterschiedliche Kreisringe](img/Standards-Lebenszyklus.png "*Datenlebenszyklus mit verschiedenen Ebenen von Standards als farblich unterschiedliche Kreisringe. Diekjobst, A., Geelhaar, T., Hodel, T., Mähr, M., & Seltmann, M. (2024). 2.3. Mit Standards forschen und Handlungsräume schaffen. In Living Handbook "Digitale Quellenkritik" hrsg. v. Deicke, Aline; Geiger, Jonathan D.; Lemaire, Marina; Schmunk, Stefan (1.0). Zenodo. https://doi.org/10.5281/zenodo.12656766 , Abb. 3, CC BY 4.0*")
 
 
 
@@ -279,23 +279,23 @@ Datenbankschema
 ===
 
 Ein Datenbankschema gilt als „Blueprint“ (Bauplan) einer Datenbank und beschreibt, wie die Daten mit anderen Tabellen oder anderen Datenmodellen in Beziehung stehen können.
-Es gibt drei verschiedene Arten von Schemata: ein konzeptionelles Datenbankschema, ein logisches Datenbankschema und ein physisches Datenbankschema:
+Es gibt drei verschiedene Arten von Schemata: aus der Beschreibung der realen Welt wird ein konzeptionelles Datenbankschema entwickelt, daraus folgt ein logisches Datenbankschema, dass sich an einem Datenbanksystem orientiert, um im letzten Schritt in ein physisches Datenbankschema implementiert zu werden:
 
 
 
 
 ``` ascii 
-+-------------------+   +-------------------+   +------------------+ 
-|       _-_         |   |                   |   |                  |
-|    /~~   ~~\      |   |                   |   |                  |
-| /~~         ~~\   |   | Konzeptionelles   |   | Logisches        |
-|{               }  |   | Schema            |   | Schema           |
-| \  _-     -_  /   |   |                   |   |                  |
-|   ~  \\ //  ~.    +-->                    +--->                  |
-|       | |         |   |                   |   |                  |
-|       | |         |   |                   |   |                  |
-|      // \\        |   |                   |   |                  |
-+--------+----------+   +--------+----------+   +---------+--------+             
++-------------------+   +-------------------+   +------------------+  +------------------+
+|       _-_         |   |                   |   |                  |  |                  |   
+|    /~~   ~~\      |   |                   |   |                  |  |                  |
+| /~~         ~~\   |   | Konzeptionelles   |   | Logisches        |  | Physisches       |  
+|{               }  |   | Schema            |   | Schema           |  | Schema           |
+| \  _-     -_  /   |   |                   |   |                  |  |                  |
+|   ~  \\ //  ~.    +-->                    +--->                  |+--->                |
+|       | |         |   |                   |   |                  |  |                  |
+|       | |         |   |                   |   |                  |  |                  |
+|      // \\        |   |                   |   |                  |  |                  |
++--------+----------+   +--------+----------+   +---------+--------+  +---------+--------+           
          |                       |                        |
          |                       |                        |
          V                       V                        V
