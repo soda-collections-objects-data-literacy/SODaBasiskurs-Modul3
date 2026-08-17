@@ -1296,8 +1296,8 @@ Es ist in der Regel nicht erforderlich, alle aufgeführten Vokabulare gleichzeit
 </div>
 
 - [Musical Instrument Museums Online (MIMO) Thesaurus](https://mimo-international.com/)
-- [Hornbostel-Sachs Systematik](https://www.mimo-international.com/portal.aspx?id=about_hornbostel)
-- [MARC Instruments and Voices List](https://www.loc.gov/marc/relators/relatorsource.html)
+- [Hornbostel-Sachs Systematik](https://vocabulary.mimo-international.com/HornbostelAndSachs/de/)
+- [MARC Instruments and Voices Code List](https://www.itsmarc.com/crs/mergedprojects/OtherVal/otherval/marc_instruments_and_voices_code_list.htm)
 
 
 
@@ -1318,12 +1318,12 @@ Es ist in der Regel nicht erforderlich, alle aufgeführten Vokabulare gleichzeit
 **Registry**: ein Katalog, der Metadaten über Vokabulare enthält. Wichtige Registries sind:
 - [FAIRsharing](https://fairsharing.org/)
 - [BARTOC](https://bartoc.org/)
-- [LOV](https://lov.linkeddata.es/)
-- [R:hovono](https://rhovono.org/)
+- [Linked Data Vocabularies (LOV)](https://lov.linkeddata.es/)
+- [R:hovono](https://database.factgrid.de/wiki/FactGrid:R:hovono)
 - [museumsvokabular.de](https://museumsvokabular.de/)
 
 **Repositorium**: ein Service, der sowohl die Metadaten zu einem Vokabular als auch dessen Inhalte speichert und Zugang zu ihnen bietet. Er bietet also sowohl für Menschen als auch für Maschinen (wenn entsprechende Schnittstellen vorhanden sind) die Möglichkeit, einzelne Begriffe (einschließlich ihrer Metadaten) zu suchen und zu finden. Beispiele:
-- [GND bei DNB](https://www.dnb.de/) oder [Lobid](https://lobid.org/)
+-  GND bei [DNB](https://explore.gnd.network) oder bei GND bei [Lobid](https://lobid.org/)
 - [DANTE](https://www.dante.de/)
 - [DigiCult](https://digicult-verbund.de/)
 
@@ -1344,7 +1344,7 @@ Netzwerkprotokoll,<!-- style="color: blue" --> Präfix,<!-- style="color: blue" 
 <br><br>
 ![Schematische Darstellung der Verlinkungen von metadaten zu Digitalisat- und Normdaten-URI](img/URI-Infografik.png)<!--
 style="width: 600px; position: relative; left: 5px; bottom: 5px"
--->*Schematische Darstellung der Verlinkungen von den Metadaten zu Digitalisat- und Normdaten-URI*
+-->*Schematische Darstellung der Verlinkungen zwischen den Metadaten,Digitalisat- und Normdaten*
 
 #### Exkurs URI/URL
 
@@ -1386,6 +1386,7 @@ Hinweise:
 - nur exakte Links werden als richtig erkannt
 - bei Wikidata ist zu beachten, dass die URL des Datenobjekts nicht immer der Permalink ist. Um den Permalink zu finden, klickt man im Menü oben rechts, in "Tools/Werkzeuge" und dann auf "Permanenter Link".
 - Bei GeoNames muss die URL gekürzt werden, so dass am Ende die Nummern-ID steht.
+- Sollten bei GeoNames mehrere Treffer in Frage kommen, sollten die [Tags zur Klassifizieren des Ortes](https://www.geonames.org/export/codes.html) überprüft werden.
 
 ---
 
@@ -1428,15 +1429,15 @@ Eine wichtige Entscheidung die man treffen muss, ist, ob man ein proprietäres S
 - [digiCULT](https://www.digicult-verbund.de/)
 
 **Open Source**:
-- [WissKI](https://www.wiss-ki.eu/)
-- [Wikibase](https://www.wikibase.cloud/)
+- [WissKI](https://wiss-ki.eu/de)
+- [Wikibase](https://wikiba.se)
 - [Omeka](https://omeka.org/)
 - [CollectiveAccess](https://www.collectiveaccess.org/)
 - [Arches](https://www.archesproject.org/)
 - [CollectionSpace](https://collectionspace.org/)
 
 
-Eine Liste von kommerziellen Softwareanbietern wird vom Deutschen Museumsbund gepflegt: https://www.museumsbund.de/fachgruppe-dokumentation/publikationen/aktualisierte-adressenliste-von-anbietern-von-museumsdokumentations-und-sammlungsmanagementssoftware/ 
+Eine Liste kommerzieller Softwareanbieter wird vom Deutschen Museumsbund gepflegt: https://www.museumsbund.de/fachgruppe-dokumentation/publikationen/aktualisierte-adressenliste-von-anbietern-von-museumsdokumentations-und-sammlungsmanagementssoftware/ 
 
 
 
@@ -1580,11 +1581,11 @@ Der folgende Fragenkatalog unterstützt dabei, die eigenen Bedürfnisse und ben�
 - Schäffer, J., Schlösser, M., von Hagel, F., Schäfer, F. F., & Stricker, M. (2025). Empfehlungen für das Forschungsdatenmanagement in Museen und Universitätssammlungen. Zenodo. https://doi.org/10.5281/zenodo.17778128
 
 **LIDO**
-Fichtl, B. (2024). LIDO Training (1.1.0) [Data set]. NFDI4Culture. https://doi.org/10.5281/zenodo.13869331 
+- Fichtl, B. (2024). LIDO Training (1.1.0) [Data set]. NFDI4Culture. https://doi.org/10.5281/zenodo.13869331 
 https://cidoc.mini.icom.museum/working-groups/lido/lido-overview/ 
 
 **Linked Open Data**
-- Bauer, F., & Kaltenböck, M. (2012). Linked Open Data: The Essentials — A quick start guide for decision makers. https://semantic-web.com/LOD-The-Essentials.pdf
+- Bauer, F., & Kaltenböck, M. (2012). Linked Open Data: The Essentials — A quick start guide for decision makers. https://semantic-web.com/LOD-TheEssentials.pdf
 - EU Datastory: Linking data — What does it mean? https://data.europa.eu/en/publications/datastories/linking-data-what-does-it-mean
 
 
