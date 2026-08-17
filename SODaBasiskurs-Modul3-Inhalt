@@ -1199,7 +1199,7 @@ Es ist in der Regel nicht erforderlich, alle aufgeführten Vokabulare gleichzeit
 - [GeoNames](https://www.geonames.org/)
 - [Thesaurus of Geographic Names (TGN)](https://www.getty.edu/research/tools/vocabularies/tgn/)
 - [Pleiades](https://pleiades.stoa.org/), antike Orte vornehmlich aus dem griechisch-römischen Raum
-- [CERL Thesaurus](https://data.cerl.org/thesaurus/_search?query=(note:UA)%20AND%20type:cnp), insbesondere für die Frühe Neuzeit und das historische Druckwesen
+- [CERL Thesaurus](https://data.cerl.org/thesaurus/cnp00284861), insbesondere für die Frühe Neuzeit und das historische Druckwesen
 - [MARC Code List for Countries](https://www.loc.gov/marc/countries/countries_name.html)
 
 #### Personen sowie Rollen & Beziehungen
@@ -1207,10 +1207,14 @@ Es ist in der Regel nicht erforderlich, alle aufgeführten Vokabulare gleichzeit
 
 **Personen**
 
-- [Gemeinsame Normdatei (GND), Personen](https://explore.gnd.network/)
-- [GND-Explorer der Deutschen Nationalbibliothek](https://explore.gnd.network/)
-- [Lobid-GND des Hochschulbibliothekszentrums des Landes Nordrhein-Westfalen](https://lobid.org/gnd)
-- [Online-GND des Bibliotheksservice-Zentrums Baden-Württemberg](https://swb.bsz-bw.de/)
+- Gemeinsame Nomrdatei (GND) 
+
+   + GND Explorer [Gemeinsame Normdatei (GND), Personen](https://explore.gnd.network/)
+   + [Lobid-GND des Hochschulbibliothekszentrums des Landes Nordrhein-Westfalen](https://lobid.org/gnd)
+   +  [Online-GND des Bibliotheksservice-Zentrums Baden-Württemberg](https://swb.bsz-bw.de/)
+
+
+
 - [Virtual International Authority File (VIAF)](https://www.viaf.org/)
 - [Wikidata](https://www.wikidata.org/)
 - [Getty Union List of Artist Names (ULAN)](https://www.getty.edu/research/tools/vocabularies/ulan/)
@@ -1295,15 +1299,14 @@ Es ist in der Regel nicht erforderlich, alle aufgeführten Vokabulare gleichzeit
 - [Hornbostel-Sachs Systematik](https://www.mimo-international.com/portal.aspx?id=about_hornbostel)
 - [MARC Instruments and Voices List](https://www.loc.gov/marc/relators/relatorsource.html)
 
-#### Naturkunde
-<br>
+
+
+#### Naturwissenschaften
 
 <div style="float:right;width:12%;margin: 0px 500px 0px 0px;">
     <img src="img/garden-frame.png" alt=""/>
     <p style="text-align:center"></p>
 </div>
-
-#### Naturwissenschaften
 
 - [GBIF – Global Biodiversity Information Facility](https://www.gbif.org/)
 - [Catalogue of Life](https://www.catalogueoflife.org/)
