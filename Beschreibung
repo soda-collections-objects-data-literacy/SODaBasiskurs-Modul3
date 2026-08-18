@@ -143,7 +143,7 @@ author: Anna Gnyp
 
 orcid: https://orcid.org/0000-0003-3598-1112
 
-title: SODa Basiskurs zu Erschießung und Forschungsdatenmanagement in UNiversitätssammlungen. Modul 3: Objekte erschließen
+title: SODa Basiskurs zu Erschießung und Forschungsdatenmanagement in Universitätssammlungen. Modul 3: Objekte erschließen
 
 version: v1.0.0
 
@@ -154,10 +154,6 @@ rights: CC-BY 4.0
 rights description: Dieses Material steht unter der Lizenz Creative Commons Attribution 4.0 International.
 
 rights link: https://creativecommons.org/licenses/by/4.0/
-
-SODaformat: Selbstlernkurs
-
-SODagestaltungsprinzip: Forschendes Lernen
 
 classification: Forschende, Sammlungsleitende und -betreuende. Technisches admin Personal, Hilfskräfte, Interessierte
 
@@ -173,4 +169,4 @@ software: LiaScript
 
 runtime environment: https://liascript.github.io
 
-keywords: sammlungsbezogenes Forschungsdatenmanagement; Konservierung; Restaurierung; Dokumentation
+keywords: Sammlungen; Forschungsdatenmanagement; Digitale Erschließung; 
