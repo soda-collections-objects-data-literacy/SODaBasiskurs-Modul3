@@ -5,10 +5,8 @@ Dieses Repository enthält offene Bildungsmaterialien (Open Educational Resource
 
 ## Inhalte
 
-Die OERs beinhalten unter anderem:
+Die OER beinhaltet einen Selbstlernkurs mit Grafiken und interaktiven Aufgaben.
 
-- Selbstlernkurs
-- Materialien für Aufgaben
 
 ## Zielgruppen
 
