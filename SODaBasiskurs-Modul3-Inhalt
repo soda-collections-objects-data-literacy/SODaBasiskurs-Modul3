@@ -443,6 +443,8 @@ Modelliere die Aussage, dass das Objekt von der Firma Somso hergestellt wurde:
 E22 Human-Made Object --> P108 has produced (was produced by) --> E12 Production --> P14 carried out by --> E39 actor --> P1 identified by --> E41 appelation (Somso)
 ***************************
 
+
+
 ![Bild eines Schwefelgesteins](img/Schwefel.png)<!--
 style="width: 200px; position: relative; left: 5px; bottom: 10px"
 -->
