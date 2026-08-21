@@ -18,9 +18,9 @@ logo:       https://github.com/4nn4pyng/SODaBasiskurs-Modul3/blob/main/img/SODa-
 
 # SODa Basiskurs Modul 3: Objekte erschließen
 
-Das Modul ist als Selbstlernkurs konzipiert und enthält Wissensinhalte Aufgaben und dazugehörige Materialien. Für die Konzeption der Lernziele wurde die Lernzielmatrix zum FDM als Orientierug genutzt. [1]
+Das Modul ist als Selbstlernkurs konzipiert und enthält Wissensinhalte, Aufgaben und dazugehörige Materialien. Für die Konzeption der Lernziele wurde die Lernzielmatrix zum Forschungsdatenmanagement als Orientierug genutzt. [1]
 
-Das Modul umfasst acht Einheiten mit einem Gesamtumfang von 120 Minuten. In Modul 3 werden die Grundlagen der digitalen Sammlungserschließung vermittelt. Das Modul gibt einen Überblick über aktuelle Standards und wie Sammlungsdaten nach FAIR-Prinzipien erschlossen, aufbereitet und bereitgestellet sollten.
+Das Modul umfasst acht Einheiten mit einem Gesamtumfang von 120 Minuten. In Modul 3 werden die Grundlagen der digitalen Sammlungserschließung vermittelt. Das Modul gibt einen Überblick über aktuelle Standards und wie Sammlungsdaten nach FAIR-Prinzipien erschlossen, aufbereitet und bereitgestellt sollten.
 
 Die didaktische Umsetzung nutzt Grafiken zur Unterstützung bei der Erfassung von Zusammenhängen, spielerische Übungen zur Wiederholung von erlerntem Wissen, diagnostische Aufgaben, um typische Fehler sichtbar zu machen und praxisorientierte Rechercheübungen.
 
@@ -71,12 +71,8 @@ Dieses Modul richtet sich an SODa Personae, wie Professor\*innen, Sammlungskoord
     - Unterschied zwischen URIs und URLs
     - Relevante Vokabulare für die Sammlungserschließung
     - Methoden zur Recherche von kontrollireten Vokabularen 
-7.  Datenaustausch und Linked Open Data
-
-    - Linked Open Data Prinzipien
-    - Datenaustauschformate
-    
-8. Erschließungssysteme
+ 
+7. Erschließungssysteme
 
     - Datenbankmodelle
     - Anforderungskatalog für die Einführung eines Erschließungssystems
@@ -116,14 +112,9 @@ Lernende können...
 |6|Unterschiede zwischen URIs und URLs erläutern|
 |6|Recherche nach kontrollierten Vokabularen anwenden|
 |6|Recherche nach persistenten Identifikatoren anwenden|
-|7|Linked Open Data Prinzipien erläutern|
-|7|Relevanz von Datenaustauschformaten erläutern|
-|7|die Relevanz von kontrollierten Vokabularen für das Linked Data-Paradigma verstehen|
-|7|Aspekte des LIDO-Formats erläutern|
-|7|FAIR-Ebenen digitaler Objekte verstehen|
-|8|grundlegende Datenbankmodelle benennen|
-|8|Vor- und Nachteile von proprietärer und Open Source Software benennen|
-|8|Anforderungen an ein Erschließungssystem analysieren|
+|7|grundlegende Datenbankmodelle benennen|
+|7|Vor- und Nachteile von proprietärer und Open Source Software benennen|
+|7|Anforderungen an ein Erschließungssystem analysieren|
 ---
 
 
