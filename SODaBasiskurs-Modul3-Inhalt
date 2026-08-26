@@ -245,13 +245,14 @@ Standards für Datenaustausch beziehen sich auf Metadaten-Elementsets (Metadaten
 z. B. [LIDO – Lightweight Information Describing Objects](https://cidoc.mini.icom.museum/working-groups/lido/lido-overview/about-lido/what-is-lido/), [Linked Art](https://linked.art), [Schema.org](https://schema.org/docs/schemas.html);
 
 >**Standards für Datenwerte und Einheiten**
-Standards für Datenwerte beziehen sich auf kontrollierte Vokabulare sowie ISO- und SI-Normen. Diese gewährleisten, dass Datenwerte mit eindeutigen Bezeichnungen versehen bzw. in einer einheitlichen maschinenlesbaren Struktur angegeben werden. 
+Standards für Datenwerte beziehen sich auf kontrollierte Vokabulare und Normdaten sowie ISO- und SI-Normen. Diese gewährleisten, dass Datenwerte mit eindeutigen Bezeichnungen versehen bzw. in einer einheitlichen maschinenlesbaren Struktur angegeben werden. 
+
 ISO 8601 ist z. B. der Standard für die maschinenlesbare Darstellung von Datum und Uhrzeit (z. B. 2026-08-26).
 Das SI-Einheitensystem (Internationales Einheitensystem) legt die physikalisch verbindlichen Grundeinheiten (wie Meter, Kilogramm oder Sekunde) fest.
 Einheiten von Maßen oder Währungen sollten klar als Text oder Code (z. B. nach [UNECE Rec. 20](https://unece.org/trade/documents/2021/06/uncefact-rec20-0)) hinterlegt sein, damit Software Werte wie 5 kg von 5 m unterscheidet.
 
-Kontrollierte Vokabulare begünstigen die terminologische Kontrolle und Konsistenz von Begriffen sowie Personen- oder Ortsnamen. Ihre Verwendung ist die Voraussetzung für präzise Suchergebnisse (Auffindbarkeit von Objekten) und die richtige Verknüpfung vergleichbarer Daten. 
-z. B Gemeinsame Normdatei, GeoNames, Arts & Architecture Thesaurus
+Kontrollierte Vokabulare und Normdaten begünstigen die terminologische Kontrolle und Konsistenz von Begriffen sowie Personen- oder Ortsnamen. Ihre Verwendung ist die Voraussetzung für präzise Suchergebnisse (Auffindbarkeit von Objekten) und die richtige Verknüpfung vergleichbarer Daten. 
+Beispiele kontrolllieret Vokabulare sind die Gemeinsame Normdatei, GeoNames, Arts & Architecture Thesaurus.
 
 >**Versionierungsstandards**
 Insbesondere bei bereits publizierten Sammlungsdaten, die über einen persistenten Identifier referenzierbar sind, wird eine Versionierung unerlässlich, wenn eine Änderung am Datensatz vorgenommen wird. Als Grundlage für die Angabe einer Versionsnummer wird häufig das [MAJOR.MINOR.PATCH - Konzept](https://semver.org/lang/de/) genutzt.
@@ -277,7 +278,7 @@ Eine gute Datenmodellierung nutzt daher Standards und Ontologien, um ein vernetz
 
 <br>
 
-![Werner, Claus. Die Sammlung als Netz: Potenziale und Grenzen der Netzwerkanalyse einer Sammlungsdokumentation](img/Abb-4-Verwendetes-Datenmodell_Werner_CCBY.jpg "*Symbolbild Datenmodell. Quelle: Werner, Claus. (2020). Die Sammlung als Netz: Potenziale und Grenzen der Netzwerkanalyse einer Sammlungsdokumentation. 10.14361/9783839455715-018. Abb.4, CC By 4.0.*") 
+![Werner, Claus. Die Sammlung als Netz: Potenziale und Grenzen der Netzwerkanalyse einer Sammlungsdokumentation](img/Abb-4-Verwendetes-Datenmodell_Werner_CCBY.jpg "*Symbolbild Datenmodell. Quelle: Werner, Claus. (2020). Die Sammlung als Netz: Potenziale und Grenzen der Netzwerkanalyse einer Sammlungsdokumentation. [10.14361/9783839455715-018](https://doi.org/10.14361/9783839455715-018). Abb.4, CC By 4.0.*") 
 
 ### Ontologien
 
