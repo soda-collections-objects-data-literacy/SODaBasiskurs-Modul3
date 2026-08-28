@@ -503,14 +503,15 @@ Metadaten zu Sammlungsobjekten können sich z. B. auf das Digitalisat  des Objek
 
 Metadatenstandards legen Kriterien, Methoden und Prozesse fest, nach denen die Dokumentation in bestimmten Fachcommunitys erfolgen soll. 
 
-Für die Sammlungsdokumentation haben sich verschiedene Metadatenstandards (Inhaltsstandards) etabliert:
+Für die Sammlungsdokumentation haben sich verschiedene Metadatenstandards etabliert:
+* [LIDO](https://lido-schema.org/schema/v1.1/lido-v1.1.html)
+* [Linked Art](https://linked.art)
+* [Collections Trust Spectrum Precedures](https://heritage-standards.org.uk/midas-heritage/)
 * [Cataloging Cultural Objects (CCO)](https://www.vraweb.org/cco)
 * [Categories for the Description of Works of Art (CDWA)](https://www.getty.edu/publications/categories-description-works-art/)
-* [MIDAS Heritage](https://heritage-standards.org.uk/midas-heritage/)
-* [Collections Trust Spectrum Precedures](https://heritage-standards.org.uk/midas-heritage/)
-* [Linked Art](https://linked.art)
 
-In diesem Kontext bildet auch die Minimaldatensatz-Empfehlung eine gut Basis für die Sammlungsdokumentation und Publikation -->
+
+In diesem Kontext bildet auch die Minimaldatensatz-Empfehlung eine gute Basis für die Sammlungsdokumentation und Publikation -->
 
 ### Minimaldatensatz-Empfehlung für Museen und Sammlungen
 
