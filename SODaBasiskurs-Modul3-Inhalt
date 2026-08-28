@@ -1488,10 +1488,9 @@ Eine wichtige Entscheidung die man treffen muss, ist, ob man ein proprietäres S
 
 | **Proprietär** | **Open Source** |
 |---|---|
-| Technischer Service durch einen Anbieter | Mehr personelle Ressourcen für die interne IT erforderlich |
 | Weiterentwicklung der Software durch den Anbieter | Erfordert ggf. mehr Data Literacy bei den Nutzer*innen |
-| Abhängigkeit vom Dienstleister | Keine Abhängigkeit von einem einzelnen Dienstleister |
-| Laufende Kosten für Lizenzen und Service | Abhängigkeit von der Weiterentwicklung durch die Open-Source-Community |
+| in der Regel Abhängigkeit vom Dienstleister | in der Regel keine Abhängigkeit von einem einzelnen Dienstleister. Das Aufsetzen und Warten der Software kann meistens von mehreren Anbietern oder der hauseigenen IT übernommen werden |
+| Laufende Kosten für Lizenzen und Service | Abhängigkeit von der Weiterentwicklung durch die Open-Source-Community & evtl. Servicekosten für Updates etc. |
 | Kommunikation zwischen interner IT und externem Dienstleister erforderlich | Mehr Verantwortung für Betrieb, Wartung und Weiterentwicklung kann intern liegen |
 
 
