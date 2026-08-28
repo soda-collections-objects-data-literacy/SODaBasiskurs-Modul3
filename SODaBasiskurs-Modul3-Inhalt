@@ -1400,17 +1400,21 @@ Damit kontrollierte Vokabulare in digitalen Sammlungen verwendet und mit anderen
 
 #### Persistente Identifikatoren
 
-Um Konzepte eindeutig zu bezeichnen und referenzierbar zu machen, werden Persistente Identifikatoren (PID) verwendet. Sie bestehen aus einem Internet-Link, der zu einer Webseite führt, die das Informationsobjekt repräsentiert, definiert oder direkt reproduziert, wie  z. B. eine Person, ein bestimmtes Sachschlagwort oder ein Geografikum
+Um Konzepte eindeutig zu bezeichnen und referenzierbar zu machen, werden Persistente Identifikatoren (PID) verwendet. Sie bestehen aus einem Internet-Link, der zu einer Webseite führt, die das Informationsobjekt repräsentiert, definiert oder direkt reproduziert, wie  z. B. eine Person, ein bestimmtes Sachschlagwort oder ein Geografikum.
+Eindeutige Namen im Web bezeichnet man als URI:<br>
 
-Eindeutige Namen im Web -- HTTP URIs:<br>
-
-<img src="img/Aufbau-URI_KI.png" alt="Aufbau einer URI" style="width: 80%; max-width: 100%; height: auto; display: block; margin: 0 auto;" />
+<div style="width:80%; margin: 0 0 20px 0;">
+    <img src="img/Aufbau-URI_KI.png" alt="" style="width:100%; height:auto; display:block;" />
+    <p style="text-align:center; margin-top:8px; font-size:0.9em;"></p>
+</div>
 
 <br>
-<br><br>
-![Schematische Darstellung der Verlinkungen von metadaten zu Digitalisat- und Normdaten-URI](img/URI-Infografik.png)<!--
-style="width: 600px; position: relative; left: 5px; bottom: 5px"
--->*Schematische Darstellung der Verlinkungen zwischen den Metadaten,Digitalisat- und Normdaten*
+
+<div style="width:80%; margin: 20px 0 10px 0;">
+    <img src="img/URI-Infografik.png" alt="Schematische Darstellung der Verlinkungen von Metadaten zu Digitalisat- und Normdaten-URI" style="width:100%; height:auto; display:block;" />
+    <p style="text-align:center; margin-top:8px; font-size:0.9em;">*Schematische Darstellung der Verlinkungen zwischen den Metadaten, Digitalisat- und Normdaten*</p>
+</div>
+
 
 #### Exkurs URI/URL
 
