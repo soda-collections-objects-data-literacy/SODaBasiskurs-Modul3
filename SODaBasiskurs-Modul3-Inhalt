@@ -1412,9 +1412,10 @@ Eindeutige Namen im Web bezeichnet man als URI:<br>
 
 <div style="width:80%; margin: 20px 0 10px 0;">
     <img src="img/URI-Infografik.png" alt="Schematische Darstellung der Verlinkungen von Metadaten zu Digitalisat- und Normdaten-URI" style="width:100%; height:auto; display:block;" />
-    <p style="text-align:center; margin-top:8px; font-size:0.9em;">*Schematische Darstellung der Verlinkungen zwischen den Metadaten, Digitalisat- und Normdaten*</p>
+    <p style="text-align:center; margin-top:8px; font-size:0.9em;">*Schematische Darstellung der Verlinkungen zwischen den Metadaten, dem Digitalisat und Normdaten*</p>
 </div>
 
+<br>
 
 #### Exkurs URI/URL
 
