@@ -534,7 +534,7 @@ Für jedes Datenfeld gibt es eine eigene Unterseite mit Erfassungshinweisen, Emp
 
 <div style="float:right;width:50%;margin: 10px 10px 10px 10px;">
     <img src="img/LIDO_logo_main.png" alt="LIDO Logo" style=""/>
-    <p style="text-align:center"> </p>
+    <p style="text-align:center"> *"Screenshot eines LIDO XML-Snippet, CC0, Autorin: Barbara Fichtl* </p>
 </div>
 
 
@@ -544,6 +544,12 @@ Die Minimaldatensatz-Empfehlung für Museen und Sammlungen ist mit dem Datenaust
 * LIDO ist an die CIDOC CRM-Ontologie angelehnt und ermöglicht es, Objekte strukturiert zu beschreiben und dabei kontrollierte Vokabulare einzubinden 
 * ist als Datenaustauschformat sehr gut dafür geeignet, die Interoperabilität oder Anschlussfähigkeit von Objektinformationen zu gewährleisten und so Datensätze für Linked Open Data vorzubereiten.
 * basiert auf XML
+
+<div style="float:right;width:50%;margin: 10px 10px 10px 10px;">
+    <img src="img/LIDO-snippet.png" alt="LIDO Logo" style=""/>
+    <p style="text-align:center"> </p>
+</div>
+
 
 <br>
 **Für die praktische Arbeit mit Sammlungsdaten sind vor allem zwei Anwendungsfälle relevant:**
