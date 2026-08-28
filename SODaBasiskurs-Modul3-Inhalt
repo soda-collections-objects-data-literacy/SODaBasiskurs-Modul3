@@ -560,7 +560,7 @@ LIDO unterstützt damit die Interoperabilität und die Weiterverwendung von Samm
 Wichtig: LIDO ist in erster Linie ein Datenaustauschformat. Es muss daher nicht das Datenmodell sein, mit dem eine Sammlung intern erschlossen und verwaltet wird. Ein lokales Datenmodell kann vielmehr für den Export in eine LIDO-Struktur überführt werden.
 
 * Zur [LIDO-Schema Dokumentation](http://www.lido-schema.org/schema/latest/lido.html)
-* Zur [LIDO-Schulung](https://nfdi4culture.de/id/E5247)
+* Zur [LIDO-Schulung](https://doi.org/10.5281/zenodo.18804311)
 
 ### Aufgabe 3
 
