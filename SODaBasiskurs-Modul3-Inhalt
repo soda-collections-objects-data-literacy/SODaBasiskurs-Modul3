@@ -292,39 +292,21 @@ Eine gute Datenmodellierung nutzt daher Standards und Ontologien, um ein vernetz
 
 <br>
 
-Datenbankschema
+**Datenbankschema**
 ===
 
-Ein Datenbankschema gilt als „Blueprint“ (Bauplan) einer Datenbank und beschreibt, wie die Daten mit anderen Tabellen oder anderen Datenmodellen in Beziehung stehen können.
-Es gibt drei verschiedene Arten von Schemata: aus der Beschreibung der realen Welt wird ein konzeptionelles Datenbankschema entwickelt, daraus folgt ein logisches Datenbankschema, dass sich an einem Datenbanksystem orientiert, um im letzten Schritt in ein physisches Datenbankschema implementiert zu werden:
+Ein Datenbankschema beschreibt die technische Struktur, in der Daten in einer Datenbank gespeichert werden. Es legt beispielsweise fest, wie Informationen in Tabellen, Feldern oder Beziehungen organisiert sind.
+
+Für die praktische Arbeit mit einer Erschließungssoftware ist das Datenbankschema meist nicht direkt sichtbar. Die Software bildet die zugrunde liegende Struktur über Eingabemasken und Funktionen ab. Die Nutzer*innen arbeiten daher in der Regel mit dem Datenmodell der Software, ohne die technische Struktur der Datenbank selbst bearbeiten zu müssen.
+Das Datenbankschema setzt dabei die fachlich definierten Strukturen technisch um. 
+
+> **Datenmodell**: Beschreibt die fachliche Struktur der Informationen und ihre Beziehungen.
 
 
+> **Ontologie**: Gibt den verwendeten Begriffen und Beziehungen eine eindeutige fachliche Bedeutung.
 
 
-``` ascii 
-+-------------------+   +-------------------+   +------------------+  +------------------+
-|       _-_         |   |                   |   |                  |  |                  |   
-|    /~~   ~~\      |   |                   |   |                  |  |                  |
-| /~~         ~~\   |   | Konzeptionelles   |   | Logisches        |  | Physisches       |  
-|{               }  |   | Schema            |   | Schema           |  | Schema           |
-| \  _-     -_  /   |   |                   |   |                  |  |                  |
-|   ~  \\ //  ~.    +-->                    +--->                  |+--->                |
-|       | |         |   |                   |   |                  |  |                  |
-|       | |         |   |                   |   |                  |  |                  |
-|      // \\        |   |                   |   |                  |  |                  |
-+--------+----------+   +--------+----------+   +---------+--------+  +---------+--------+           
-         |                       |                        |
-         |                       |                        |
-         V                       V                        V
-+-------------------+   +--------+----------+   +------------------+ 
-|                   |   |                   |   |                  |
-| Beschreibung      |   | Systemunabhängige |   | An Datenbank-    |
-| der realen Welt.  |   | Datenbeschreibung |   | system orientiert|
-|= Datenmodellierung|   | --> Orientierung  |   |                  |
-|                   |   | an Ontologie      |   |                  |
-|                   |   |                   |   |                  | 
-+-------------------+   +-------------------+   +------------------+ 
-``` 
+> **Datenbankschema**: Beschreibt die technische Struktur, in der diese Informationen gespeichert werden.
 
 ### CIDOC-CRM
 <br>
@@ -502,7 +484,7 @@ Metadaten sind strukturierte Daten zur einheitlichen Beschreibung von Ressourcen
 Metadaten zu Sammlungsobjekten können sich z. B. auf das Digitalisat  des Objektes beziehen sowie auf das physische Objekt selbst. Dabei  werden verschiedene Arten von Metadaten unterschieden:
 
 >**Deskriptive Metadaten**
-* beziehen sich auf den Inhalt der Ressource und helfen diese zu identifizieren (Objektbeschreibung z. B. Material, Größe, Urheber, Herstellungsort)
+* beziehen sich auf den Inhalt oder Charakter der Ressource und helfen diese zu identifizieren (Objektbeschreibung z. B. Material, Größe, Urheber, Herstellungsort)
 <br>
 
 >**Technische Metadaten**
@@ -511,9 +493,10 @@ Metadaten zu Sammlungsobjekten können sich z. B. auf das Digitalisat  des Objek
 
 >**Administrative Metadaten**
 * Rechteauszeichnung (des physischen Objektes, des Digitalisats, des Datensatz-Autors) Lizenzbedingungen
+* Informationen zur Objektverwaltung (z. B. Standortangabe)
 
 >**Strukturelle Metadaten**
-* beschreiben die interne Organisation/Beziehungen komplexer digitaler Objekte
+* beschreiben die interne Organisation/Beziehungen komplexer digitaler Objekte (z.B. aus welchen Dateien ein 3D-Modell besteht) und physischer Objekte (z. B. einzelne Grafikblätter in einer Mappe)
 
 
 ## 4. Metadatenstandards
