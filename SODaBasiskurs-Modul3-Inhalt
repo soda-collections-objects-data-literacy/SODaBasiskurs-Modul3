@@ -1404,7 +1404,7 @@ Um Konzepte eindeutig zu bezeichnen und referenzierbar zu machen, werden Persist
 
 Eindeutige Namen im Web -- HTTP URIs:<br>
 
-![Aufbau einer URI](img/Aufbau-URI_KI.png)
+<img src="img/Aufbau-URI_KI.png" alt="Aufbau einer URI" style="width: 80%; max-width: 100%; height: auto; display: block; margin: 0 auto;" />
 
 <br>
 <br><br>
