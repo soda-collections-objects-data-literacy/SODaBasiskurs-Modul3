@@ -534,7 +534,7 @@ Für jedes Datenfeld gibt es eine eigene Unterseite mit Erfassungshinweisen, Emp
 
 <div style="float:right;width:50%;margin: 10px 10px 10px 10px;">
     <img src="img/LIDO_logo_main.png" alt="LIDO Logo" style=""/>
-    <p style="text-align:center"> *"Screenshot eines LIDO XML-Snippet, CC0, Autorin: Barbara Fichtl* </p>
+    <p style="text-align:center">  </p>
 </div>
 
 
@@ -544,14 +544,16 @@ Die Minimaldatensatz-Empfehlung für Museen und Sammlungen ist mit dem Datenaust
 * LIDO ist an die CIDOC CRM-Ontologie angelehnt und ermöglicht es, Objekte strukturiert zu beschreiben und dabei kontrollierte Vokabulare einzubinden 
 * ist als Datenaustauschformat sehr gut dafür geeignet, die Interoperabilität oder Anschlussfähigkeit von Objektinformationen zu gewährleisten und so Datensätze für Linked Open Data vorzubereiten.
 * basiert auf XML
+<br>
 
-<div style="float:right;width:50%;margin: 10px 10px 10px 10px;">
+<div style="float:center;width:110%;margin: 10px 10px 10px 10px;">
     <img src="img/LIDO-snippet.png" alt="LIDO Logo" style=""/>
-    <p style="text-align:center"> </p>
+    <p style="text-align:center"> *Screenshot eines LIDO XML-Snippet, CC0, Autorin: Barbara Fichtl* </p>
 </div>
 
 
-<br>
+<br><br>
+
 **Für die praktische Arbeit mit Sammlungsdaten sind vor allem zwei Anwendungsfälle relevant:**
 
 > LIDO als Orientierung bei der Datenmodellierung:
@@ -561,9 +563,7 @@ Die LIDO-Dokumentation und die darin enthaltene Terminologie können dabei helfe
 Wenn Sammlungsdaten an ein anderes System oder ein Portal übermittelt werden sollen, müssen sie in eine Struktur gebracht werden, die das Zielsystem verarbeiten kann. LIDO bietet dafür ein standardisiertes Austauschformat. Die Daten können beispielsweise aus einer lokalen Datenbank in LIDO überführt und anschließend von anderen Systemen eingelesen werden.
 
 
-LIDO unterstützt damit die Interoperabilität und die Weiterverwendung von Sammlungsdaten. Es kann außerdem dazu beitragen, Daten für die Nutzung im Kontext von Linked Open Data vorzubereiten.
-
-Wichtig: LIDO ist in erster Linie ein Datenaustauschformat. Es muss daher nicht das Datenmodell sein, mit dem eine Sammlung intern erschlossen und verwaltet wird. Ein lokales Datenmodell kann vielmehr für den Export in eine LIDO-Struktur überführt werden.
+Wichtig: LIDO ist in erster Linie ein Datenaustauschformat. Es muss daher nicht das Datenmodell sein, mit dem eine Sammlung intern erschlossen und verwaltet wird. Ein lokales Datenmodell kann aber für den Export in eine LIDO-Struktur überführt werden.
 
 * Zur [LIDO-Schema Dokumentation](http://www.lido-schema.org/schema/latest/lido.html)
 * Zur [LIDO-Schulung](https://doi.org/10.5281/zenodo.18804311)
@@ -908,16 +908,28 @@ LIDO wurde tatsächlich entwickelt, um Objektinformationen für Linked-Open-Data
 
 ## 5. Datenqualität
 
-Was ist Datenqualität?
 
-* Begriff ist neutral
-* in der Bewertung subjektiv
-* Gesamtheit von Eigenschaften und Merkmalen hinsichtlich der Eignung, einen bestimmten Zweck zu erfüllen (fit for purpose)
-* nur durch Indikatoren messbar
-* Gradmesser einer Bedürfnisbefriedigung
-* Orientierung an Absicht des Nutzenden
 
-Beispiel: für den Zweck einer FAIRen Datenpublikation sollten kontrollierte Vokabulare genutzt werden, um die Datenqualität zu verbessern.
+Wann sind Daten eigentlich „gute“ Daten? Datenqualität lässt sich nicht allein daran beurteilen, ob Daten vollständig oder fehlerfrei sind. Entscheidend ist, ob sie für einen bestimmten Zweck geeignet sind.
+
+> Datenqualität bezeichnet die Gesamtheit der Eigenschaften und Merkmale von Daten im Hinblick auf ihre Eignung für einen bestimmten Zweck. Man spricht auch von „fit for purpose“.
+
+<br><br>
+
+**Daraus ergeben sich einige wichtige Aspekte:**
+* **Datenqualität ist zweckbezogen.**
+Ob Daten eine hohe Qualität haben, hängt davon ab, wofür sie verwendet werden sollen. Anforderungen können sich daher je nach Nutzung unterscheiden.
+* **Datenqualität ist in seiner Bewertung subjektiv.**
+Der Begriff selbst ist zunächst neutral und beschreibt die Gesamtheit aller Eigenschaften und Merkmale von Daten. Ob diese Eigenschaften für einen bestimmten Zweck ausreichend sind, wird von den jeweiligen Anforderungen und Bedürfnissen der Nutzenden bestimmt.
+* **Datenqualität wird anhand von Indikatoren beurteilt.**
+Um Qualität messbar und vergleichbar zu machen, können verschiedene Kriterien herangezogen werden. Dazu gehören beispielsweise Vollständigkeit, Genauigkeit, Konsistenz, Aktualität und Interoperabilität.
+* **Datenqualität orientiert sich an den Nutzenden.**
+Entscheidend ist, ob die Daten die Anforderungen der Personen erfüllen, die mit ihnen arbeiten. Qualität ist damit auch ein Gradmesser dafür, wie gut die Bedürfnisse der Nutzenden erfüllt werden.
+
+<br><br>
+**Beispiel: Datenqualität und FAIR**
+
+Auch die FAIR-Prinzipien formulieren Anforderungen an die Qualität von Forschungs- und Sammlungsdaten. Sollen Daten beispielsweise von verschiedenen Systemen verarbeitet und weiterverwendet werden (interoperabel sein), müssen sie eindeutig und standardisiert beschrieben sein. Die Verwendung kontrollierter Vokabulare kann dazu beitragen, weil gleiche Sachverhalte einheitlich bezeichnet und Daten dadurch besser miteinander verknüpft werden können.
 
 
 ### Dimensionen von Datenqualität
