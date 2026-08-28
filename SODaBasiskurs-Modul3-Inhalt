@@ -239,7 +239,7 @@ Metadatenstandards legen Kriterien, Methoden und Prozesse fest, nach denen die D
 Dazu gehören Daten-Inhaltsstandards oder Katalogisierungsregeln, die festlegen, wie bestimmte Ressourcen und Objekte beschrieben werden sollen. Sie können Vorgaben für die Erfassung und Formatierung von Informationen sowie die zu verwendenden Vokabulare enthalten. 
 Empfehlenswert ist in diesem Kontext die [Minimaldatensatzempfehlung für Museen und Sammlungen](http://www.minimaldatensatz.de/), die die wichtigsten Datenfelder für die Sammlungserschließung zusammenfasst, Hinweise gibt, wie diese zu befüllen sind, und mit dem Austauschformat LIDO kompatibel ist (siehe weiter unter)
 Weitere Standards:
-z. B. [MIDAS Heritage](https://heritage-standards.org.uk/midas-heritage/), [Leitfaden zur Standardisierung von Provenienzangaben](https://www.arbeitskreis-provenienzforschung.org/arbeitsgruppen/ag-standardisierung/)
+z. B.[Cataloging Cultural Objects (CCO)](https://www.vraweb.org/cco), [Leitfaden zur Standardisierung von Provenienzangaben](https://www.arbeitskreis-provenienzforschung.org/arbeitsgruppen/ag-standardisierung/)
 
 Standards für Datenaustausch beziehen sich auf Metadaten-Elementsets (Metadatenschema). Sie geben die Struktur, den Inhalt, die Semantik und den Umfang von Metadaten in Form eines Kategorienschemas vor. Teilweise gibt es auch Überschenidungen mit Metadatenstandards. Sie werden in der technischen Umsetzung häufig als XML-Schemata realisiert.
 z. B. [LIDO – Lightweight Information Describing Objects](https://cidoc.mini.icom.museum/working-groups/lido/lido-overview/about-lido/what-is-lido/), [Linked Art](https://linked.art), [Schema.org](https://schema.org/docs/schemas.html);
@@ -503,15 +503,18 @@ Metadaten zu Sammlungsobjekten können sich z. B. auf das Digitalisat  des Objek
 
 Metadatenstandards legen Kriterien, Methoden und Prozesse fest, nach denen die Dokumentation in bestimmten Fachcommunitys erfolgen soll. 
 
-Für die Sammlungsdokumentation haben sich verschiedene Metadatenstandards etabliert:
-* [LIDO](https://lido-schema.org/schema/v1.1/lido-v1.1.html)
-* [Linked Art](https://linked.art)
+Für die Sammlungsdokumentation haben sich verschiedene Metadatenstandards und Standards für den Datenaustausch etabliert:
+
+Inhalts- bzw. Katalogisierungsstandards:
 * [Collections Trust Spectrum Precedures](https://heritage-standards.org.uk/midas-heritage/)
 * [Cataloging Cultural Objects (CCO)](https://www.vraweb.org/cco)
 * [Categories for the Description of Works of Art (CDWA)](https://www.getty.edu/publications/categories-description-works-art/)
 
+Standards für den Datenaustausch:
+* [LIDO](https://lido-schema.org/schema/v1.1/lido-v1.1.html)
+* [Linked Art](https://linked.art)
 
-In diesem Kontext bildet auch die Minimaldatensatz-Empfehlung eine gute Basis für die Sammlungsdokumentation und Publikation -->
+In diesem Kontext bildet auch die Minimaldatensatz-Empfehlung als erster gattungs- und fachübergreifender Mindeststandard eine gute Basis für die Sammlungsdokumentation und Publikation.  -->
 
 ### Minimaldatensatz-Empfehlung für Museen und Sammlungen
 
@@ -520,7 +523,11 @@ In diesem Kontext bildet auch die Minimaldatensatz-Empfehlung eine gute Basis f�
 * Vermittelt relevante Standards (Mapping zu anderen Standards, Vokabular-Empfehlungen)
 * Erarbeitet wird die Empfehlung durch die AG Minimaldatensatz. 2022 durch Fachstellen Museum und Mediathek Fotografie/Ton der Deutschen Digitalen Bibliothek (DDB), der AG Digitalisierung der Konferenz der Museumsberatungsstellen in den Ländern (KMBL) sowie digiS Berlin initiiert.
 
+
 --> [www.minimaldatensatz.de](https://www.minimaldatensatz.de/) 
+
+Die Website ist als praxisorientierter Datenfeldkatalog aufgebaut. Die empfohlenen Datenfelder sind in zwei Bereiche gegliedert: **Datenfelder (Erfassung)** für die lokale Erfassung und **Datenfelder (Export)** für Angaben, die beim Export ergänzt werden.
+Für jedes Datenfeld gibt es eine eigene Unterseite mit Erfassungshinweisen und Empfehlungen, sodass die Website nicht nur festlegt, welche Informationen erfasst werden sollten, sondern auch Hinweise dazu gibt, wie dies sinnvoll umgesetzt werden kann. Ergänzt wird der Datenfeldkatalog durch FAQs und weiterführende Ressourcen.
 
 ### LIDO
 
