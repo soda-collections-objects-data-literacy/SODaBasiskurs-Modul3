@@ -1226,9 +1226,8 @@ Kontrollierte Vokabulare gibt es in unterschiedlichen Formen und für verschiede
 
 <details>
 <summary>Klassifikation (Begriffssystem)</summary>
->Eine Klassifikation, Typifikation oder Systematik ist eine hierarchisch angeordnete >Sammlung von abstrakten Klassen (auch Konzepten, Typen oder Kategorien), die zur Abgrenzung und Ordnung verwendet werden, um Entitäten einzuordnen.
->Formen von Klassifikationen: Taxonomie
->und Typologie.
+>Eine Klassifikation, Typifikation oder Systematik ist eine hierarchisch angeordnete Sammlung von abstrakten Klassen (auch Konzepten, Typen oder Kategorien), die zur Abgrenzung und Ordnung verwendet werden, um Entitäten einzuordnen.
+Formen von Klassifikationen: Taxonomie und Typologie.
 </details>
 
 <figure style="text-align: center; margin: 20px 0;">
@@ -1255,7 +1254,7 @@ Für viele Angaben in der Sammlungserschließung existieren etablierte kontrolli
 Es ist in der Regel nicht erforderlich, alle aufgeführten Vokabulare gleichzeitig zu verwenden. Entscheidend ist, für einen Anwendungsfall geeignete und möglichst weit verbreitete Standards auszuwählen und diese innerhalb einer Sammlung konsequent einzusetzen.
 
 > [!TIP]
-> Vertiefende Publikation, die Vokabulare auf FAIR-Krierien hin überprüft: Frech, A., Gerber, A., Gnyp, A., Götsch, S., von Hagel, F., Kailus, A., Reichert, R., Schäfer, D.& Schlösser, M. (2025). FAIRe Vokabulare und Normdaten für Museen und Sammlungen. Zenodo. NFDI4Objects Community Meeting 2025 (CM2025), Bochum. https://doi.org/10.5281/zenodo.17227417
+> Vertiefende Publikation, die Vokabulare auf FAIR-Kriterien hin überprüft: Frech, A., Gerber, A., Gnyp, A., Götsch, S., von Hagel, F., Kailus, A., Reichert, R., Schäfer, D. & Schlösser, M. (2025). FAIRe Vokabulare und Normdaten für Museen und Sammlungen. Zenodo. NFDI4Objects Community Meeting 2025 (CM2025), Bochum. https://doi.org/10.5281/zenodo.17227417
 
 #### Geografika
 
@@ -1272,7 +1271,7 @@ Es ist in der Regel nicht erforderlich, alle aufgeführten Vokabulare gleichzeit
 
 **Personen**
 
-- Gemeinsame Nomrdatei (GND) 
+- Gemeinsame Normdatei (GND). Zugänge: 
 
    + GND Explorer [Gemeinsame Normdatei (GND), Personen](https://explore.gnd.network/)
    + [Lobid-GND des Hochschulbibliothekszentrums des Landes Nordrhein-Westfalen](https://lobid.org/gnd)
@@ -1288,6 +1287,8 @@ Es ist in der Regel nicht erforderlich, alle aufgeführten Vokabulare gleichzeit
 
 **Rollen, Beziehungen**
 - [Art & Architecture Thesaurus (AAT), Agents Facet](https://www.getty.edu/research/tools/vocabularies/aat/)
+- [Library of Congress MARC Code List for Relators](https://www.loc.gov/marc/relators/relaterm.html)
+- [DDB Rollen-Vokabular](https://xtree-public.digicult-verbund.de/vocnet/?uriVocItem=http://ddb.vocnet.org/rolle/&startNode=r0028&lang=de&d=n)
  
  
 
@@ -1326,7 +1327,7 @@ Es ist in der Regel nicht erforderlich, alle aufgeführten Vokabulare gleichzeit
 - [Cultural Objects Name Authority (CONA)](https://www.getty.edu/research/tools/vocabularies/cona/)
 
 
-#### Kunstgeschichtliche Darstellungsinhalte & Themen; Sachschlagworte; 
+#### Kunstgeschichtliche Darstellungsinhalte & Themen, Sachschlagworte
 <br>
 
 **Kunstgeschichte Darstellungsinhalte & Themen**
@@ -1366,7 +1367,7 @@ Es ist in der Regel nicht erforderlich, alle aufgeführten Vokabulare gleichzeit
 
 
 
-#### Naturwissenschaften
+#### Naturkunde
 
 <div style="float:right;width:12%;margin: 0px 500px 0px 0px;">
     <img src="img/garden-frame.png" alt=""/>
@@ -1403,8 +1404,8 @@ Um Konzepte eindeutig zu bezeichnen und referenzierbar zu machen, werden Persist
 
 Eindeutige Namen im Web -- HTTP URIs:<br>
 
-http://d-nb.info/gnd/ 118582143<!-- style="color: red" --><br>
-Netzwerkprotokoll,<!-- style="color: blue" --> Präfix,<!-- style="color: blue" --> Identifikator<!-- style="color: red" -->
+![Aufbau einer URI](img/Aufbau-URI_KI.png)
+
 <br>
 <br><br>
 ![Schematische Darstellung der Verlinkungen von metadaten zu Digitalisat- und Normdaten-URI](img/URI-Infografik.png)<!--
