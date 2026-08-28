@@ -527,7 +527,8 @@ In diesem Kontext bildet auch die Minimaldatensatz-Empfehlung als erster gattung
 --> [www.minimaldatensatz.de](https://www.minimaldatensatz.de/) 
 
 Die Website ist als praxisorientierter Datenfeldkatalog aufgebaut. Die empfohlenen Datenfelder sind in zwei Bereiche gegliedert: **Datenfelder (Erfassung)** für die lokale Erfassung und **Datenfelder (Export)** für Angaben, die beim Export ergänzt werden.
-Für jedes Datenfeld gibt es eine eigene Unterseite mit Erfassungshinweisen und Empfehlungen, sodass die Website nicht nur festlegt, welche Informationen erfasst werden sollten, sondern auch Hinweise dazu gibt, wie dies sinnvoll umgesetzt werden kann. Ergänzt wird der Datenfeldkatalog durch FAQs und weiterführende Ressourcen.
+
+Für jedes Datenfeld gibt es eine eigene Unterseite mit Erfassungshinweisen, Empfehlungen und Ausschnitte aus einem vollständigen LIDO-Datensatz, in sogenannten Codeblocks in XML-Sprache formuliert. Die Website legt damit nicht nur fest, welche Informationen erfasst werden sollten, sondern gibt auch Hinweise dazu, wie dies sinnvoll umgesetzt und exportiert werden kann. Ergänzt wird der Datenfeldkatalog durch FAQs und weiterführende Ressourcen.
 
 ### LIDO
 
@@ -543,6 +544,23 @@ Die Minimaldatensatz-Empfehlung für Museen und Sammlungen ist mit dem Datenaust
 * LIDO ist an die CIDOC CRM-Ontologie angelehnt und ermöglicht es, Objekte strukturiert zu beschreiben und dabei kontrollierte Vokabulare einzubinden 
 * ist als Datenaustauschformat sehr gut dafür geeignet, die Interoperabilität oder Anschlussfähigkeit von Objektinformationen zu gewährleisten und so Datensätze für Linked Open Data vorzubereiten.
 * basiert auf XML
+
+<br>
+**Für die praktische Arbeit mit Sammlungsdaten sind vor allem zwei Anwendungsfälle relevant:**
+
+> LIDO als Orientierung bei der Datenmodellierung:
+Die LIDO-Dokumentation und die darin enthaltene Terminologie können dabei helfen zu entscheiden, welche Informationen zu einem Objekt erfasst werden sollten und wie diese strukturiert und benannt werden können. LIDO bietet damit eine Orientierung für ein interoperables Datenmodell.
+
+> LIDO für Datenaustausch und Export:
+Wenn Sammlungsdaten an ein anderes System oder ein Portal übermittelt werden sollen, müssen sie in eine Struktur gebracht werden, die das Zielsystem verarbeiten kann. LIDO bietet dafür ein standardisiertes Austauschformat. Die Daten können beispielsweise aus einer lokalen Datenbank in LIDO überführt und anschließend von anderen Systemen eingelesen werden.
+
+
+LIDO unterstützt damit die Interoperabilität und die Weiterverwendung von Sammlungsdaten. Es kann außerdem dazu beitragen, Daten für die Nutzung im Kontext von Linked Open Data vorzubereiten.
+
+Wichtig: LIDO ist in erster Linie ein Datenaustauschformat. Es muss daher nicht das Datenmodell sein, mit dem eine Sammlung intern erschlossen und verwaltet wird. Ein lokales Datenmodell kann vielmehr für den Export in eine LIDO-Struktur überführt werden.
+
+* Zur [LIDO-Schema Dokumentation](http://www.lido-schema.org/schema/latest/lido.html)
+* Zur [LIDO-Schulung](https://nfdi4culture.de/id/E5247)
 
 ### Aufgabe 3
 
