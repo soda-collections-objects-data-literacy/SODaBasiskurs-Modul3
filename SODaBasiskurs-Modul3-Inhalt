@@ -912,6 +912,8 @@ LIDO wurde tatsächlich entwickelt, um Objektinformationen für Linked-Open-Data
 
 Wann sind Daten eigentlich „gute“ Daten? Datenqualität lässt sich nicht allein daran beurteilen, ob Daten vollständig oder fehlerfrei sind. Entscheidend ist, ob sie für einen bestimmten Zweck geeignet sind.
 
+<br>
+
 > Datenqualität bezeichnet die Gesamtheit der Eigenschaften und Merkmale von Daten im Hinblick auf ihre Eignung für einen bestimmten Zweck. Man spricht auch von „fit for purpose“.
 
 <br><br>
@@ -986,20 +988,32 @@ Quellen:
 
 ### Werkzeuge für die Überprüfung und Verbesserung von Datenqualität
 
-Je nach Verwendungszweck der Sammlungsdaten, gibt es mittlerweile hilfreiche Tools, um z. B. zu überprüfen, ob Sammlungsdaten den FAIR-Prinzipen entsprechen oder ob die erstellten LIDO-Daten valide sind.
+Je nach Ziel der Datenprüfung stehen unterschiedliche Werkzeuge zur Verfügung. Manche prüfen, ob Daten grundsätzlich den FAIR-Prinzipien entsprechen, andere überprüfen die formale und inhaltliche Qualität von LIDO-Daten. Wieder andere unterstützen bei der Bereinigung, Vereinheitlichung und Anreicherung von Daten. Wichtig ist dabei: Die Tools können bestimmte Qualitätsmerkmale automatisiert prüfen, ersetzen aber nicht die fachliche Bewertung der Daten.
 
-**FAIR-Assessment**
+> **FAIR-Assessment**
 * [NFDI4Culture FAIR Check](https://nfdi4culture.de/id/E5080)
+Der FAIR Check unterstützt dabei, die FAIRness von Forschungsdaten einzuschätzen und Verbesserungspotenziale zu erkennen. Er eignet sich insbesondere für eine erste strukturierte Selbsteinschätzung der Daten. Für die Bewertung werden Angaben zu den Eigenschaften und der Bereitstellung des Datensatzes benötigt.
+
 * [TKFDM FAIR Assessment Tool](https://forschungsdaten-thueringen.de/fair-assessment-tool-en.html) 
-* Australian Research Data Commons: [FAIR Data Self-Assessment Tool](https://ardc.edu.au/resource/fair-data-self-assessment-tool/)
+Das Tool bietet eine Selbsteinschätzung entlang der FAIR-Prinzipien. Nutzer*innen beantworten Fragen dazu, wie auffindbar, zugänglich, interoperabel und nachnutzbar ihre Daten sind. Es eignet sich daher, wie der FAIR Check, vor allem für eine Reflexion der Datenqualität, nicht für eine technische Validierung einzelner Datensätze.
 
-**Validierung/Prüfung von LIDO Datensätzen und ihrer Qualität**
+* Australian Research Data Commons: [FAIR Data Self-Assessment Tool](https://ardc.edu.au/resource/fair-data-self-assessment-tool/) (engl.)
+Das Tool bewertet einen Datensatz systematisch anhand der vier FAIR-Bereiche Findable, Accessible, Interoperable und Reusable. Nach der Beantwortung der Fragen wird für jeden Bereich und für den Datensatz insgesamt ein prozentualer Wert angezeigt. Voraussetzung ist, dass Informationen über den Datensatz, seine Metadaten, Identifikatoren, Zugänglichkeit und Nachnutzbarkeit bekannt sind. Das Ergebnis dient ausdrücklich der Selbsteinschätzung und als Ausgangspunkt für Verbesserungen.
+
+> **Validierung/Prüfung von LIDO Datensätzen und ihrer Qualität**
 * [digiS LIDO Validator (diLIVa)](https://www.digis-berlin.de/diliva/)
-* [Constrainify](https://constrainify.gwdg.de/selectData)
+Der LIDO Validator prüft, ob eine LIDO-XML-Datei technisch und nach ausgewählten LIDO-Regeln korrekt aufgebaut ist. Geprüft werden unter anderem die Wohlgeformtheit der XML-Datei, die Übereinstimmung mit einem LIDO-Schema und Schematron-Regeln. Dafür wird eine LIDO-XML-Datei hochgeladen und das passende Schema bzw. Profil ausgewählt. Die Ergebnisse zeigen, welche Datensätze die jeweiligen Kriterien erfüllen und wo Fehler vorliegen
 
-**Bereinigung und Anreicherung**
-* [LIDORefineWeb](https://github.com/alexander-winkler/LIDOrefine) (für die Bereinigung/Anreichung von LIDO in OpenRefine)
+* [Constrainify](https://constrainify.gwdg.de/selectData)
+Das Webtool Constrainify geht über eine reine Schema-Validierung hinaus und ermöglicht eine regelbasierte Analyse der Datenqualität. Für LIDO 1.1 können beispielsweise Regeln zu Datumsformaten, Identifikatoren oder gültigen Links angewendet werden. Die Prüfung setzt voraus, dass die Daten als XML im unterstützten Datenmodell vorliegen und passende Qualitätsregeln ausgewählt bzw. definiert werden. Das Ergebnis ist ein Qualitätsbericht, der konkrete Qualitätsprobleme in den Daten sichtbar macht. Das Tool befindet sich aktuell noch in der Erprobungsphase.
+
+
+> **Bereinigung und Anreicherung**
+* [LIDORefineWeb](https://github.com/alexander-winkler/LIDOrefine) 
+LIDOrefine unterstützt speziell die Bereinigung und Anreicherung von LIDO-Daten mit OpenRefine. Da LIDO-XML hierarchisch aufgebaut ist, überführt das Werkzeug ausgewählte Informationen zunächst in eine tabellarische Struktur. Diese kann anschließend in OpenRefine bereinigt und beispielsweise mit URIs aus kontrollierten Vokabularen angereichert werden. Danach werden die bearbeiteten Daten wieder in eine LIDO-XML-Datei zurückgeführt. Voraussetzung sind LIDO-XML-Daten sowie eine technische Einrichtung des Werkzeugs; für die Anreicherung mit Normdaten ist außerdem ein passender Reconciliation-Dienst erforderlich.
+
 * [OpenRefine](https://openrefine.org)
+OpenRefine eignet sich zur Bereinigung, Vereinheitlichung, Transformation und Anreicherung größerer tabellarischer Datensätze. Mit Facetten lassen sich beispielsweise unterschiedliche Schreibweisen oder fehlende Werte erkennen. Das Clustering hilft dabei, ähnliche Werte zusammenzuführen. Über die Reconciliation-Funktion können Begriffe und Namen mit externen kontrollierten Vokabularen abgeglichen und mit Identifikatoren bzw. URIs verknüpft werden.
 
 > [!TIP]
 > Mehr zu OpenRefine: [OpenRefine Einführung](https://sammlungen.io/kb/fdm/openrefine-einfuehrung)
@@ -1059,9 +1073,14 @@ Unsicher ist auch manchmal, ob man eine Entität, also einen Forschungsgegenstan
 **Links** - Die Datierung der Axtklinge kann nur ungefähr angegeben werden und liegt zwischen dem 5. - 3. Jt. v. Chr. Objektnr. UFG-Os-3869, Sammlung der Jüngeren Urgeschichte, Museum der Universität Tübingen MUT, CC BY-SA 4.0. https://www.emuseum.uni-tuebingen.de/de/objects/28107/axtklinge?ctx=ef1d06238b2c2c999cb36f680d048389bce8902d&idx=87 .
 
 <br>
-**Rechts** - Bei dem Tonobjekt ist die Zuweisung als Blasinstrument unsicher, da es nicht funktional ist. Es könnte sich auch um eine Scheinflöte handeln. Universität Göttingen, Inv. Nr. RAD_2219_03, Georg-August-Universität Göttingen, Zentrale Kustodie, Lena Hoppe, 2017, CC BY-SA 4.0 https://sammlungen.uni-goettingen.de/objekt/record_kuniweb_946206/ .
+**Rechts** - Bei dem Tonobjekt ist die Zuweisung als Blasinstrument unsicher, da es nicht funktional ist. Es könnte sich auch um eine Scheinflöte handeln. Universität Göttingen, Inv. Nr. RAD_2219_03, Georg-August-Universität Göttingen, Zentrale Kustodie, Lena Hoppe, CC BY-SA 4.0 https://sammlungen.uni-goettingen.de/objekt/record_kuniweb_946206/ .
 </body>
 </html>
+
+<br>
+Definition von Begriffen im Kontext von Unsicherheiten:
+
+ *Eide, Ø., Gampe, S., Girotto, C. G. M., Köster, J., Mees, A., Thiery, F., thor Straten, M., & Tolle, K. (2026). Definitions of vagueness, uncertainty and their combination in the Cultural Heritage Domain. Zenodo.* https://doi.org/10.5281/zenodo.19877825
 
 #### Lösungsansätze für den Umgang mit Unsicherheiten
 
@@ -1091,9 +1110,9 @@ Unsicherheiten gehören zur Sammlungserschließung dazu. Häufig sind Informatio
 
 
 
-## 6. Kontrollierte Vokabulare
+## 6. Kontrollierte Vokabulare und Normdaten
 
-Bei der Erschließung von Sammlungsobjekten werden Informationen in Form von Begriffen erfasst – zum Beispiel zu Materialien, Techniken, Objekttypen, Orten oder Personen. Damit diese Daten einheitlich beschrieben und später zuverlässig gefunden, verknüpft und ausgewertet werden können, sollten möglichst standardisierte Begriffe verwendet werden. Diese werden in kontrollierten Vokabularen festgelegt. Sie bilden eine wichtige Grundlage für eine konsistente Datenmodellierung und unterstützen die Interoperabilität und Nachnutzung von Sammlungsdaten.
+Bei der Erschließung von Sammlungsobjekten werden Informationen in Form von eindeutig identifizierbaren Dingen (Entitäten), zum Beispiel Materialien, Techniken, Objekttypen, Orten oder Personen dokumentiert. Damit diese Daten einheitlich referenziert und später zuverlässig gefunden, verknüpft und ausgewertet werden können, sollten möglichst standardisierte Begriffe verwendet werden. Diese werden in kontrollierten Vokabularen festgelegt. Sie bilden eine wichtige Grundlage für eine konsistente Datenmodellierung und unterstützen die Interoperabilität und Nachnutzung von Sammlungsdaten.
 
 <br>
 
@@ -1104,7 +1123,7 @@ Bei der Erschließung von Sammlungsobjekten werden Informationen in Form von Beg
 
 
 
-**Kontrollierte Vokabulare sind die Voraussetzung** 
+**Kontrollierte Vokabulare und Normdaten sind die Voraussetzung** 
 * für die Erschließung von Sammlungsobjekten 
 
   - gewährleisten eine konsistente Erschließung der Sammlungsobjekte.
