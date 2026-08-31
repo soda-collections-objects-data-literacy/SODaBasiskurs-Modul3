@@ -1490,12 +1490,14 @@ Eine wichtige Entscheidung die man treffen muss, ist, ob man ein proprietäres S
 |---|---|
 | Weiterentwicklung der Software durch den Anbieter | Erfordert ggf. mehr Data Literacy bei den Nutzer*innen |
 | in der Regel Abhängigkeit vom Dienstleister | in der Regel keine Abhängigkeit von einem einzelnen Dienstleister. Das Aufsetzen und Warten der Software kann meistens von mehreren Anbietern oder der hauseigenen IT übernommen werden |
-| Laufende Kosten für Lizenzen und Service | Abhängigkeit von der Weiterentwicklung durch die Open-Source-Community & evtl. Servicekosten für Updates etc. |
+| Laufende Kosten für Lizenzen und Service | Abhängigkeit von der Weiterentwicklung durch die Open-Source-Community & evtl. Servicekosten z. B. für Updates etc. |
 | Kommunikation zwischen interner IT und externem Dienstleister erforderlich | Mehr Verantwortung für Betrieb, Wartung und Weiterentwicklung kann intern liegen |
 
 
-**Verbünde**: 
+**Verbund**: 
 - [museum-digital](https://www.museum-digital.de/)
+
+**Genossenschaft**: 
 - [digiCULT](https://www.digicult-verbund.de/)
 
 **Open Source**:
@@ -1541,11 +1543,11 @@ Der folgende Fragenkatalog unterstützt dabei, die eigenen Bedürfnisse und ben�
 
 - **Arten von Objekten**
   - Sammlungsobjekte
-    - Formate / Techniken: 2D-Bilder (JPG, TIFF), 3D, CT-Bilder
-  - Textdokumente
-    - Inventarbücher, Dokumente
-    - Formate / Techniken: OCR, TEI, XML, PDF, Bildformate
+  - Textdokumente, Archivalien, z. B. Inventarbücher, Briefe, Tagebücher, Formulare etc.
 
+**Welche Medien, Formate bzw. Assets werden generiert?**
+- Bildmedien: 2D-Bilder (JPG, TIFF), 3D, CT-Bilder etc.
+- Textformate: OCR, TEI, XML, PDF, DOCX, TXT, HTML etc.
 
 ### 3. Standards
 
@@ -1563,7 +1565,7 @@ Der folgende Fragenkatalog unterstützt dabei, die eigenen Bedürfnisse und ben�
 
 - **Nutzung im Haus / in der Sammlung**
 - **Nutzung extern**
-  - Welche Art des öffentlichen Zugangs ist geplant?
+  - Welche Art der öffentlichen Bereitstellung bzw. des Datenaustausches zu anderen Repositorien ist geplant? Soll eine Schnittstelle für den Datenaustausch eingerichtet werden?
 
 ### 5. Ressourcen & Infrastrukturen
 
