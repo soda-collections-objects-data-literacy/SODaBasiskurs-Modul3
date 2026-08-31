@@ -24,13 +24,13 @@ Das Modul umfasst acht Einheiten mit einem Gesamtumfang von 120 Minuten. In Modu
 
 Die didaktische Umsetzung nutzt Grafiken zur Unterstützung bei der Erfassung von Zusammenhängen, spielerische Übungen zur Wiederholung von erlerntem Wissen, diagnostische Aufgaben, um typische Fehler sichtbar zu machen und praxisorientierte Rechercheübungen.
 
-Die Zielgruppen orientieren sich an den SODa Personas (z. B. Sammlungsleitende, Forschende, Restaurator*innen, technisches Personal). [2] Das Modul wurde als Präsenz-Workshop pilotiert und unter einer CC-BY-4.0-Lizenz veröffentlicht. Erweiterungen für Online-Workshops sowie eine Selbstlerneinheit sind vorgesehen.
+Die Zielgruppen orientieren sich an den SODa Personas. [2] Das Modul wurde als Präsenz-Workshop pilotiert und unter einer CC-BY-4.0-Lizenz veröffentlicht. Erweiterungen für Online-Workshops sowie eine Selbstlerneinheit sind vorgesehen.
 
 ---
 
 ## Zielgruppe
 
-Dieses Modul richtet sich an SODa Personae, wie Professor\*innen, Sammlungskoordinator\*innen, -leitende und -betreuende und Forschende. [2]
+Dieses Modul richtet sich an SODa Personas, wie Professor\*innen, Sammlungskoordinator\*innen, -leitende und -betreuende und Forschende. [2]
 
 
 ---
@@ -39,9 +39,9 @@ Dieses Modul richtet sich an SODa Personae, wie Professor\*innen, Sammlungskoord
 
 1. Grundlagen der digitalen Sammlungserschließung
 
-    - Relevanz der digitalen Sammlungserschließung
-
-    - Standards zur Einhaltung der FAIR-Prinzipien
+    - Sammlungsdaten als Forschungsdaten betrachten
+    - Die FAIR-Prinzipien in der digitalen Sammlungserschließung
+    - Die Rolle der Datenstandards
 2. Einführung in die Datenmodellierung
 
     - Definition und Relevanz von Ontologien
@@ -59,8 +59,9 @@ Dieses Modul richtet sich an SODa Personae, wie Professor\*innen, Sammlungskoord
     - Weitere Metadatenstandards
 
 5.  Datenqualität
-
+    - Definition von Datenqualität
     - Dimensionen von Datenqualität
+    - Werkzeuge für die Überprüfung und Verbesserung von Datenqualität
     - Umgang mit Unsicherheiten in der Sammlungserschließung
 
 6.  Kontrollierte Vokabulare
@@ -70,11 +71,13 @@ Dieses Modul richtet sich an SODa Personae, wie Professor\*innen, Sammlungskoord
     - Persistente Identifikatoren
     - Unterschied zwischen URIs und URLs
     - Relevante Vokabulare für die Sammlungserschließung
-    - Methoden zur Recherche von kontrollireten Vokabularen 
+    - Recherche von kontrollireten Vokabularen 
+    - Technische Eigenschaften kontrollierter Vokabulare
+    - Persistente Identifikatoren
  
 7. Erschließungssysteme
 
-    - Datenbankmodelle
+    - Unterschiede zwischen proprietäteren und Open Source Systemen
     - Anforderungskatalog für die Einführung eines Erschließungssystems
     
 
