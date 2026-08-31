@@ -59,7 +59,7 @@ Deutsche Forschungsgemeinschaft, Umgang mit Forschungsdaten, 2021, https://www.d
 
 > "***Ob hermeneutisch, ob statistisch, ob zwecks Simulation oder durch Methoden künstlicher Intelligenz (KI) gestützt: Erst eine durchgängig verschränkte forschende Nutzung aller Objekttypen hat das Potenzial, neuartige Forschungserträge zu erbringen. Deshalb müssen traditionelle (an analogen Randbedingungen gewachsene) Sammlungslogiken und die neuen Spielräume digitaler Erschließungsoptionen, die potenziell auch neue Logiken beinhalten, wechselseitig miteinander verschränkt werden.***“  
 
-> "***ODie Qualität von Forschung hängt aus heutiger Sicht mittel- und langfristig von der Möglichkeit ab, analoge und digitale Sachverhalte methodisch kontrolliert oder jedenfalls hinreichend präzise aufeinander zu beziehen. Die bloße ‚Digitalisierung‘ von Sammlungen oder auch die Idee der ‚digitalen Sammlung‘ reichen als Zielbild für zukunftsfähige Sammlungen somit nicht aus.***“ 
+> "***Die Qualität von Forschung hängt aus heutiger Sicht mittel- und langfristig von der Möglichkeit ab, analoge und digitale Sachverhalte methodisch kontrolliert oder jedenfalls hinreichend präzise aufeinander zu beziehen. Die bloße ‚Digitalisierung‘ von Sammlungen oder auch die Idee der ‚digitalen Sammlung‘ reichen als Zielbild für zukunftsfähige Sammlungen somit nicht aus.***“ 
 
 Rat für Informationsinfrastrukturen (2024): Sammlungen als multimodale Infrastrukturen.
 Analog und digital für die verknüpfte Nutzung erschließen, https://d-nb.info/1341099873/34 
@@ -241,7 +241,7 @@ Empfehlenswert ist in diesem Kontext die [Minimaldatensatzempfehlung für Museen
 Weitere Standards:
 z. B.[Cataloging Cultural Objects (CCO)](https://www.vraweb.org/cco), [Leitfaden zur Standardisierung von Provenienzangaben](https://www.arbeitskreis-provenienzforschung.org/arbeitsgruppen/ag-standardisierung/)
 
-Standards für Datenaustausch beziehen sich auf Metadaten-Elementsets (Metadatenschema). Sie geben die Struktur, den Inhalt, die Semantik und den Umfang von Metadaten in Form eines Kategorienschemas vor. Teilweise gibt es auch Überschenidungen mit Metadatenstandards. Sie werden in der technischen Umsetzung häufig als XML-Schemata realisiert.
+Standards für Datenaustausch beziehen sich auf Metadaten-Elementsets (Metadatenschema). Sie geben die Struktur, den Inhalt, die Semantik und den Umfang von Metadaten in Form eines Kategorienschemas vor. Sie werden in der technischen Umsetzung häufig als XML-Schemata realisiert. Einige der Standards für Datenaustausch beinhalten aber ebenso die oben genannten Inhaltsstandards und Katalogisierungsregeln.
 z. B. [LIDO – Lightweight Information Describing Objects](https://cidoc.mini.icom.museum/working-groups/lido/lido-overview/about-lido/what-is-lido/), [Linked Art](https://linked.art), [Schema.org](https://schema.org/docs/schemas.html);
 
 >**Standards für Datenwerte und Einheiten**
@@ -300,11 +300,11 @@ Ein Datenbankschema beschreibt die technische Struktur, in der Daten in einer Da
 Für die praktische Arbeit mit einer Erschließungssoftware ist das Datenbankschema meist nicht direkt sichtbar. Die Software bildet die zugrunde liegende Struktur über Eingabemasken und Funktionen ab. Die Nutzer*innen arbeiten daher in der Regel mit dem Datenmodell der Software, ohne die technische Struktur der Datenbank selbst bearbeiten zu müssen.
 Das Datenbankschema setzt dabei die fachlich definierten Strukturen technisch um. 
 
-> **Datenmodell**: Beschreibt die fachliche Struktur der Informationen und ihre Beziehungen.
 
 
 > **Ontologie**: Gibt den verwendeten Begriffen und Beziehungen eine eindeutige fachliche Bedeutung.
 
+> **Datenmodell**: Beschreibt die fachliche Struktur der Informationen und ihre Beziehungen.
 
 > **Datenbankschema**: Beschreibt die technische Struktur, in der diese Informationen gespeichert werden.
 
@@ -356,7 +356,6 @@ Klassen und Eigenschaften des CIDOC-CRM werden durch ihre Initialen identifizier
 </body>
 </html>
 
-*Vertiefung Module Canan & Gudrun?
 
 ### Modellierungsbeispiele
 
@@ -510,11 +509,12 @@ Inhalts- bzw. Katalogisierungsstandards:
 * [Cataloging Cultural Objects (CCO)](https://www.vraweb.org/cco)
 * [Categories for the Description of Works of Art (CDWA)](https://www.getty.edu/publications/categories-description-works-art/)
 
-Standards für den Datenaustausch:
-* [LIDO](https://lido-schema.org/schema/v1.1/lido-v1.1.html)
-* [Linked Art](https://linked.art)
 
-In diesem Kontext bildet auch die Minimaldatensatz-Empfehlung als erster gattungs- und fachübergreifender Mindeststandard eine gute Basis für die Sammlungsdokumentation und Publikation.  -->
+Für den Austausch von Sammlungsdaten gibt es verschiedene Standards und Modelle. Sie legen fest, wie Informationen strukturiert und von anderen Systemen verarbeitet werden können. Neuere Ansätze verbinden dabei die Strukturierung und den Austausch von Daten zunehmend mit inhaltlichen und semantischen Vorgaben:
+* [LIDO](https://lido-schema.org/schema/v1.1/lido-v1.1.html) – ein XML-basiertes Austauschformat für Metadaten zu Kulturerbeobjekten. LIDO kann sowohl bei der Modellierung als Orientierung dienen als auch für den Export und Austausch von Sammlungsdaten eingesetzt werden.
+* [Linked Art](https://linked.art) – ein Datenmodell für Kulturerbedaten, das auf Linked Open Data ausgerichtet ist. Es definiert fachliche Strukturen und Beziehungen und stellt über eine API einen standardisierten Zugriff auf die Daten bereit. Die technische Repräsentation erfolgt als JSON-LD.
+
+In diesem Kontext bildet auch die **Minimaldatensatz-Empfehlung** als erster gattungs- und fachübergreifender Mindeststandard eine gute Basis für die Sammlungsdokumentation und Publikation.  -->
 
 ### Minimaldatensatz-Empfehlung für Museen und Sammlungen
 
@@ -1361,7 +1361,7 @@ Es ist in der Regel nicht erforderlich, alle aufgeführten Vokabulare gleichzeit
     <p style="text-align:center"></p>
 </div>
 
-- [Musical Instrument Museums Online (MIMO) Thesaurus](https://mimo-international.com/)
+- [Musical Instrument Museums Online (MIMO) Thesaurus](https://vocabulary.mimo-international.com/InstrumentsKeywords/de/?clang=en)
 - [Hornbostel-Sachs Systematik](https://vocabulary.mimo-international.com/HornbostelAndSachs/de/)
 - [MARC Instruments and Voices Code List](https://www.itsmarc.com/crs/mergedprojects/OtherVal/otherval/marc_instruments_and_voices_code_list.htm)
 
@@ -1614,6 +1614,29 @@ Der folgende Fragenkatalog unterstützt dabei, die eigenen Bedürfnisse und ben�
   - Welche Stakeholder sind am Entscheidungsprozess beteiligt?
   - Welche Stakeholder sollen an der Entwicklung der Datenbank beteiligt werden?
 
+<br><br>
+
+><span style="font-size: 1.6em;">🎓 Das war's! <br> Damit sind wir am Ende des Kurses angekommen. Sie haben nun die wichtigsten Grundlagen kennengelernt, um Sammlungsdaten FAIR zu erschließen. Vielen Dank, dass Sie dabei waren! Wir hoffen, die Inhalte helfen Ihnen bei Ihrer täglichen Arbeit weiter.</span>
+
+## Weiterführende Informationen
+
+
+<br><br>
+**Für weitere Fragen & Support:**
+
+* [SODa Helpdesk](https://sammlungen.io/helpdesk)
+
+**Zum Weiterlernen:**
+* [Zu den SODa Basiskurs Modulen](https://sammlungen.io/kb/fdm/soda-basiskurs)
+* [Weitere SODa Selbstlernkurse](https://sammlungen.io/kb/kb-suche?combine=&format%5B64%5D=64)
+
+<br>
+
+**Zitiervorschlag:**
+
+Gnyp, A. (2026), Selbstlernkurs -- SODa Basiskurs zu Erschließung und Forschungsdatenmanagement in Universitätssammlungen. Modul 3: Sammlungen erschließen. 
+
+[CC BY 4.0 – Creative Commons](https://creativecommons.org/licenses/by/4.0/)
 
 ## Literatur
 
