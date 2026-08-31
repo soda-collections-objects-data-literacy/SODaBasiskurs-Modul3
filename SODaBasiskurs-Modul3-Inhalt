@@ -526,7 +526,8 @@ In diesem Kontext bildet auch die **Minimaldatensatz-Empfehlung** als erster gat
 
 --> [www.minimaldatensatz.de](https://www.minimaldatensatz.de/) 
 
-Die Website ist als praxisorientierter Datenfeldkatalog aufgebaut. Die empfohlenen Datenfelder sind in zwei Bereiche gegliedert: **Datenfelder (Erfassung)** für die lokale Erfassung und **Datenfelder (Export)** für Angaben, die beim Export ergänzt werden.
+Die Website ist als praxisorientierter Datenfeldkatalog aufgebaut. Die Datenfelder sind in zwei Bereiche gegliedert: **Datenfelder (Erfassung)** für die inhaltiche Erfassung und **Datenfelder (Export)** für Angaben administraver Art, die beim Export ergänzt werden. Zusätzlich haben die Datenfelder haben unterschiedliche Verpflichtungsgrade: Empfohlen, Pflicht und Bedingt Pflicht.
+
 
 Für jedes Datenfeld gibt es eine eigene Unterseite mit Erfassungshinweisen, Empfehlungen und Ausschnitte aus einem vollständigen LIDO-Datensatz, in sogenannten Codeblocks in XML-Sprache formuliert. Die Website legt damit nicht nur fest, welche Informationen erfasst werden sollten, sondern gibt auch Hinweise dazu, wie dies sinnvoll umgesetzt und exportiert werden kann. Ergänzt wird der Datenfeldkatalog durch FAQs und weiterführende Ressourcen.
 
