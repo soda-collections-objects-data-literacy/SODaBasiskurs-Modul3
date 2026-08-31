@@ -18,19 +18,17 @@ logo:       https://github.com/4nn4pyng/SODaBasiskurs-Modul3/blob/main/img/SODa-
 
 # SODa Basiskurs Modul 3: Objekte erschließen
 
-Das Modul ist als Selbstlernkurs konzipiert und enthält Wissensinhalte, Aufgaben und dazugehörige Materialien. Für die Konzeption der Lernziele wurde die Lernzielmatrix zum Forschungsdatenmanagement als Orientierug genutzt. [1]
+Das Modul ist als Selbstlernkurs konzipiert und enthält Wissensinhalte, Aufgaben und dazugehörige Materialien. Für die Konzeption der Lernziele wurde die Lernzielmatrix zum Forschungsdatenmanagement als Orientierug genutzt.[^1]
 
 Das Modul umfasst acht Einheiten mit einem Gesamtumfang von 120 Minuten. In Modul 3 werden die Grundlagen der digitalen Sammlungserschließung vermittelt. Das Modul gibt einen Überblick über aktuelle Standards und wie Sammlungsdaten nach FAIR-Prinzipien erschlossen, aufbereitet und bereitgestellt sollten.
 
 Die didaktische Umsetzung nutzt Grafiken zur Unterstützung bei der Erfassung von Zusammenhängen, spielerische Übungen zur Wiederholung von erlerntem Wissen, diagnostische Aufgaben, um typische Fehler sichtbar zu machen und praxisorientierte Rechercheübungen.
 
-Die Zielgruppen orientieren sich an den SODa Personas. [2] Das Modul wurde als Präsenz-Workshop pilotiert und unter einer CC-BY-4.0-Lizenz veröffentlicht. Erweiterungen für Online-Workshops sowie eine Selbstlerneinheit sind vorgesehen.
-
 ---
 
 ## Zielgruppe
 
-Dieses Modul richtet sich an SODa Personas, wie Professor\*innen, Sammlungskoordinator\*innen, -leitende und -betreuende und Forschende. [2]
+Dieses Modul richtet sich an SODa Personas, wie Professor\*innen, Sammlungskoordinator\*innen, -leitende und -betreuende und Forschende.[^2]
 
 
 ---
@@ -115,18 +113,17 @@ Lernende können...
 |6|Unterschiede zwischen URIs und URLs erläutern|
 |6|Recherche nach kontrollierten Vokabularen anwenden|
 |6|Recherche nach persistenten Identifikatoren anwenden|
-|7|grundlegende Datenbankmodelle benennen|
 |7|Vor- und Nachteile von proprietärer und Open Source Software benennen|
-|7|Anforderungen an ein Erschließungssystem analysieren|
+|7|Anforderungen an ein Erschließungssystem für die Sammlungserschließung analysieren|
 ---
 
 
 ## Quellenangaben
 
 
-[1] Petersen, B., Altemeier, F., Boße, S., Dalby, M., Düvel, N., Engelhardt, C., Fichtner, M., Hastik, C., Haugwitz, J.-M., Jacob, J., Koch, K., Kuntz, A., Manske, A., Mühlichen, A., Murcia Serra, J., Ortmeyer, J., Richter, M., Schranzhofer, H., Slowig, B., … Zollitsch, L. (2025). Lernzielmatrix zum Themenbereich Forschungsdatenmanagement (FDM) (Version 3). Zenodo. https://doi.org/10.5281/zenodo.15025246
+[^1] Petersen, B., Altemeier, F., Boße, S., Dalby, M., Düvel, N., Engelhardt, C., Fichtner, M., Hastik, C., Haugwitz, J.-M., Jacob, J., Koch, K., Kuntz, A., Manske, A., Mühlichen, A., Murcia Serra, J., Ortmeyer, J., Richter, M., Schranzhofer, H., Slowig, B., … Zollitsch, L. (2025). Lernzielmatrix zum Themenbereich Forschungsdatenmanagement (FDM) (Version 3). Zenodo. https://doi.org/10.5281/zenodo.15025246
 
-[2] Reichert, R., Hastik, C., Gnyp, A., Markert, M., & Tharandt, L. (2025). SODa Personas. Zenodo. https://doi.org/10.5281/zenodo.15574575
+[^2] Reichert, R., Hastik, C., Gnyp, A., Markert, M., & Tharandt, L. (2025). SODa Personas. Zenodo. https://doi.org/10.5281/zenodo.15574575
 
 ---
 
