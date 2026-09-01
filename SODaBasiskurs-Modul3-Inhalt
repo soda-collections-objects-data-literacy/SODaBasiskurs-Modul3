@@ -33,7 +33,7 @@ Sammlungsdokumentation ist die Grundlage für viele kustodische und kuratorische
 >* Datenweitergabe an Forschungs- oder Kulturportale (z. B. Deutsche Digitale Bibliothek oder Europeana Collections)
 >* Datennutzung für Vermittungsprojekte (Ausstellungen, virtuelle Vermittlung)
 >* Öffentlichkeitsarbeit/Wissenschaftskommunikation
->* partizipative Projekte (Wikidata, Data sprints, Hackathons)
+>* Kollaborative Projekte (Wikidata, Data Sprints, Hackathons)
 
 <div style="float:left;width:60%;margin: 0px 0px 30px 10px;">
     <img src="img/Inventarbuch_c1930-1952_Museum_Senftenberg.jpg" alt="Inventarbuch des Museum Senftenberg, Public Domain." style=""/>
@@ -239,7 +239,7 @@ Metadatenstandards legen Kriterien, Methoden und Prozesse fest, nach denen die D
 Dazu gehören Daten-Inhaltsstandards oder Katalogisierungsregeln, die festlegen, wie bestimmte Ressourcen und Objekte beschrieben werden sollen. Sie können Vorgaben für die Erfassung und Formatierung von Informationen sowie die zu verwendenden Vokabulare enthalten. 
 Empfehlenswert ist in diesem Kontext die [Minimaldatensatzempfehlung für Museen und Sammlungen](http://www.minimaldatensatz.de/), die die wichtigsten Datenfelder für die Sammlungserschließung zusammenfasst, Hinweise gibt, wie diese zu befüllen sind, und mit dem Austauschformat LIDO kompatibel ist (siehe weiter unter)
 Weitere Standards:
-z. B.[Cataloging Cultural Objects (CCO)](https://www.vraweb.org/cco), [Leitfaden zur Standardisierung von Provenienzangaben](https://www.arbeitskreis-provenienzforschung.org/arbeitsgruppen/ag-standardisierung/)
+z. B. [Cataloging Cultural Objects (CCO)](https://www.vraweb.org/cco), [Leitfaden zur Standardisierung von Provenienzangaben](https://www.arbeitskreis-provenienzforschung.org/arbeitsgruppen/ag-standardisierung/)
 
 Standards für Datenaustausch beziehen sich auf Metadaten-Elementsets (Metadatenschema). Sie geben die Struktur, den Inhalt, die Semantik und den Umfang von Metadaten in Form eines Kategorienschemas vor. Sie werden in der technischen Umsetzung häufig als XML-Schemata realisiert. Einige der Standards für Datenaustausch beinhalten aber ebenso die oben genannten Inhaltsstandards und Katalogisierungsregeln.
 z. B. [LIDO – Lightweight Information Describing Objects](https://cidoc.mini.icom.museum/working-groups/lido/lido-overview/about-lido/what-is-lido/), [Linked Art](https://linked.art), [Schema.org](https://schema.org/docs/schemas.html);
@@ -399,7 +399,7 @@ Das CIDOC-CRM umfasst rund 90 Klassen (wie physischer Gegenstand, Akteur, Ort, Z
 ### Aufgabe 2
 
 ![screenshot CIDOC periodic table](img/CIDOC-periodic-table.png)<!--
-style="width: 450px; position: absolute; right: 30px; bottom: 300px"
+style="width: 500px; position: absolute; right: 30px; bottom: 300px"
 -->
 
 Modelliere mithilfe der CIDOC-Klassen und<br>
