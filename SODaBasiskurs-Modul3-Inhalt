@@ -1392,7 +1392,7 @@ Es ist in der Regel nicht erforderlich, alle aufgeführten Vokabulare gleichzeit
 **Repositorium**: ein Service, der sowohl die Metadaten zu einem Vokabular als auch dessen Inhalte speichert und Zugang zu ihnen bietet. Er bietet also sowohl für Menschen als auch für Maschinen (wenn entsprechende Schnittstellen vorhanden sind) die Möglichkeit, einzelne Begriffe (einschließlich ihrer Metadaten) zu suchen und zu finden. Beispiele:
 -  GND bei [DNB](https://explore.gnd.network) oder bei GND bei [Lobid](https://lobid.org/)
 - [DANTE](https://www.dante.de/)
-- [DigiCult](https://digicult-verbund.de/)
+- [DigiCULT.xTree](https://digicult-verbund.de/)
 
 
 ### Technische Eigenschaften kontrollierter Vokabulare
