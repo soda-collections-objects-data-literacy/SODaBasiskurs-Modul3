@@ -19,6 +19,7 @@ link:       https://cdn.jsdelivr.net/gh/soda-collections-objects-data-literacy/O
 icon:       /img/SODa-Logo_Wort-Bild_RGB.png
 logo:       /img/SODa-Logo_Wort-Bild_RGB.png
 
+Repository: https://github.com/soda-collections-objects-data-literacy/SODaBasiskurs-Modul3 
 
 
 -->
@@ -27,7 +28,7 @@ logo:       /img/SODa-Logo_Wort-Bild_RGB.png
 
 **Wie können Sammlungsobjekte so erschlossen werden, dass ihre Informationen verständlich, auffindbar, miteinander verknüpfbar und langfristig nachnutzbar sind?**
 
-Die digitale Sammlungserschließung schafft die Grundlage dafür, wissenschaftliche Hochschul- und Universitätssammlungen sichtbar zu machen und ihre Daten für Forschung und andere Nutzungskontexte bereitzustellen. Dabei geht es nicht allein darum, vorhandene Informationen zu digitalisieren. Entscheidend ist vielmehr, **wie Sammlungsdaten strukturiert, beschrieben, verknüpft, ausgetauscht und langfristig nutzbar gemacht werden**.
+Die digitale Sammlungserschließung schafft die Grundlage dafür, wissenschaftliche Hochschul- und Universitätssammlungen sichtbar zu machen und ihre Daten für Forschung und andere Nutzungskontexte bereitzustellen. Dabei geht es nicht allein darum, vorhandene Informationen zu digitalisieren. Entscheidend ist vielmehr, wie Sammlungsdaten strukturiert, beschrieben, verknüpft, ausgetauscht und langfristig nutzbar gemacht werden.
 
 In diesem Modul lernen Sie die Grundlagen der digitalen Sammlungserschließung kennen und setzen sich mit etablierten Standards und Methoden auseinander. Ein besonderer Fokus liegt dabei auf der Frage, wie Sammlungsdaten im Sinne der **FAIR-Prinzipien** aufbereitet und bereitgestellt werden können. 
 
@@ -1647,23 +1648,6 @@ Der folgende Fragenkatalog unterstützt dabei, die eigenen Bedürfnisse und ben�
 
 ><span style="font-size: 1.6em;">🎓 Das war's! <br> Damit sind wir am Ende des Kurses angekommen. Sie haben nun die wichtigsten Grundlagen kennengelernt, um Sammlungsdaten FAIR zu erschließen. Vielen Dank, dass Sie dabei waren! Wir hoffen, die Inhalte helfen Ihnen bei Ihrer täglichen Arbeit weiter.</span>
 
-## Weiterführende Informationen
-
-
-<br><br>
-**Für weitere Fragen & Support:**
-
-* [SODa Helpdesk](https://sammlungen.io/helpdesk)
-
-**Zum Weiterlernen:**
-* [Zu den SODa Basiskurs Modulen](https://sammlungen.io/kb/fdm/soda-basiskurs)
-* [Weitere SODa Selbstlernkurse](https://sammlungen.io/kb/kb-suche?combine=&format%5B64%5D=64)
-
-<br>
-
-**Zitiervorschlag:**
-
-Gnyp, A. (2026), Selbstlernkurs -- SODa Basiskurs zu Erschließung und Forschungsdatenmanagement in Universitätssammlungen. Modul 3: Sammlungen erschließen. 
 
 [CC BY 4.0 – Creative Commons](https://creativecommons.org/licenses/by/4.0/)
 
@@ -1743,3 +1727,68 @@ https://cidoc.mini.icom.museum/working-groups/lido/lido-overview/
 - Nasarek, R. (2025, April 23). Unsichere Informationen in ungewissen Zeiten. SODa Forum: Unsicherheiten und Vagheiten in der Sammlungspraxis – Möglichkeiten, Herausforderungen und Lösungen in der digitalen Objekterschließung. https://doi.org/10.5281/zenodo.15269085
 - Sohmen, L., & Rossenova, L. (2025, März 24). Wikibase services in NFDI4Culture: Uncertainty modeling. https://doi.org/10.5281/zenodo.15076223
 
+## Feedback und Informationen
+
+Vielen Dank für das Interesse am [SODa](https://sammlungen.io/) Angebot. Damit wir die Ressourcen verbessern und anpassen können, freuen wir uns über jegliche Art von Feedback:
+
+[**Feedback zum Selbstlernkurs "Einführung in OpenRefine"**](https://lime.sammlungen.io/index.php/667777?lang=de&newtest=Y&oer=OpenRefine_Einf_hrung)
+
+**!!! Austauschen!!! Feedback Link kann hier generiert werden: [https://sammlungen.io/oer-survey-link-generator](https://sammlungen.io/oer-survey-link-generator)**
+
+---
+
+Weitere SODa Selbstlernkurse sind auf unserer [**Knowlegbase**](https://sammlungen.io/kb/kb-suche?combine=&format%5B64%5D=64) zu finden.
+
+Informationen und alle Module zu unserem SODa Basiskurs gibt es auf der [**SODa Basiskurs Seite**](https://sammlungen.io/kb/fdm/soda-basiskurs)**.**
+
+---
+
+**Weitere Fragen?**
+
+Der **SODa Helpdesk** hilft bei allen Fragen rund um die Arbeit mit Daten an (Universitäts-)Sammlungen, zu Selbtlernkursen oder Workshops und bietet einen direkten Kontakt zum SODa Team in allen Belangen rund um Sammlungsdigitalisierung und Objektdaten an.
+
+[**soda@sammlungen.io**](mailto:soda@sammlungen.io)
+
+Wir freuen uns auf Ihre Anfrage!
+
+---
+
+## Impressum
+
+SODa – Sammlungen, Objekte, Datenkompetenzen: https://sammlungen.io/
+-----------------
+
+---
+
+**Mitwirkende:**
+
+- Anna Gnyp (anna.gnyp@hu-berlin.de)
+- Martin Stricker (martin.stricker@hu-berlin.de)
+
+---
+
+**Zitiervorschlag:**
+
+Gnyp, A. (2026), Selbstlernkurs -- SODa Basiskurs zu Erschließung und Forschungsdatenmanagement in Universitätssammlungen. Modul 3: Sammlungen erschließen. 
+
+---
+
+**Lizenz:**
+
+![CC BY 4.0 – Creative Commons](img/cc-by.svg "[CC BY 4.0 – Creative Commons](https://creativecommons.org/licenses/by/4.0/deed.de)")
+
+---
+
+Version: 1.0
+
+Datum: 2026-09-02
+
+Repository: https://github.com/soda-collections-objects-data-literacy/SODaBasiskurs-Modul3 
+
+---
+
+gefördert durch:
+
+![Finanziert von der Europäischen Union](img/FinanziertVonDerEU.jpg)
+
+![Gefördert durch: Bundesministerium für Forschung, Technologie und Raumfahrt](img/BMFTR_de_Web_RGB_gef_durch.jpg)
