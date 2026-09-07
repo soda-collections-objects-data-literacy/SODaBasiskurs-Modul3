@@ -15,7 +15,7 @@ Die OER beinhaltet einen Selbstlernkurs mit Grafiken und interaktiven Aufgaben.
 - Technisches Admin Personal
 - Hilfskräfte
   
-## Nutzung und Beitrag
+## Nutzung
 
 Die Materialien können frei genutzt, adaptiert und in eigene Lehr-/Lernkontexte integriert werden. Beiträge und Weiterentwicklungen sind ausdrücklich willkommen!
 
@@ -32,7 +32,7 @@ Die verwendeten Grafiken und Bilder können zum Teil unter anderen Lizenzen steh
 
 ## Zitationsempfehlung
 
-Wenn du das Material in wissenschaftlichen Kontexten zitieren möchtest und ein DOI vorhanden ist (z. B. via Zenodo), verwende bitte die dort angegebene Form.
+ergänzen
 
 ## Kontakt
 
