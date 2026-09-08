@@ -32,7 +32,7 @@ Die verwendeten Grafiken und Bilder können zum Teil unter anderen Lizenzen steh
 
 ## Zitationsempfehlung
 
-ergänzen
+Gnyp, A. (2026). Selbstlernkurs: SODa Basiskurs zu Erschließung und Forschungsdatenmanagement, Modul 3: Sammlungen erschließen (Version V1.0). Zenodo. https://doi.org/10.5281/zenodo.22646609 
 
 ## Kontakt
 
