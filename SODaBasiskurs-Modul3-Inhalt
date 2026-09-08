@@ -428,7 +428,7 @@ Das CIDOC-CRM umfasst rund 90 Klassen (wie physischer Gegenstand, Akteur, Ort, Z
 ### Aufgabe 2
 
 ![screenshot CIDOC periodic table](img/CIDOC-periodic-table.png)<!--
-style="width: 500px; position: absolute; right: 30px; bottom: 300px"
+style="width: 500px; position: absolute; right: 30px; bottom: 230px"
 -->
 
 Modelliere mithilfe der CIDOC-Klassen und<br>
@@ -1495,13 +1495,25 @@ Hinweise:
 |---|---|---|---|---|---|
 | Objekttitel oder -benennung | Umayyadischer Dirham | | |
 | Inventarnummer | AOI-In-BA4_E3 | | |
-| Objekttyp | Münze | [AAT](https://www.getty.edu/research/tools/vocabularies/aat/index.html) | [[ http://vocab.getty.edu/page/aat/300037222 ]] |
-| Material | Silber | [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page) | [[ https://www.wikidata.org/w/index.php?title=Q1090&oldid=2526642982 ]] |
-| Technik | Prägung | [AAT](https://www.getty.edu/research/tools/vocabularies/aat/index.html) | [[ http://vocab.getty.edu/page/aat/300206581 ]] |
-| Herstellungsort | Medina Azahara (Spanien) | [GeoNames](https://www.geonames.org/v3/) | [[ https://www.geonames.org/2513963/ ]] |
-| Münzherr| Abd ar-Rahman III, Emir und Kalif von Córdoba (912–961) | [GND](https://lobid.org/gnd) | [[ https://d-nb.info/gnd/118978098 ]] |
+| Objekttyp | Münze | [AAT](https://www.getty.edu/research/tools/vocabularies/aat/index.html) | http://vocab.getty.edu/page/aat/300037222 |
 | Datierung | 948  |  | | 
-| Nutzungsrechte Metadaten | CC0 1.0 | |  | 
+
+| Datenfeldname | Feldinhalt | Vokabular | URI |
+|---|---|---|---|
+| Material | Silber | [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page) | [[ https://www.wikidata.org/w/index.php?title=Q1090&oldid=2526642982 ]] |
+
+| Datenfeldname | Feldinhalt | Vokabular | URI |
+|---|---|---|---|
+| Technik | Prägung | [AAT](https://www.getty.edu/research/tools/vocabularies/aat/index.html) | [[ http://vocab.getty.edu/page/aat/300206581 ]] |
+
+| Datenfeldname | Feldinhalt | Vokabular | URI |
+|---|---|---|---|
+| Herstellungsort | Medina Azahara (Spanien) | [GeoNames](https://www.geonames.org/v3/) | [[ https://www.geonames.org/2513963/ ]] |
+
+| Datenfeldname | Feldinhalt | Vokabular | URI |
+|---|---|---|---|
+| Münzherr | Abd ar-Rahman III, Emir und Kalif von Córdoba (912–961) | [GND](https://lobid.org/gnd) | [[ https://d-nb.info/gnd/118978098 ]] |
+
 
 
 ---
